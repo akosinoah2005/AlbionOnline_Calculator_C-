@@ -246,12 +246,6 @@ namespace Albion_Calcu_C3
         {
 
         }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-
-        }
         private void chkSelectAll_CheckedChanged(object sender, EventArgs e)
         {
             bool check = false;
@@ -273,9 +267,6 @@ namespace Albion_Calcu_C3
 
         }
 
-        private void numTest_Validated(object sender, EventArgs e)
-        {
-            MessageBox.Show("tti");
-        }
+        
     }
 }

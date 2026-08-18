@@ -75,8 +75,6 @@ namespace Albion_Calcu_C3
             premiumToolStripMenuItem = new ToolStripMenuItem();
             clearTableToolStripMenuItem = new ToolStripMenuItem();
             helpToolStripMenuItem = new ToolStripMenuItem();
-            button1 = new Button();
-            numTest = new NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)numAmount).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numUsageFee).BeginInit();
             groupBox1.SuspendLayout();
@@ -88,7 +86,6 @@ namespace Albion_Calcu_C3
             ((System.ComponentModel.ISupportInitialize)numMasteryT4).BeginInit();
             groupBox3.SuspendLayout();
             menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)numTest).BeginInit();
             SuspendLayout();
             // 
             // label2
@@ -415,28 +412,12 @@ namespace Albion_Calcu_C3
             helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             resources.ApplyResources(helpToolStripMenuItem, "helpToolStripMenuItem");
             // 
-            // button1
-            // 
-            button1.ForeColor = SystemColors.ActiveCaptionText;
-            resources.ApplyResources(button1, "button1");
-            button1.Name = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
-            // 
-            // numTest
-            // 
-            resources.ApplyResources(numTest, "numTest");
-            numTest.Name = "numTest";
-            numTest.Validated += numTest_Validated;
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             AutoValidate = AutoValidate.EnablePreventFocusChange;
             BackColor = SystemColors.ActiveCaptionText;
-            Controls.Add(numTest);
-            Controls.Add(button1);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -462,7 +443,6 @@ namespace Albion_Calcu_C3
             groupBox3.PerformLayout();
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)numTest).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -516,7 +496,5 @@ namespace Albion_Calcu_C3
         private Label label15;
         private CheckBox chkSelectAll;
         protected internal ComboBox cmbOrder;
-        private Button button1;
-        private NumericUpDown numTest;
     }
 }

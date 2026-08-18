@@ -15,16 +15,7 @@ namespace Albion_Calcu_C3
             return numUsageFee;
         }
 
-        private List<string> Tiers_Pull = new List<string>
-        {
-            "T2",
-            "T3",
-            "T4",
-            "T5",
-            "T6",
-            "T7",
-            "T8",
-        };
+        
 
         public float Get_rrr()
         {

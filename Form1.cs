@@ -4,6 +4,18 @@ namespace Albion_Calcu_C3
 {
     public partial class Form1 : Form
     {
+        public ToolStripMenuItem get_Prices()
+        {
+            return stripPrices;
+        }
+        public ToolStripMenuItem get_stripProduct()
+        {
+            return stripProduct;
+        }
+        public ToolStripMenuItem get_stripResource()
+        {
+            return stripResource;
+        }
         public NumericUpDown get_numAmount()
         {
 

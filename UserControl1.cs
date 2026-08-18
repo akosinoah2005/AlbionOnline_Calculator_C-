@@ -329,8 +329,11 @@ namespace Albion_Calcu_C3
             _parentForm.btnPull.Click += btn_pull_clicked;
 			_parentForm.get_numAmount().ValueChanged += numparent_ValueChanged;
             _parentForm.get_numUsageFee().ValueChanged += numparent_ValueChanged;
-			_parentForm.get_stripClearAll().Click += stripClearAll_Clicked;
-            //populate the dictionary
+
+			_parentForm.get_Prices().Click += stripPrices_Clicked;
+			_parentForm.get_stripResource().Click += stripResource_Clicked;
+			_parentForm.get_stripProduct().Click += stripProduct_Clicked;
+			//populate the dictionary
             Prices_obj["2.0"] = (numResource20, numProduct20, lblProfitS20, lblProfitP20, lblFocusC20, lblFocusP20, lblFocusFPFC20);
 
 			Prices_obj["3.0"] = (numResource30, numProduct30, lblProfitS30, lblProfitP30, lblFocusC30, lblFocusP30, lblFocusFPFC30);
@@ -454,11 +457,39 @@ namespace Albion_Calcu_C3
 
 
         }
-
-		private void stripClearAll_Clicked(object? sender,EventArgs e)
+		private void stripProduct_Clicked(object? sender, EventArgs e)
 		{
-			
+			if(_parentForm.msg_results("Would you like to clear the PRODUCT prices?", "Confirmation",MessageBoxButtons.YesNo) == DialogResult.Yes)
+			{
+                foreach (var item in Prices_obj)
+                {
+                    item.Value.Product.Value = 0;
+                }
+            }
 		}
+
+		private void stripResource_Clicked(object? sender, EventArgs e)
+		{
+            if (_parentForm.msg_results("Would you like to clear the RESOURCE prices?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                foreach (var item in Prices_obj)
+                {
+                    item.Value.Resource.Value = 0;
+                }
+            }
+        }
+
+        private void stripPrices_Clicked(object? sender,EventArgs e)
+		{
+            if (_parentForm.msg_results("Would you like to clear the ALL prices?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                foreach (var item in Prices_obj)
+                {
+                    item.Value.Resource.Value = 0;
+                    item.Value.Product.Value = 0;
+                }
+            }
+        }
         private void numparent_ValueChanged(object? sender, EventArgs e)
 		{
 			

@@ -329,6 +329,7 @@ namespace Albion_Calcu_C3
             _parentForm.btnPull.Click += btn_pull_clicked;
 			_parentForm.get_numAmount().ValueChanged += numparent_ValueChanged;
             _parentForm.get_numUsageFee().ValueChanged += numparent_ValueChanged;
+			_parentForm.get_stripClearAll().Click += stripClearAll_Clicked;
             //populate the dictionary
             Prices_obj["2.0"] = (numResource20, numProduct20, lblProfitS20, lblProfitP20, lblFocusC20, lblFocusP20, lblFocusFPFC20);
 
@@ -454,7 +455,11 @@ namespace Albion_Calcu_C3
 
         }
 
-		private void numparent_ValueChanged(object? sender, EventArgs e)
+		private void stripClearAll_Clicked(object? sender,EventArgs e)
+		{
+			
+		}
+        private void numparent_ValueChanged(object? sender, EventArgs e)
 		{
 			
 			foreach(var dic in Prices_obj)

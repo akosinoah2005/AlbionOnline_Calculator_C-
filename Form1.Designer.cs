@@ -73,7 +73,12 @@ namespace Albion_Calcu_C3
             settingsToolStripMenuItem = new ToolStripMenuItem();
             statusToolStripMenuItem = new ToolStripMenuItem();
             premiumToolStripMenuItem = new ToolStripMenuItem();
-            clearTableToolStripMenuItem = new ToolStripMenuItem();
+            stripClearAll = new ToolStripMenuItem();
+            stripStation = new ToolStripMenuItem();
+            pricesToolStripMenuItem = new ToolStripMenuItem();
+            productToolStripMenuItem = new ToolStripMenuItem();
+            resourceToolStripMenuItem = new ToolStripMenuItem();
+            stripMastery = new ToolStripMenuItem();
             helpToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)numAmount).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numUsageFee).BeginInit();
@@ -387,7 +392,7 @@ namespace Albion_Calcu_C3
             // 
             // settingsToolStripMenuItem
             // 
-            settingsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { statusToolStripMenuItem, clearTableToolStripMenuItem });
+            settingsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { statusToolStripMenuItem, stripClearAll });
             settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             resources.ApplyResources(settingsToolStripMenuItem, "settingsToolStripMenuItem");
             // 
@@ -402,10 +407,39 @@ namespace Albion_Calcu_C3
             premiumToolStripMenuItem.Name = "premiumToolStripMenuItem";
             resources.ApplyResources(premiumToolStripMenuItem, "premiumToolStripMenuItem");
             // 
-            // clearTableToolStripMenuItem
+            // stripClearAll
             // 
-            clearTableToolStripMenuItem.Name = "clearTableToolStripMenuItem";
-            resources.ApplyResources(clearTableToolStripMenuItem, "clearTableToolStripMenuItem");
+            stripClearAll.DropDownItems.AddRange(new ToolStripItem[] { stripStation, pricesToolStripMenuItem, stripMastery });
+            stripClearAll.Name = "stripClearAll";
+            resources.ApplyResources(stripClearAll, "stripClearAll");
+            // 
+            // stripStation
+            // 
+            stripStation.Name = "stripStation";
+            resources.ApplyResources(stripStation, "stripStation");
+            stripStation.Click += stripStation_Clicked;
+            // 
+            // pricesToolStripMenuItem
+            // 
+            pricesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { productToolStripMenuItem, resourceToolStripMenuItem });
+            pricesToolStripMenuItem.Name = "pricesToolStripMenuItem";
+            resources.ApplyResources(pricesToolStripMenuItem, "pricesToolStripMenuItem");
+            // 
+            // productToolStripMenuItem
+            // 
+            productToolStripMenuItem.Name = "productToolStripMenuItem";
+            resources.ApplyResources(productToolStripMenuItem, "productToolStripMenuItem");
+            // 
+            // resourceToolStripMenuItem
+            // 
+            resourceToolStripMenuItem.Name = "resourceToolStripMenuItem";
+            resources.ApplyResources(resourceToolStripMenuItem, "resourceToolStripMenuItem");
+            // 
+            // stripMastery
+            // 
+            stripMastery.Name = "stripMastery";
+            resources.ApplyResources(stripMastery, "stripMastery");
+            stripMastery.Click += stripMastery_Clicked;
             // 
             // helpToolStripMenuItem
             // 
@@ -485,7 +519,7 @@ namespace Albion_Calcu_C3
         private ToolStripMenuItem statusToolStripMenuItem;
         private ToolStripMenuItem premiumToolStripMenuItem;
         private ToolStripMenuItem helpToolStripMenuItem;
-        private ToolStripMenuItem clearTableToolStripMenuItem;
+        private ToolStripMenuItem stripClearAll;
         private Label label12;
         private Label label14;
         protected internal Button btnPull;
@@ -496,5 +530,10 @@ namespace Albion_Calcu_C3
         private Label label15;
         private CheckBox chkSelectAll;
         protected internal ComboBox cmbOrder;
+        private ToolStripMenuItem stripStation;
+        private ToolStripMenuItem pricesToolStripMenuItem;
+        private ToolStripMenuItem stripMastery;
+        private ToolStripMenuItem productToolStripMenuItem;
+        private ToolStripMenuItem resourceToolStripMenuItem;
     }
 }

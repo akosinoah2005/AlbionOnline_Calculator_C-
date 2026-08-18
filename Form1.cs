@@ -14,8 +14,10 @@ namespace Albion_Calcu_C3
 
             return numUsageFee;
         }
-
-        
+        public ToolStripMenuItem get_stripClearAll()
+        {
+            return stripClearAll;
+        }
 
         public float Get_rrr()
         {
@@ -64,6 +66,11 @@ namespace Albion_Calcu_C3
             pnlRefine.Controls.Add(new_refine);
         }
 
+        public DialogResult msg_results(string text,string caption,MessageBoxButtons msgButton)
+        {
+            DialogResult result = MessageBox.Show(text, caption, msgButton);
+            return result;
+        }
 
         private float Get_ReturnRate()
         {
@@ -82,7 +89,6 @@ namespace Albion_Calcu_C3
                 numchecker.Text = "0";
             }
         }
-
         private string Get_Type()
         {
             if (cmbType.Text == "Raw")
@@ -191,7 +197,7 @@ namespace Albion_Calcu_C3
                 obj.Text = "0";
             }
 
-            
+
 
         }
 
@@ -257,7 +263,28 @@ namespace Albion_Calcu_C3
             }
 
         }
+        private void stripMastery_Clicked(object sender, EventArgs e)
+        {
 
-        
+            
+            if (msg_results("Would you like to clear Mastery?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                numMasteryT4.Value = 0;
+                numMasteryT5.Value = 0;
+                numMasteryT6.Value = 0;
+                numMasteryT7.Value = 0;
+                numMasteryT8.Value = 0;
+            }
+
+        }
+
+        private void stripStation_Clicked(object sender, EventArgs e)
+        {
+            if(msg_results("Would you like to clear Station Config?","Confirmation",MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                numUsageFee.Value = 0;
+                numAmount.Value = 0;
+            }
+        }
     }
 }

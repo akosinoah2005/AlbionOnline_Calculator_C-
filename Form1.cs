@@ -6,6 +6,7 @@ namespace Albion_Calcu_C3
     {
         public ToolStripMenuItem get_Prices()
         {
+
             return stripPrices;
         }
         public ToolStripMenuItem get_stripProduct()
@@ -78,7 +79,7 @@ namespace Albion_Calcu_C3
             pnlRefine.Controls.Add(new_refine);
         }
 
-        public DialogResult msg_results(string text,string caption,MessageBoxButtons msgButton)
+        public DialogResult msg_results(string text, string caption, MessageBoxButtons msgButton)
         {
             DialogResult result = MessageBox.Show(text, caption, msgButton);
             return result;
@@ -278,7 +279,7 @@ namespace Albion_Calcu_C3
         private void stripMastery_Clicked(object sender, EventArgs e)
         {
 
-            
+
             if (msg_results("Would you like to clear Mastery?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 numMasteryT4.Value = 0;
@@ -292,11 +293,20 @@ namespace Albion_Calcu_C3
 
         private void stripStation_Clicked(object sender, EventArgs e)
         {
-            if(msg_results("Would you like to clear Station Config?","Confirmation",MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (msg_results("Would you like to clear Station Config?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 numUsageFee.Value = 0;
                 numAmount.Value = 0;
             }
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(msg_results("Would you like to close the application?","Confirmation", MessageBoxButtons.YesNo) != DialogResult.Yes)
+            {
+                e.Cancel = true;
+            }
+            
         }
     }
 }

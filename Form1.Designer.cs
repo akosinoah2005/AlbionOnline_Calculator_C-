@@ -461,6 +461,7 @@ namespace Albion_Calcu_C3
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             WindowState = FormWindowState.Maximized;
+            FormClosing += Form1_FormClosing;
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)numAmount).EndInit();
             ((System.ComponentModel.ISupportInitialize)numUsageFee).EndInit();

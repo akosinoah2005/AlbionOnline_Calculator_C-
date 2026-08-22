@@ -252,6 +252,60 @@
             lblProfitS84 = new Label();
             numProduct84 = new NumericUpDown();
             numResource84 = new NumericUpDown();
+            label32 = new Label();
+            label33 = new Label();
+            label35 = new Label();
+            label37 = new Label();
+            label39 = new Label();
+            label41 = new Label();
+            label42 = new Label();
+            label43 = new Label();
+            label44 = new Label();
+            label45 = new Label();
+            label46 = new Label();
+            label47 = new Label();
+            label48 = new Label();
+            label49 = new Label();
+            label50 = new Label();
+            label51 = new Label();
+            label52 = new Label();
+            label53 = new Label();
+            label54 = new Label();
+            label55 = new Label();
+            label56 = new Label();
+            label57 = new Label();
+            label58 = new Label();
+            label59 = new Label();
+            label60 = new Label();
+            label61 = new Label();
+            label62 = new Label();
+            label63 = new Label();
+            label64 = new Label();
+            label65 = new Label();
+            label66 = new Label();
+            label67 = new Label();
+            label68 = new Label();
+            label69 = new Label();
+            label70 = new Label();
+            label71 = new Label();
+            label72 = new Label();
+            label73 = new Label();
+            label74 = new Label();
+            label75 = new Label();
+            label76 = new Label();
+            label77 = new Label();
+            label78 = new Label();
+            label79 = new Label();
+            label80 = new Label();
+            label81 = new Label();
+            label82 = new Label();
+            label83 = new Label();
+            label84 = new Label();
+            label85 = new Label();
+            label86 = new Label();
+            label87 = new Label();
+            label88 = new Label();
+            label89 = new Label();
             ((System.ComponentModel.ISupportInitialize)numResource20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numProduct20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numProduct30).BeginInit();
@@ -3554,11 +3608,552 @@
             numResource84.Leave += numLeave;
             numResource84.Validated += numValidated;
             // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.Location = new Point(273, 100);
+            label32.Name = "label32";
+            label32.Size = new Size(58, 20);
+            label32.TabIndex = 227;
+            label32.Text = "label32";
+            // 
+            // label33
+            // 
+            label33.AutoSize = true;
+            label33.Location = new Point(273, 160);
+            label33.Name = "label33";
+            label33.Size = new Size(58, 20);
+            label33.TabIndex = 228;
+            label33.Text = "label33";
+            // 
+            // label35
+            // 
+            label35.AutoSize = true;
+            label35.Location = new Point(273, 270);
+            label35.Name = "label35";
+            label35.Size = new Size(58, 20);
+            label35.TabIndex = 230;
+            label35.Text = "label35";
+            // 
+            // label37
+            // 
+            label37.AutoSize = true;
+            label37.Location = new Point(273, 215);
+            label37.Name = "label37";
+            label37.Size = new Size(58, 20);
+            label37.TabIndex = 229;
+            label37.Text = "label37";
+            // 
+            // label39
+            // 
+            label39.AutoSize = true;
+            label39.Location = new Point(273, 490);
+            label39.Name = "label39";
+            label39.Size = new Size(58, 20);
+            label39.TabIndex = 234;
+            label39.Text = "label39";
+            // 
+            // label41
+            // 
+            label41.AutoSize = true;
+            label41.Location = new Point(273, 435);
+            label41.Name = "label41";
+            label41.Size = new Size(58, 20);
+            label41.TabIndex = 233;
+            label41.Text = "label41";
+            // 
+            // label42
+            // 
+            label42.AutoSize = true;
+            label42.Location = new Point(273, 380);
+            label42.Name = "label42";
+            label42.Size = new Size(58, 20);
+            label42.TabIndex = 232;
+            label42.Text = "label42";
+            // 
+            // label43
+            // 
+            label43.AutoSize = true;
+            label43.Location = new Point(273, 325);
+            label43.Name = "label43";
+            label43.Size = new Size(58, 20);
+            label43.TabIndex = 231;
+            label43.Text = "label43";
+            // 
+            // label44
+            // 
+            label44.AutoSize = true;
+            label44.Location = new Point(273, 930);
+            label44.Name = "label44";
+            label44.Size = new Size(58, 20);
+            label44.TabIndex = 242;
+            label44.Text = "label44";
+            // 
+            // label45
+            // 
+            label45.AutoSize = true;
+            label45.Location = new Point(273, 875);
+            label45.Name = "label45";
+            label45.Size = new Size(58, 20);
+            label45.TabIndex = 241;
+            label45.Text = "label45";
+            // 
+            // label46
+            // 
+            label46.AutoSize = true;
+            label46.Location = new Point(273, 820);
+            label46.Name = "label46";
+            label46.Size = new Size(58, 20);
+            label46.TabIndex = 240;
+            label46.Text = "label46";
+            // 
+            // label47
+            // 
+            label47.AutoSize = true;
+            label47.Location = new Point(273, 765);
+            label47.Name = "label47";
+            label47.Size = new Size(58, 20);
+            label47.TabIndex = 239;
+            label47.Text = "label47";
+            // 
+            // label48
+            // 
+            label48.AutoSize = true;
+            label48.Location = new Point(273, 710);
+            label48.Name = "label48";
+            label48.Size = new Size(58, 20);
+            label48.TabIndex = 238;
+            label48.Text = "label48";
+            // 
+            // label49
+            // 
+            label49.AutoSize = true;
+            label49.Location = new Point(273, 656);
+            label49.Name = "label49";
+            label49.Size = new Size(58, 20);
+            label49.TabIndex = 237;
+            label49.Text = "label49";
+            // 
+            // label50
+            // 
+            label50.AutoSize = true;
+            label50.Location = new Point(273, 600);
+            label50.Name = "label50";
+            label50.Size = new Size(58, 20);
+            label50.TabIndex = 236;
+            label50.Text = "label50";
+            label50.Click += label50_Click;
+            // 
+            // label51
+            // 
+            label51.AutoSize = true;
+            label51.Location = new Point(273, 545);
+            label51.Name = "label51";
+            label51.Size = new Size(58, 20);
+            label51.TabIndex = 235;
+            label51.Text = "label51";
+            // 
+            // label52
+            // 
+            label52.AutoSize = true;
+            label52.Location = new Point(273, 985);
+            label52.Name = "label52";
+            label52.Size = new Size(58, 20);
+            label52.TabIndex = 243;
+            label52.Text = "label52";
+            // 
+            // label53
+            // 
+            label53.AutoSize = true;
+            label53.Location = new Point(273, 1040);
+            label53.Name = "label53";
+            label53.Size = new Size(58, 20);
+            label53.TabIndex = 244;
+            label53.Text = "label53";
+            // 
+            // label54
+            // 
+            label54.AutoSize = true;
+            label54.Location = new Point(273, 1095);
+            label54.Name = "label54";
+            label54.Size = new Size(58, 20);
+            label54.TabIndex = 245;
+            label54.Text = "label54";
+            // 
+            // label55
+            // 
+            label55.AutoSize = true;
+            label55.Location = new Point(273, 1150);
+            label55.Name = "label55";
+            label55.Size = new Size(58, 20);
+            label55.TabIndex = 246;
+            label55.Text = "label55";
+            // 
+            // label56
+            // 
+            label56.AutoSize = true;
+            label56.Location = new Point(273, 1203);
+            label56.Name = "label56";
+            label56.Size = new Size(58, 20);
+            label56.TabIndex = 247;
+            label56.Text = "label56";
+            // 
+            // label57
+            // 
+            label57.AutoSize = true;
+            label57.Location = new Point(273, 1260);
+            label57.Name = "label57";
+            label57.Size = new Size(58, 20);
+            label57.TabIndex = 248;
+            label57.Text = "label57";
+            // 
+            // label58
+            // 
+            label58.AutoSize = true;
+            label58.Location = new Point(273, 1315);
+            label58.Name = "label58";
+            label58.Size = new Size(58, 20);
+            label58.TabIndex = 249;
+            label58.Text = "label58";
+            // 
+            // label59
+            // 
+            label59.AutoSize = true;
+            label59.Location = new Point(273, 1370);
+            label59.Name = "label59";
+            label59.Size = new Size(58, 20);
+            label59.TabIndex = 250;
+            label59.Text = "label59";
+            // 
+            // label60
+            // 
+            label60.AutoSize = true;
+            label60.Location = new Point(273, 1424);
+            label60.Name = "label60";
+            label60.Size = new Size(58, 20);
+            label60.TabIndex = 251;
+            label60.Text = "label60";
+            // 
+            // label61
+            // 
+            label61.AutoSize = true;
+            label61.Location = new Point(273, 1482);
+            label61.Name = "label61";
+            label61.Size = new Size(58, 20);
+            label61.TabIndex = 252;
+            label61.Text = "label61";
+            // 
+            // label62
+            // 
+            label62.AutoSize = true;
+            label62.Location = new Point(273, 1535);
+            label62.Name = "label62";
+            label62.Size = new Size(58, 20);
+            label62.TabIndex = 253;
+            label62.Text = "label62";
+            // 
+            // label63
+            // 
+            label63.AutoSize = true;
+            label63.Location = new Point(644, 1535);
+            label63.Name = "label63";
+            label63.Size = new Size(58, 20);
+            label63.TabIndex = 280;
+            label63.Text = "label63";
+            // 
+            // label64
+            // 
+            label64.AutoSize = true;
+            label64.Location = new Point(644, 1482);
+            label64.Name = "label64";
+            label64.Size = new Size(58, 20);
+            label64.TabIndex = 279;
+            label64.Text = "label64";
+            // 
+            // label65
+            // 
+            label65.AutoSize = true;
+            label65.Location = new Point(644, 1424);
+            label65.Name = "label65";
+            label65.Size = new Size(58, 20);
+            label65.TabIndex = 278;
+            label65.Text = "label65";
+            // 
+            // label66
+            // 
+            label66.AutoSize = true;
+            label66.Location = new Point(644, 1370);
+            label66.Name = "label66";
+            label66.Size = new Size(58, 20);
+            label66.TabIndex = 277;
+            label66.Text = "label66";
+            // 
+            // label67
+            // 
+            label67.AutoSize = true;
+            label67.Location = new Point(644, 1315);
+            label67.Name = "label67";
+            label67.Size = new Size(58, 20);
+            label67.TabIndex = 276;
+            label67.Text = "label67";
+            // 
+            // label68
+            // 
+            label68.AutoSize = true;
+            label68.Location = new Point(644, 1260);
+            label68.Name = "label68";
+            label68.Size = new Size(58, 20);
+            label68.TabIndex = 275;
+            label68.Text = "label68";
+            // 
+            // label69
+            // 
+            label69.AutoSize = true;
+            label69.Location = new Point(644, 1203);
+            label69.Name = "label69";
+            label69.Size = new Size(58, 20);
+            label69.TabIndex = 274;
+            label69.Text = "label69";
+            // 
+            // label70
+            // 
+            label70.AutoSize = true;
+            label70.Location = new Point(644, 1150);
+            label70.Name = "label70";
+            label70.Size = new Size(58, 20);
+            label70.TabIndex = 273;
+            label70.Text = "label70";
+            // 
+            // label71
+            // 
+            label71.AutoSize = true;
+            label71.Location = new Point(644, 1095);
+            label71.Name = "label71";
+            label71.Size = new Size(58, 20);
+            label71.TabIndex = 272;
+            label71.Text = "label71";
+            // 
+            // label72
+            // 
+            label72.AutoSize = true;
+            label72.Location = new Point(644, 1040);
+            label72.Name = "label72";
+            label72.Size = new Size(58, 20);
+            label72.TabIndex = 271;
+            label72.Text = "label72";
+            // 
+            // label73
+            // 
+            label73.AutoSize = true;
+            label73.Location = new Point(644, 985);
+            label73.Name = "label73";
+            label73.Size = new Size(58, 20);
+            label73.TabIndex = 270;
+            label73.Text = "label73";
+            // 
+            // label74
+            // 
+            label74.AutoSize = true;
+            label74.Location = new Point(644, 930);
+            label74.Name = "label74";
+            label74.Size = new Size(58, 20);
+            label74.TabIndex = 269;
+            label74.Text = "label74";
+            // 
+            // label75
+            // 
+            label75.AutoSize = true;
+            label75.Location = new Point(644, 875);
+            label75.Name = "label75";
+            label75.Size = new Size(58, 20);
+            label75.TabIndex = 268;
+            label75.Text = "label75";
+            // 
+            // label76
+            // 
+            label76.AutoSize = true;
+            label76.Location = new Point(644, 820);
+            label76.Name = "label76";
+            label76.Size = new Size(58, 20);
+            label76.TabIndex = 267;
+            label76.Text = "label76";
+            // 
+            // label77
+            // 
+            label77.AutoSize = true;
+            label77.Location = new Point(644, 765);
+            label77.Name = "label77";
+            label77.Size = new Size(58, 20);
+            label77.TabIndex = 266;
+            label77.Text = "label77";
+            // 
+            // label78
+            // 
+            label78.AutoSize = true;
+            label78.Location = new Point(644, 710);
+            label78.Name = "label78";
+            label78.Size = new Size(58, 20);
+            label78.TabIndex = 265;
+            label78.Text = "label78";
+            // 
+            // label79
+            // 
+            label79.AutoSize = true;
+            label79.Location = new Point(644, 656);
+            label79.Name = "label79";
+            label79.Size = new Size(58, 20);
+            label79.TabIndex = 264;
+            label79.Text = "label79";
+            // 
+            // label80
+            // 
+            label80.AutoSize = true;
+            label80.Location = new Point(644, 600);
+            label80.Name = "label80";
+            label80.Size = new Size(58, 20);
+            label80.TabIndex = 263;
+            label80.Text = "label80";
+            // 
+            // label81
+            // 
+            label81.AutoSize = true;
+            label81.Location = new Point(644, 545);
+            label81.Name = "label81";
+            label81.Size = new Size(58, 20);
+            label81.TabIndex = 262;
+            label81.Text = "label81";
+            // 
+            // label82
+            // 
+            label82.AutoSize = true;
+            label82.Location = new Point(644, 490);
+            label82.Name = "label82";
+            label82.Size = new Size(58, 20);
+            label82.TabIndex = 261;
+            label82.Text = "label82";
+            // 
+            // label83
+            // 
+            label83.AutoSize = true;
+            label83.Location = new Point(644, 435);
+            label83.Name = "label83";
+            label83.Size = new Size(58, 20);
+            label83.TabIndex = 260;
+            label83.Text = "label83";
+            // 
+            // label84
+            // 
+            label84.AutoSize = true;
+            label84.Location = new Point(644, 380);
+            label84.Name = "label84";
+            label84.Size = new Size(58, 20);
+            label84.TabIndex = 259;
+            label84.Text = "label84";
+            // 
+            // label85
+            // 
+            label85.AutoSize = true;
+            label85.Location = new Point(644, 325);
+            label85.Name = "label85";
+            label85.Size = new Size(58, 20);
+            label85.TabIndex = 258;
+            label85.Text = "label85";
+            // 
+            // label86
+            // 
+            label86.AutoSize = true;
+            label86.Location = new Point(644, 270);
+            label86.Name = "label86";
+            label86.Size = new Size(58, 20);
+            label86.TabIndex = 257;
+            label86.Text = "label86";
+            // 
+            // label87
+            // 
+            label87.AutoSize = true;
+            label87.Location = new Point(644, 215);
+            label87.Name = "label87";
+            label87.Size = new Size(58, 20);
+            label87.TabIndex = 256;
+            label87.Text = "label87";
+            // 
+            // label88
+            // 
+            label88.AutoSize = true;
+            label88.Location = new Point(644, 160);
+            label88.Name = "label88";
+            label88.Size = new Size(58, 20);
+            label88.TabIndex = 255;
+            label88.Text = "label88";
+            // 
+            // label89
+            // 
+            label89.AutoSize = true;
+            label89.Location = new Point(644, 100);
+            label89.Name = "label89";
+            label89.Size = new Size(58, 20);
+            label89.TabIndex = 254;
+            label89.Text = "label89";
+            // 
             // UserControl1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
+            Controls.Add(label63);
+            Controls.Add(label64);
+            Controls.Add(label65);
+            Controls.Add(label66);
+            Controls.Add(label67);
+            Controls.Add(label68);
+            Controls.Add(label69);
+            Controls.Add(label70);
+            Controls.Add(label71);
+            Controls.Add(label72);
+            Controls.Add(label73);
+            Controls.Add(label74);
+            Controls.Add(label75);
+            Controls.Add(label76);
+            Controls.Add(label77);
+            Controls.Add(label78);
+            Controls.Add(label79);
+            Controls.Add(label80);
+            Controls.Add(label81);
+            Controls.Add(label82);
+            Controls.Add(label83);
+            Controls.Add(label84);
+            Controls.Add(label85);
+            Controls.Add(label86);
+            Controls.Add(label87);
+            Controls.Add(label88);
+            Controls.Add(label89);
+            Controls.Add(label62);
+            Controls.Add(label61);
+            Controls.Add(label60);
+            Controls.Add(label59);
+            Controls.Add(label58);
+            Controls.Add(label57);
+            Controls.Add(label56);
+            Controls.Add(label55);
+            Controls.Add(label54);
+            Controls.Add(label53);
+            Controls.Add(label52);
+            Controls.Add(label44);
+            Controls.Add(label45);
+            Controls.Add(label46);
+            Controls.Add(label47);
+            Controls.Add(label48);
+            Controls.Add(label49);
+            Controls.Add(label50);
+            Controls.Add(label51);
+            Controls.Add(label39);
+            Controls.Add(label41);
+            Controls.Add(label42);
+            Controls.Add(label43);
+            Controls.Add(label35);
+            Controls.Add(label37);
+            Controls.Add(label33);
+            Controls.Add(label32);
             Controls.Add(lblFocusP84);
             Controls.Add(lblFocusC84);
             Controls.Add(lblFocusFPFC84);
@@ -4073,5 +4668,59 @@
         private Label lblProfitS84;
         private NumericUpDown numProduct84;
         private NumericUpDown numResource84;
+        private Label label32;
+        private Label label33;
+        private Label label35;
+        private Label label37;
+        private Label label39;
+        private Label label41;
+        private Label label42;
+        private Label label43;
+        private Label label44;
+        private Label label45;
+        private Label label46;
+        private Label label47;
+        private Label label48;
+        private Label label49;
+        private Label label50;
+        private Label label51;
+        private Label label52;
+        private Label label53;
+        private Label label54;
+        private Label label55;
+        private Label label56;
+        private Label label57;
+        private Label label58;
+        private Label label59;
+        private Label label60;
+        private Label label61;
+        private Label label62;
+        private Label label63;
+        private Label label64;
+        private Label label65;
+        private Label label66;
+        private Label label67;
+        private Label label68;
+        private Label label69;
+        private Label label70;
+        private Label label71;
+        private Label label72;
+        private Label label73;
+        private Label label74;
+        private Label label75;
+        private Label label76;
+        private Label label77;
+        private Label label78;
+        private Label label79;
+        private Label label80;
+        private Label label81;
+        private Label label82;
+        private Label label83;
+        private Label label84;
+        private Label label85;
+        private Label label86;
+        private Label label87;
+        private Label label88;
+        private Label label89;
     }   
 }

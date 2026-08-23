@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             label1 = new Label();
             label2 = new Label();
             label5 = new Label();
@@ -252,60 +253,61 @@
             lblProfitS84 = new Label();
             numProduct84 = new NumericUpDown();
             numResource84 = new NumericUpDown();
-            lbl20_Date = new Label();
-            lbl30_Date = new Label();
-            lbl41_Date = new Label();
-            lbl40_Date = new Label();
-            lbl50_Date = new Label();
-            lbl44_Date = new Label();
-            lbl43_Date = new Label();
-            lbl42_Date = new Label();
-            label44 = new Label();
-            label45 = new Label();
-            label46 = new Label();
-            label47 = new Label();
-            lbl54_Date = new Label();
-            lbl53_Date = new Label();
-            lbl52_Date = new Label();
-            lbl51_Date = new Label();
-            label52 = new Label();
-            label53 = new Label();
-            label54 = new Label();
-            label55 = new Label();
-            label56 = new Label();
-            label57 = new Label();
-            label58 = new Label();
-            label59 = new Label();
-            label60 = new Label();
-            label61 = new Label();
-            label62 = new Label();
-            label63 = new Label();
-            label64 = new Label();
-            label65 = new Label();
-            label66 = new Label();
-            label67 = new Label();
-            label68 = new Label();
-            label69 = new Label();
-            label70 = new Label();
-            label71 = new Label();
-            label72 = new Label();
-            label73 = new Label();
-            label74 = new Label();
-            label75 = new Label();
-            label76 = new Label();
-            label77 = new Label();
-            label78 = new Label();
-            label79 = new Label();
-            label80 = new Label();
-            label81 = new Label();
-            label82 = new Label();
-            label83 = new Label();
-            label84 = new Label();
-            label85 = new Label();
-            label86 = new Label();
-            label87 = new Label();
-            label88 = new Label();
-            label89 = new Label();
+            lblDate_Res20 = new Label();
+            lblDate_Res30 = new Label();
+            lblDate_Res41 = new Label();
+            lblDate_Res40 = new Label();
+            lblDate_Res50 = new Label();
+            lblDate_Res44 = new Label();
+            lblDate_Res43 = new Label();
+            lblDate_Res42 = new Label();
+            lblDate_Res63 = new Label();
+            lblDate_Res62 = new Label();
+            lblDate_Res61 = new Label();
+            lblDate_Res60 = new Label();
+            lblDate_Res54 = new Label();
+            lblDate_Res53 = new Label();
+            lblDate_Res52 = new Label();
+            lblDate_Res51 = new Label();
+            lblDate_Res64 = new Label();
+            lblDate_Res70 = new Label();
+            lblDate_Res71 = new Label();
+            lblDate_Res72 = new Label();
+            lblDate_Res73 = new Label();
+            lblDate_Res74 = new Label();
+            lblDate_Res80 = new Label();
+            lblDate_Res81 = new Label();
+            lblDate_Res82 = new Label();
+            lblDate_Res83 = new Label();
+            lblDate_Res84 = new Label();
+            lblDate_Prod84 = new Label();
+            lblDate_Prod83 = new Label();
+            lblDate_Prod82 = new Label();
+            lblDate_Prod81 = new Label();
+            lblDate_Prod80 = new Label();
+            lblDate_Prod74 = new Label();
+            lblDate_Prod73 = new Label();
+            lblDate_Prod72 = new Label();
+            lblDate_Prod71 = new Label();
+            lblDate_Prod70 = new Label();
+            lblDate_Prod64 = new Label();
+            lblDate_Prod63 = new Label();
+            lblDate_Prod62 = new Label();
+            lblDate_Prod61 = new Label();
+            lblDate_Prod60 = new Label();
+            lblDate_Prod54 = new Label();
+            lblDate_Prod53 = new Label();
+            lblDate_Prod52 = new Label();
+            lblDate_Prod51 = new Label();
+            lblDate_Prod50 = new Label();
+            lblDate_Prod44 = new Label();
+            lblDate_Prod43 = new Label();
+            lblDate_Prod42 = new Label();
+            lblDate_Prod41 = new Label();
+            lblDate_Prod40 = new Label();
+            lblDate_Prod30 = new Label();
+            lblDate_Prod20 = new Label();
+            toolTip1 = new ToolTip(components);
             ((System.ComponentModel.ISupportInitialize)numResource20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numProduct20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numProduct30).BeginInit();
@@ -3608,552 +3610,659 @@
             numResource84.Leave += numLeave;
             numResource84.Validated += numValidated;
             // 
-            // lbl20_Date
-            // 
-            lbl20_Date.AutoSize = true;
-            lbl20_Date.Location = new Point(273, 100);
-            lbl20_Date.Name = "lbl20_Date";
-            lbl20_Date.Size = new Size(58, 20);
-            lbl20_Date.TabIndex = 227;
-            lbl20_Date.Text = "label32";
-            // 
-            // lbl30_Date
-            // 
-            lbl30_Date.AutoSize = true;
-            lbl30_Date.Location = new Point(273, 160);
-            lbl30_Date.Name = "lbl30_Date";
-            lbl30_Date.Size = new Size(58, 20);
-            lbl30_Date.TabIndex = 228;
-            lbl30_Date.Text = "lbl30_Date";
-            // 
-            // lbl41_Date
-            // 
-            lbl41_Date.AutoSize = true;
-            lbl41_Date.Location = new Point(273, 270);
-            lbl41_Date.Name = "lbl41_Date";
-            lbl41_Date.Size = new Size(58, 20);
-            lbl41_Date.TabIndex = 230;
-            lbl41_Date.Text = "lbl41_Date";
-            // 
-            // lbl40_Date
-            // 
-            lbl40_Date.AutoSize = true;
-            lbl40_Date.Location = new Point(273, 215);
-            lbl40_Date.Name = "lbl40_Date";
-            lbl40_Date.Size = new Size(58, 20);
-            lbl40_Date.TabIndex = 229;
-            lbl40_Date.Text = "lbl40_Date";
-            // 
-            // lbl50_Date
-            // 
-            lbl50_Date.AutoSize = true;
-            lbl50_Date.Location = new Point(273, 490);
-            lbl50_Date.Name = "lbl50_Date";
-            lbl50_Date.Size = new Size(58, 20);
-            lbl50_Date.TabIndex = 234;
-            lbl50_Date.Text = "lbl50_Date";
-            // 
-            // lbl44_Date
-            // 
-            lbl44_Date.AutoSize = true;
-            lbl44_Date.Location = new Point(273, 435);
-            lbl44_Date.Name = "lbl44_Date";
-            lbl44_Date.Size = new Size(58, 20);
-            lbl44_Date.TabIndex = 233;
-            lbl44_Date.Text = "lbl44_Date";
-            // 
-            // lbl43_Date
-            // 
-            lbl43_Date.AutoSize = true;
-            lbl43_Date.Location = new Point(273, 380);
-            lbl43_Date.Name = "lbl43_Date";
-            lbl43_Date.Size = new Size(58, 20);
-            lbl43_Date.TabIndex = 232;
-            lbl43_Date.Text = "lbl43_Date";
-            // 
-            // lbl42_Date
-            // 
-            lbl42_Date.AutoSize = true;
-            lbl42_Date.Location = new Point(273, 325);
-            lbl42_Date.Name = "lbl42_Date";
-            lbl42_Date.Size = new Size(58, 20);
-            lbl42_Date.TabIndex = 231;
-            lbl42_Date.Text = "lbl42_Date";
-            // 
-            // label44
-            // 
-            label44.AutoSize = true;
-            label44.Location = new Point(273, 930);
-            label44.Name = "label44";
-            label44.Size = new Size(58, 20);
-            label44.TabIndex = 242;
-            label44.Text = "label44";
-            // 
-            // label45
-            // 
-            label45.AutoSize = true;
-            label45.Location = new Point(273, 875);
-            label45.Name = "label45";
-            label45.Size = new Size(58, 20);
-            label45.TabIndex = 241;
-            label45.Text = "label45";
-            // 
-            // label46
-            // 
-            label46.AutoSize = true;
-            label46.Location = new Point(273, 820);
-            label46.Name = "label46";
-            label46.Size = new Size(58, 20);
-            label46.TabIndex = 240;
-            label46.Text = "label46";
-            // 
-            // label47
-            // 
-            label47.AutoSize = true;
-            label47.Location = new Point(273, 765);
-            label47.Name = "label47";
-            label47.Size = new Size(58, 20);
-            label47.TabIndex = 239;
-            label47.Text = "label47";
-            // 
-            // lbl54_Date
-            // 
-            lbl54_Date.AutoSize = true;
-            lbl54_Date.Location = new Point(273, 710);
-            lbl54_Date.Name = "lbl54_Date";
-            lbl54_Date.Size = new Size(58, 20);
-            lbl54_Date.TabIndex = 238;
-            lbl54_Date.Text = "lbl54_Date";
-            // 
-            // lbl53_Date
-            // 
-            lbl53_Date.AutoSize = true;
-            lbl53_Date.Location = new Point(273, 656);
-            lbl53_Date.Name = "lbl53_Date";
-            lbl53_Date.Size = new Size(58, 20);
-            lbl53_Date.TabIndex = 237;
-            lbl53_Date.Text = "lbl53_Date";
-            // 
-            // lbl52_Date
-            // 
-            lbl52_Date.AutoSize = true;
-            lbl52_Date.Location = new Point(273, 600);
-            lbl52_Date.Name = "lbl52_Date";
-            lbl52_Date.Size = new Size(58, 20);
-            lbl52_Date.TabIndex = 236;
-            lbl52_Date.Text = "lbl52_Date";
-            lbl52_Date.Click += label50_Click;
-            // 
-            // lbl51_Date
-            // 
-            lbl51_Date.AutoSize = true;
-            lbl51_Date.Location = new Point(273, 545);
-            lbl51_Date.Name = "lbl51_Date";
-            lbl51_Date.Size = new Size(58, 20);
-            lbl51_Date.TabIndex = 235;
-            lbl51_Date.Text = "lbl51_Date";
-            // 
-            // label52
-            // 
-            label52.AutoSize = true;
-            label52.Location = new Point(273, 985);
-            label52.Name = "label52";
-            label52.Size = new Size(58, 20);
-            label52.TabIndex = 243;
-            label52.Text = "label52";
-            // 
-            // label53
-            // 
-            label53.AutoSize = true;
-            label53.Location = new Point(273, 1040);
-            label53.Name = "label53";
-            label53.Size = new Size(58, 20);
-            label53.TabIndex = 244;
-            label53.Text = "label53";
-            // 
-            // label54
-            // 
-            label54.AutoSize = true;
-            label54.Location = new Point(273, 1095);
-            label54.Name = "label54";
-            label54.Size = new Size(58, 20);
-            label54.TabIndex = 245;
-            label54.Text = "label54";
-            // 
-            // label55
-            // 
-            label55.AutoSize = true;
-            label55.Location = new Point(273, 1150);
-            label55.Name = "label55";
-            label55.Size = new Size(58, 20);
-            label55.TabIndex = 246;
-            label55.Text = "label55";
-            // 
-            // label56
-            // 
-            label56.AutoSize = true;
-            label56.Location = new Point(273, 1203);
-            label56.Name = "label56";
-            label56.Size = new Size(58, 20);
-            label56.TabIndex = 247;
-            label56.Text = "label56";
-            // 
-            // label57
-            // 
-            label57.AutoSize = true;
-            label57.Location = new Point(273, 1260);
-            label57.Name = "label57";
-            label57.Size = new Size(58, 20);
-            label57.TabIndex = 248;
-            label57.Text = "label57";
-            // 
-            // label58
-            // 
-            label58.AutoSize = true;
-            label58.Location = new Point(273, 1315);
-            label58.Name = "label58";
-            label58.Size = new Size(58, 20);
-            label58.TabIndex = 249;
-            label58.Text = "label58";
-            // 
-            // label59
-            // 
-            label59.AutoSize = true;
-            label59.Location = new Point(273, 1370);
-            label59.Name = "label59";
-            label59.Size = new Size(58, 20);
-            label59.TabIndex = 250;
-            label59.Text = "label59";
-            // 
-            // label60
-            // 
-            label60.AutoSize = true;
-            label60.Location = new Point(273, 1424);
-            label60.Name = "label60";
-            label60.Size = new Size(58, 20);
-            label60.TabIndex = 251;
-            label60.Text = "label60";
-            // 
-            // label61
-            // 
-            label61.AutoSize = true;
-            label61.Location = new Point(273, 1482);
-            label61.Name = "label61";
-            label61.Size = new Size(58, 20);
-            label61.TabIndex = 252;
-            label61.Text = "label61";
-            // 
-            // label62
-            // 
-            label62.AutoSize = true;
-            label62.Location = new Point(273, 1535);
-            label62.Name = "label62";
-            label62.Size = new Size(58, 20);
-            label62.TabIndex = 253;
-            label62.Text = "label62";
-            // 
-            // label63
-            // 
-            label63.AutoSize = true;
-            label63.Location = new Point(644, 1535);
-            label63.Name = "label63";
-            label63.Size = new Size(58, 20);
-            label63.TabIndex = 280;
-            label63.Text = "label63";
-            // 
-            // label64
-            // 
-            label64.AutoSize = true;
-            label64.Location = new Point(644, 1482);
-            label64.Name = "label64";
-            label64.Size = new Size(58, 20);
-            label64.TabIndex = 279;
-            label64.Text = "label64";
-            // 
-            // label65
-            // 
-            label65.AutoSize = true;
-            label65.Location = new Point(644, 1424);
-            label65.Name = "label65";
-            label65.Size = new Size(58, 20);
-            label65.TabIndex = 278;
-            label65.Text = "label65";
-            // 
-            // label66
-            // 
-            label66.AutoSize = true;
-            label66.Location = new Point(644, 1370);
-            label66.Name = "label66";
-            label66.Size = new Size(58, 20);
-            label66.TabIndex = 277;
-            label66.Text = "label66";
-            // 
-            // label67
-            // 
-            label67.AutoSize = true;
-            label67.Location = new Point(644, 1315);
-            label67.Name = "label67";
-            label67.Size = new Size(58, 20);
-            label67.TabIndex = 276;
-            label67.Text = "label67";
-            // 
-            // label68
-            // 
-            label68.AutoSize = true;
-            label68.Location = new Point(644, 1260);
-            label68.Name = "label68";
-            label68.Size = new Size(58, 20);
-            label68.TabIndex = 275;
-            label68.Text = "label68";
-            // 
-            // label69
-            // 
-            label69.AutoSize = true;
-            label69.Location = new Point(644, 1203);
-            label69.Name = "label69";
-            label69.Size = new Size(58, 20);
-            label69.TabIndex = 274;
-            label69.Text = "label69";
-            // 
-            // label70
-            // 
-            label70.AutoSize = true;
-            label70.Location = new Point(644, 1150);
-            label70.Name = "label70";
-            label70.Size = new Size(58, 20);
-            label70.TabIndex = 273;
-            label70.Text = "label70";
-            // 
-            // label71
-            // 
-            label71.AutoSize = true;
-            label71.Location = new Point(644, 1095);
-            label71.Name = "label71";
-            label71.Size = new Size(58, 20);
-            label71.TabIndex = 272;
-            label71.Text = "label71";
-            // 
-            // label72
-            // 
-            label72.AutoSize = true;
-            label72.Location = new Point(644, 1040);
-            label72.Name = "label72";
-            label72.Size = new Size(58, 20);
-            label72.TabIndex = 271;
-            label72.Text = "label72";
-            // 
-            // label73
-            // 
-            label73.AutoSize = true;
-            label73.Location = new Point(644, 985);
-            label73.Name = "label73";
-            label73.Size = new Size(58, 20);
-            label73.TabIndex = 270;
-            label73.Text = "label73";
-            // 
-            // label74
-            // 
-            label74.AutoSize = true;
-            label74.Location = new Point(644, 930);
-            label74.Name = "label74";
-            label74.Size = new Size(58, 20);
-            label74.TabIndex = 269;
-            label74.Text = "label74";
-            // 
-            // label75
-            // 
-            label75.AutoSize = true;
-            label75.Location = new Point(644, 875);
-            label75.Name = "label75";
-            label75.Size = new Size(58, 20);
-            label75.TabIndex = 268;
-            label75.Text = "label75";
-            // 
-            // label76
-            // 
-            label76.AutoSize = true;
-            label76.Location = new Point(644, 820);
-            label76.Name = "label76";
-            label76.Size = new Size(58, 20);
-            label76.TabIndex = 267;
-            label76.Text = "label76";
-            // 
-            // label77
-            // 
-            label77.AutoSize = true;
-            label77.Location = new Point(644, 765);
-            label77.Name = "label77";
-            label77.Size = new Size(58, 20);
-            label77.TabIndex = 266;
-            label77.Text = "label77";
-            // 
-            // label78
-            // 
-            label78.AutoSize = true;
-            label78.Location = new Point(644, 710);
-            label78.Name = "label78";
-            label78.Size = new Size(58, 20);
-            label78.TabIndex = 265;
-            label78.Text = "label78";
-            // 
-            // label79
-            // 
-            label79.AutoSize = true;
-            label79.Location = new Point(644, 656);
-            label79.Name = "label79";
-            label79.Size = new Size(58, 20);
-            label79.TabIndex = 264;
-            label79.Text = "label79";
-            // 
-            // label80
-            // 
-            label80.AutoSize = true;
-            label80.Location = new Point(644, 600);
-            label80.Name = "label80";
-            label80.Size = new Size(58, 20);
-            label80.TabIndex = 263;
-            label80.Text = "label80";
-            // 
-            // label81
-            // 
-            label81.AutoSize = true;
-            label81.Location = new Point(644, 545);
-            label81.Name = "label81";
-            label81.Size = new Size(58, 20);
-            label81.TabIndex = 262;
-            label81.Text = "label81";
-            // 
-            // label82
-            // 
-            label82.AutoSize = true;
-            label82.Location = new Point(644, 490);
-            label82.Name = "label82";
-            label82.Size = new Size(58, 20);
-            label82.TabIndex = 261;
-            label82.Text = "label82";
-            // 
-            // label83
-            // 
-            label83.AutoSize = true;
-            label83.Location = new Point(644, 435);
-            label83.Name = "label83";
-            label83.Size = new Size(58, 20);
-            label83.TabIndex = 260;
-            label83.Text = "label83";
-            // 
-            // label84
-            // 
-            label84.AutoSize = true;
-            label84.Location = new Point(644, 380);
-            label84.Name = "label84";
-            label84.Size = new Size(58, 20);
-            label84.TabIndex = 259;
-            label84.Text = "label84";
-            // 
-            // label85
-            // 
-            label85.AutoSize = true;
-            label85.Location = new Point(644, 325);
-            label85.Name = "label85";
-            label85.Size = new Size(58, 20);
-            label85.TabIndex = 258;
-            label85.Text = "label85";
-            // 
-            // label86
-            // 
-            label86.AutoSize = true;
-            label86.Location = new Point(644, 270);
-            label86.Name = "label86";
-            label86.Size = new Size(58, 20);
-            label86.TabIndex = 257;
-            label86.Text = "label86";
-            // 
-            // label87
-            // 
-            label87.AutoSize = true;
-            label87.Location = new Point(644, 215);
-            label87.Name = "label87";
-            label87.Size = new Size(58, 20);
-            label87.TabIndex = 256;
-            label87.Text = "label87";
-            // 
-            // label88
-            // 
-            label88.AutoSize = true;
-            label88.Location = new Point(644, 160);
-            label88.Name = "label88";
-            label88.Size = new Size(58, 20);
-            label88.TabIndex = 255;
-            label88.Text = "label88";
-            // 
-            // label89
-            // 
-            label89.AutoSize = true;
-            label89.Location = new Point(644, 100);
-            label89.Name = "label89";
-            label89.Size = new Size(58, 20);
-            label89.TabIndex = 254;
-            label89.Text = "label89";
+            // lblDate_Res20
+            // 
+            lblDate_Res20.AutoSize = true;
+            lblDate_Res20.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res20.ForeColor = Color.Chartreuse;
+            lblDate_Res20.Location = new Point(371, 77);
+            lblDate_Res20.Name = "lblDate_Res20";
+            lblDate_Res20.Size = new Size(52, 13);
+            lblDate_Res20.TabIndex = 227;
+            lblDate_Res20.Text = "0hrs ago";
+            // 
+            // lblDate_Res30
+            // 
+            lblDate_Res30.AutoSize = true;
+            lblDate_Res30.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res30.ForeColor = Color.Lime;
+            lblDate_Res30.Location = new Point(371, 137);
+            lblDate_Res30.Name = "lblDate_Res30";
+            lblDate_Res30.Size = new Size(52, 13);
+            lblDate_Res30.TabIndex = 228;
+            lblDate_Res30.Text = "0hrs ago";
+            // 
+            // lblDate_Res41
+            // 
+            lblDate_Res41.AutoSize = true;
+            lblDate_Res41.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res41.ForeColor = Color.Lime;
+            lblDate_Res41.Location = new Point(371, 246);
+            lblDate_Res41.Name = "lblDate_Res41";
+            lblDate_Res41.Size = new Size(52, 13);
+            lblDate_Res41.TabIndex = 230;
+            lblDate_Res41.Text = "0hrs ago";
+            // 
+            // lblDate_Res40
+            // 
+            lblDate_Res40.AutoSize = true;
+            lblDate_Res40.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res40.ForeColor = Color.Lime;
+            lblDate_Res40.Location = new Point(371, 191);
+            lblDate_Res40.Name = "lblDate_Res40";
+            lblDate_Res40.Size = new Size(52, 13);
+            lblDate_Res40.TabIndex = 229;
+            lblDate_Res40.Text = "0hrs ago";
+            // 
+            // lblDate_Res50
+            // 
+            lblDate_Res50.AutoSize = true;
+            lblDate_Res50.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res50.ForeColor = Color.Lime;
+            lblDate_Res50.Location = new Point(371, 465);
+            lblDate_Res50.Name = "lblDate_Res50";
+            lblDate_Res50.Size = new Size(52, 13);
+            lblDate_Res50.TabIndex = 234;
+            lblDate_Res50.Text = "0hrs ago";
+            // 
+            // lblDate_Res44
+            // 
+            lblDate_Res44.AutoSize = true;
+            lblDate_Res44.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res44.ForeColor = Color.Lime;
+            lblDate_Res44.Location = new Point(371, 410);
+            lblDate_Res44.Name = "lblDate_Res44";
+            lblDate_Res44.Size = new Size(52, 13);
+            lblDate_Res44.TabIndex = 233;
+            lblDate_Res44.Text = "0hrs ago";
+            // 
+            // lblDate_Res43
+            // 
+            lblDate_Res43.AutoSize = true;
+            lblDate_Res43.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res43.ForeColor = Color.Lime;
+            lblDate_Res43.Location = new Point(371, 355);
+            lblDate_Res43.Name = "lblDate_Res43";
+            lblDate_Res43.Size = new Size(52, 13);
+            lblDate_Res43.TabIndex = 232;
+            lblDate_Res43.Text = "0hrs ago";
+            // 
+            // lblDate_Res42
+            // 
+            lblDate_Res42.AutoSize = true;
+            lblDate_Res42.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res42.ForeColor = Color.Lime;
+            lblDate_Res42.Location = new Point(371, 302);
+            lblDate_Res42.Name = "lblDate_Res42";
+            lblDate_Res42.Size = new Size(52, 13);
+            lblDate_Res42.TabIndex = 231;
+            lblDate_Res42.Text = "0hrs ago";
+            // 
+            // lblDate_Res63
+            // 
+            lblDate_Res63.AutoSize = true;
+            lblDate_Res63.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res63.ForeColor = Color.Lime;
+            lblDate_Res63.Location = new Point(371, 905);
+            lblDate_Res63.Name = "lblDate_Res63";
+            lblDate_Res63.Size = new Size(52, 13);
+            lblDate_Res63.TabIndex = 242;
+            lblDate_Res63.Text = "0hrs ago";
+            // 
+            // lblDate_Res62
+            // 
+            lblDate_Res62.AutoSize = true;
+            lblDate_Res62.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res62.ForeColor = Color.Lime;
+            lblDate_Res62.Location = new Point(371, 850);
+            lblDate_Res62.Name = "lblDate_Res62";
+            lblDate_Res62.Size = new Size(52, 13);
+            lblDate_Res62.TabIndex = 241;
+            lblDate_Res62.Text = "0hrs ago";
+            // 
+            // lblDate_Res61
+            // 
+            lblDate_Res61.AutoSize = true;
+            lblDate_Res61.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res61.ForeColor = Color.Lime;
+            lblDate_Res61.Location = new Point(371, 795);
+            lblDate_Res61.Name = "lblDate_Res61";
+            lblDate_Res61.Size = new Size(52, 13);
+            lblDate_Res61.TabIndex = 240;
+            lblDate_Res61.Text = "0hrs ago";
+            // 
+            // lblDate_Res60
+            // 
+            lblDate_Res60.AutoSize = true;
+            lblDate_Res60.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res60.ForeColor = Color.Lime;
+            lblDate_Res60.Location = new Point(371, 740);
+            lblDate_Res60.Name = "lblDate_Res60";
+            lblDate_Res60.Size = new Size(52, 13);
+            lblDate_Res60.TabIndex = 239;
+            lblDate_Res60.Text = "0hrs ago";
+            // 
+            // lblDate_Res54
+            // 
+            lblDate_Res54.AutoSize = true;
+            lblDate_Res54.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res54.ForeColor = Color.Lime;
+            lblDate_Res54.Location = new Point(371, 685);
+            lblDate_Res54.Name = "lblDate_Res54";
+            lblDate_Res54.Size = new Size(52, 13);
+            lblDate_Res54.TabIndex = 238;
+            lblDate_Res54.Text = "0hrs ago";
+            // 
+            // lblDate_Res53
+            // 
+            lblDate_Res53.AutoSize = true;
+            lblDate_Res53.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res53.ForeColor = Color.Lime;
+            lblDate_Res53.Location = new Point(371, 631);
+            lblDate_Res53.Name = "lblDate_Res53";
+            lblDate_Res53.Size = new Size(52, 13);
+            lblDate_Res53.TabIndex = 237;
+            lblDate_Res53.Text = "0hrs ago";
+            // 
+            // lblDate_Res52
+            // 
+            lblDate_Res52.AutoSize = true;
+            lblDate_Res52.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res52.ForeColor = Color.Lime;
+            lblDate_Res52.Location = new Point(371, 575);
+            lblDate_Res52.Name = "lblDate_Res52";
+            lblDate_Res52.Size = new Size(52, 13);
+            lblDate_Res52.TabIndex = 236;
+            lblDate_Res52.Text = "0hrs ago";
+            // 
+            // lblDate_Res51
+            // 
+            lblDate_Res51.AutoSize = true;
+            lblDate_Res51.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res51.ForeColor = Color.Lime;
+            lblDate_Res51.Location = new Point(371, 520);
+            lblDate_Res51.Name = "lblDate_Res51";
+            lblDate_Res51.Size = new Size(52, 13);
+            lblDate_Res51.TabIndex = 235;
+            lblDate_Res51.Text = "0hrs ago";
+            // 
+            // lblDate_Res64
+            // 
+            lblDate_Res64.AutoSize = true;
+            lblDate_Res64.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res64.ForeColor = Color.Lime;
+            lblDate_Res64.Location = new Point(371, 960);
+            lblDate_Res64.Name = "lblDate_Res64";
+            lblDate_Res64.Size = new Size(52, 13);
+            lblDate_Res64.TabIndex = 243;
+            lblDate_Res64.Text = "0hrs ago";
+            // 
+            // lblDate_Res70
+            // 
+            lblDate_Res70.AutoSize = true;
+            lblDate_Res70.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Res70.ForeColor = Color.Lime;
+            lblDate_Res70.Location = new Point(480, 994);
+            lblDate_Res70.Name = "lblDate_Res70";
+            lblDate_Res70.Size = new Size(48, 13);
+            lblDate_Res70.TabIndex = 244;
+            lblDate_Res70.Text = "0hrs ago";
+            // 
+            // lblDate_Res71
+            // 
+            lblDate_Res71.AutoSize = true;
+            lblDate_Res71.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res71.ForeColor = Color.Lime;
+            lblDate_Res71.Location = new Point(371, 1072);
+            lblDate_Res71.Name = "lblDate_Res71";
+            lblDate_Res71.Size = new Size(52, 13);
+            lblDate_Res71.TabIndex = 245;
+            lblDate_Res71.Text = "0hrs ago";
+            // 
+            // lblDate_Res72
+            // 
+            lblDate_Res72.AutoSize = true;
+            lblDate_Res72.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res72.ForeColor = Color.Lime;
+            lblDate_Res72.Location = new Point(371, 1127);
+            lblDate_Res72.Name = "lblDate_Res72";
+            lblDate_Res72.Size = new Size(52, 13);
+            lblDate_Res72.TabIndex = 246;
+            lblDate_Res72.Text = "0hrs ago";
+            // 
+            // lblDate_Res73
+            // 
+            lblDate_Res73.AutoSize = true;
+            lblDate_Res73.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res73.ForeColor = Color.Lime;
+            lblDate_Res73.Location = new Point(371, 1180);
+            lblDate_Res73.Name = "lblDate_Res73";
+            lblDate_Res73.Size = new Size(52, 13);
+            lblDate_Res73.TabIndex = 247;
+            lblDate_Res73.Text = "0hrs ago";
+            // 
+            // lblDate_Res74
+            // 
+            lblDate_Res74.AutoSize = true;
+            lblDate_Res74.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res74.ForeColor = Color.Lime;
+            lblDate_Res74.Location = new Point(371, 1237);
+            lblDate_Res74.Name = "lblDate_Res74";
+            lblDate_Res74.Size = new Size(52, 13);
+            lblDate_Res74.TabIndex = 248;
+            lblDate_Res74.Text = "0hrs ago";
+            // 
+            // lblDate_Res80
+            // 
+            lblDate_Res80.AutoSize = true;
+            lblDate_Res80.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res80.ForeColor = Color.Lime;
+            lblDate_Res80.Location = new Point(371, 1292);
+            lblDate_Res80.Name = "lblDate_Res80";
+            lblDate_Res80.Size = new Size(52, 13);
+            lblDate_Res80.TabIndex = 249;
+            lblDate_Res80.Text = "0hrs ago";
+            // 
+            // lblDate_Res81
+            // 
+            lblDate_Res81.AutoSize = true;
+            lblDate_Res81.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res81.ForeColor = Color.Lime;
+            lblDate_Res81.Location = new Point(371, 1347);
+            lblDate_Res81.Name = "lblDate_Res81";
+            lblDate_Res81.Size = new Size(52, 13);
+            lblDate_Res81.TabIndex = 250;
+            lblDate_Res81.Text = "0hrs ago";
+            // 
+            // lblDate_Res82
+            // 
+            lblDate_Res82.AutoSize = true;
+            lblDate_Res82.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res82.ForeColor = Color.Lime;
+            lblDate_Res82.Location = new Point(371, 1402);
+            lblDate_Res82.Name = "lblDate_Res82";
+            lblDate_Res82.Size = new Size(52, 13);
+            lblDate_Res82.TabIndex = 251;
+            lblDate_Res82.Text = "0hrs ago";
+            // 
+            // lblDate_Res83
+            // 
+            lblDate_Res83.AutoSize = true;
+            lblDate_Res83.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res83.ForeColor = Color.Lime;
+            lblDate_Res83.Location = new Point(371, 1458);
+            lblDate_Res83.Name = "lblDate_Res83";
+            lblDate_Res83.Size = new Size(52, 13);
+            lblDate_Res83.TabIndex = 252;
+            lblDate_Res83.Text = "0hrs ago";
+            // 
+            // lblDate_Res84
+            // 
+            lblDate_Res84.AutoSize = true;
+            lblDate_Res84.Font = new Font("Segoe UI", 6.5F);
+            lblDate_Res84.ForeColor = Color.Lime;
+            lblDate_Res84.Location = new Point(371, 1510);
+            lblDate_Res84.Name = "lblDate_Res84";
+            lblDate_Res84.Size = new Size(52, 13);
+            lblDate_Res84.TabIndex = 253;
+            lblDate_Res84.Text = "0hrs ago";
+            // 
+            // lblDate_Prod84
+            // 
+            lblDate_Prod84.AutoSize = true;
+            lblDate_Prod84.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod84.ForeColor = Color.Lime;
+            lblDate_Prod84.Location = new Point(753, 1512);
+            lblDate_Prod84.Name = "lblDate_Prod84";
+            lblDate_Prod84.Size = new Size(48, 13);
+            lblDate_Prod84.TabIndex = 280;
+            lblDate_Prod84.Text = "0hrs ago";
+            // 
+            // lblDate_Prod83
+            // 
+            lblDate_Prod83.AutoSize = true;
+            lblDate_Prod83.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod83.ForeColor = Color.Lime;
+            lblDate_Prod83.Location = new Point(753, 1459);
+            lblDate_Prod83.Name = "lblDate_Prod83";
+            lblDate_Prod83.Size = new Size(48, 13);
+            lblDate_Prod83.TabIndex = 279;
+            lblDate_Prod83.Text = "0hrs ago";
+            // 
+            // lblDate_Prod82
+            // 
+            lblDate_Prod82.AutoSize = true;
+            lblDate_Prod82.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod82.ForeColor = Color.Lime;
+            lblDate_Prod82.Location = new Point(753, 1401);
+            lblDate_Prod82.Name = "lblDate_Prod82";
+            lblDate_Prod82.Size = new Size(48, 13);
+            lblDate_Prod82.TabIndex = 278;
+            lblDate_Prod82.Text = "0hrs ago";
+            // 
+            // lblDate_Prod81
+            // 
+            lblDate_Prod81.AutoSize = true;
+            lblDate_Prod81.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod81.ForeColor = Color.Lime;
+            lblDate_Prod81.Location = new Point(753, 1347);
+            lblDate_Prod81.Name = "lblDate_Prod81";
+            lblDate_Prod81.Size = new Size(48, 13);
+            lblDate_Prod81.TabIndex = 277;
+            lblDate_Prod81.Text = "0hrs ago";
+            // 
+            // lblDate_Prod80
+            // 
+            lblDate_Prod80.AutoSize = true;
+            lblDate_Prod80.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod80.ForeColor = Color.Lime;
+            lblDate_Prod80.Location = new Point(753, 1292);
+            lblDate_Prod80.Name = "lblDate_Prod80";
+            lblDate_Prod80.Size = new Size(48, 13);
+            lblDate_Prod80.TabIndex = 276;
+            lblDate_Prod80.Text = "0hrs ago";
+            // 
+            // lblDate_Prod74
+            // 
+            lblDate_Prod74.AutoSize = true;
+            lblDate_Prod74.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod74.ForeColor = Color.Lime;
+            lblDate_Prod74.Location = new Point(753, 1237);
+            lblDate_Prod74.Name = "lblDate_Prod74";
+            lblDate_Prod74.Size = new Size(48, 13);
+            lblDate_Prod74.TabIndex = 275;
+            lblDate_Prod74.Text = "0hrs ago";
+            // 
+            // lblDate_Prod73
+            // 
+            lblDate_Prod73.AutoSize = true;
+            lblDate_Prod73.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod73.ForeColor = Color.Lime;
+            lblDate_Prod73.Location = new Point(753, 1180);
+            lblDate_Prod73.Name = "lblDate_Prod73";
+            lblDate_Prod73.Size = new Size(48, 13);
+            lblDate_Prod73.TabIndex = 274;
+            lblDate_Prod73.Text = "0hrs ago";
+            // 
+            // lblDate_Prod72
+            // 
+            lblDate_Prod72.AutoSize = true;
+            lblDate_Prod72.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod72.ForeColor = Color.Lime;
+            lblDate_Prod72.Location = new Point(753, 1127);
+            lblDate_Prod72.Name = "lblDate_Prod72";
+            lblDate_Prod72.Size = new Size(48, 13);
+            lblDate_Prod72.TabIndex = 273;
+            lblDate_Prod72.Text = "0hrs ago";
+            // 
+            // lblDate_Prod71
+            // 
+            lblDate_Prod71.AutoSize = true;
+            lblDate_Prod71.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod71.ForeColor = Color.Lime;
+            lblDate_Prod71.Location = new Point(753, 1072);
+            lblDate_Prod71.Name = "lblDate_Prod71";
+            lblDate_Prod71.Size = new Size(48, 13);
+            lblDate_Prod71.TabIndex = 272;
+            lblDate_Prod71.Text = "0hrs ago";
+            // 
+            // lblDate_Prod70
+            // 
+            lblDate_Prod70.AutoSize = true;
+            lblDate_Prod70.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod70.ForeColor = Color.Lime;
+            lblDate_Prod70.Location = new Point(753, 1017);
+            lblDate_Prod70.Name = "lblDate_Prod70";
+            lblDate_Prod70.Size = new Size(48, 13);
+            lblDate_Prod70.TabIndex = 271;
+            lblDate_Prod70.Text = "0hrs ago";
+            // 
+            // lblDate_Prod64
+            // 
+            lblDate_Prod64.AutoSize = true;
+            lblDate_Prod64.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod64.ForeColor = Color.Lime;
+            lblDate_Prod64.Location = new Point(753, 962);
+            lblDate_Prod64.Name = "lblDate_Prod64";
+            lblDate_Prod64.Size = new Size(48, 13);
+            lblDate_Prod64.TabIndex = 270;
+            lblDate_Prod64.Text = "0hrs ago";
+            // 
+            // lblDate_Prod63
+            // 
+            lblDate_Prod63.AutoSize = true;
+            lblDate_Prod63.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod63.ForeColor = Color.Lime;
+            lblDate_Prod63.Location = new Point(753, 907);
+            lblDate_Prod63.Name = "lblDate_Prod63";
+            lblDate_Prod63.Size = new Size(48, 13);
+            lblDate_Prod63.TabIndex = 269;
+            lblDate_Prod63.Text = "0hrs ago";
+            // 
+            // lblDate_Prod62
+            // 
+            lblDate_Prod62.AutoSize = true;
+            lblDate_Prod62.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod62.ForeColor = Color.Lime;
+            lblDate_Prod62.Location = new Point(753, 852);
+            lblDate_Prod62.Name = "lblDate_Prod62";
+            lblDate_Prod62.Size = new Size(48, 13);
+            lblDate_Prod62.TabIndex = 268;
+            lblDate_Prod62.Text = "0hrs ago";
+            // 
+            // lblDate_Prod61
+            // 
+            lblDate_Prod61.AutoSize = true;
+            lblDate_Prod61.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod61.ForeColor = Color.Lime;
+            lblDate_Prod61.Location = new Point(753, 797);
+            lblDate_Prod61.Name = "lblDate_Prod61";
+            lblDate_Prod61.Size = new Size(48, 13);
+            lblDate_Prod61.TabIndex = 267;
+            lblDate_Prod61.Text = "0hrs ago";
+            // 
+            // lblDate_Prod60
+            // 
+            lblDate_Prod60.AutoSize = true;
+            lblDate_Prod60.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod60.ForeColor = Color.Lime;
+            lblDate_Prod60.Location = new Point(753, 742);
+            lblDate_Prod60.Name = "lblDate_Prod60";
+            lblDate_Prod60.Size = new Size(48, 13);
+            lblDate_Prod60.TabIndex = 266;
+            lblDate_Prod60.Text = "0hrs ago";
+            // 
+            // lblDate_Prod54
+            // 
+            lblDate_Prod54.AutoSize = true;
+            lblDate_Prod54.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod54.ForeColor = Color.Lime;
+            lblDate_Prod54.Location = new Point(753, 687);
+            lblDate_Prod54.Name = "lblDate_Prod54";
+            lblDate_Prod54.Size = new Size(48, 13);
+            lblDate_Prod54.TabIndex = 265;
+            lblDate_Prod54.Text = "0hrs ago";
+            // 
+            // lblDate_Prod53
+            // 
+            lblDate_Prod53.AutoSize = true;
+            lblDate_Prod53.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod53.ForeColor = Color.Lime;
+            lblDate_Prod53.Location = new Point(753, 633);
+            lblDate_Prod53.Name = "lblDate_Prod53";
+            lblDate_Prod53.Size = new Size(48, 13);
+            lblDate_Prod53.TabIndex = 264;
+            lblDate_Prod53.Text = "0hrs ago";
+            // 
+            // lblDate_Prod52
+            // 
+            lblDate_Prod52.AutoSize = true;
+            lblDate_Prod52.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod52.ForeColor = Color.Lime;
+            lblDate_Prod52.Location = new Point(753, 577);
+            lblDate_Prod52.Name = "lblDate_Prod52";
+            lblDate_Prod52.Size = new Size(48, 13);
+            lblDate_Prod52.TabIndex = 263;
+            lblDate_Prod52.Text = "0hrs ago";
+            // 
+            // lblDate_Prod51
+            // 
+            lblDate_Prod51.AutoSize = true;
+            lblDate_Prod51.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod51.ForeColor = Color.Lime;
+            lblDate_Prod51.Location = new Point(753, 522);
+            lblDate_Prod51.Name = "lblDate_Prod51";
+            lblDate_Prod51.Size = new Size(48, 13);
+            lblDate_Prod51.TabIndex = 262;
+            lblDate_Prod51.Text = "0hrs ago";
+            // 
+            // lblDate_Prod50
+            // 
+            lblDate_Prod50.AutoSize = true;
+            lblDate_Prod50.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod50.ForeColor = Color.Lime;
+            lblDate_Prod50.Location = new Point(753, 467);
+            lblDate_Prod50.Name = "lblDate_Prod50";
+            lblDate_Prod50.Size = new Size(48, 13);
+            lblDate_Prod50.TabIndex = 261;
+            lblDate_Prod50.Text = "0hrs ago";
+            // 
+            // lblDate_Prod44
+            // 
+            lblDate_Prod44.AutoSize = true;
+            lblDate_Prod44.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod44.ForeColor = Color.Lime;
+            lblDate_Prod44.Location = new Point(753, 412);
+            lblDate_Prod44.Name = "lblDate_Prod44";
+            lblDate_Prod44.Size = new Size(48, 13);
+            lblDate_Prod44.TabIndex = 260;
+            lblDate_Prod44.Text = "0hrs ago";
+            // 
+            // lblDate_Prod43
+            // 
+            lblDate_Prod43.AutoSize = true;
+            lblDate_Prod43.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod43.ForeColor = Color.Lime;
+            lblDate_Prod43.Location = new Point(753, 357);
+            lblDate_Prod43.Name = "lblDate_Prod43";
+            lblDate_Prod43.Size = new Size(48, 13);
+            lblDate_Prod43.TabIndex = 259;
+            lblDate_Prod43.Text = "0hrs ago";
+            // 
+            // lblDate_Prod42
+            // 
+            lblDate_Prod42.AutoSize = true;
+            lblDate_Prod42.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod42.ForeColor = Color.Lime;
+            lblDate_Prod42.Location = new Point(753, 302);
+            lblDate_Prod42.Name = "lblDate_Prod42";
+            lblDate_Prod42.Size = new Size(48, 13);
+            lblDate_Prod42.TabIndex = 258;
+            lblDate_Prod42.Text = "0hrs ago";
+            // 
+            // lblDate_Prod41
+            // 
+            lblDate_Prod41.AutoSize = true;
+            lblDate_Prod41.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod41.ForeColor = Color.Lime;
+            lblDate_Prod41.Location = new Point(753, 247);
+            lblDate_Prod41.Name = "lblDate_Prod41";
+            lblDate_Prod41.Size = new Size(48, 13);
+            lblDate_Prod41.TabIndex = 257;
+            lblDate_Prod41.Text = "0hrs ago";
+            // 
+            // lblDate_Prod40
+            // 
+            lblDate_Prod40.AutoSize = true;
+            lblDate_Prod40.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod40.ForeColor = Color.Lime;
+            lblDate_Prod40.Location = new Point(753, 192);
+            lblDate_Prod40.Name = "lblDate_Prod40";
+            lblDate_Prod40.Size = new Size(48, 13);
+            lblDate_Prod40.TabIndex = 256;
+            lblDate_Prod40.Text = "0hrs ago";
+            // 
+            // lblDate_Prod30
+            // 
+            lblDate_Prod30.AutoSize = true;
+            lblDate_Prod30.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod30.ForeColor = Color.Lime;
+            lblDate_Prod30.Location = new Point(753, 137);
+            lblDate_Prod30.Name = "lblDate_Prod30";
+            lblDate_Prod30.Size = new Size(48, 13);
+            lblDate_Prod30.TabIndex = 255;
+            lblDate_Prod30.Text = "0hrs ago";
+            // 
+            // lblDate_Prod20
+            // 
+            lblDate_Prod20.AutoSize = true;
+            lblDate_Prod20.Font = new Font("Microsoft Sans Serif", 6.5F);
+            lblDate_Prod20.ForeColor = Color.Lime;
+            lblDate_Prod20.Location = new Point(753, 77);
+            lblDate_Prod20.Name = "lblDate_Prod20";
+            lblDate_Prod20.Size = new Size(48, 13);
+            lblDate_Prod20.TabIndex = 254;
+            lblDate_Prod20.Text = "0hrs ago";
             // 
             // UserControl1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
-            Controls.Add(label63);
-            Controls.Add(label64);
-            Controls.Add(label65);
-            Controls.Add(label66);
-            Controls.Add(label67);
-            Controls.Add(label68);
-            Controls.Add(label69);
-            Controls.Add(label70);
-            Controls.Add(label71);
-            Controls.Add(label72);
-            Controls.Add(label73);
-            Controls.Add(label74);
-            Controls.Add(label75);
-            Controls.Add(label76);
-            Controls.Add(label77);
-            Controls.Add(label78);
-            Controls.Add(label79);
-            Controls.Add(label80);
-            Controls.Add(label81);
-            Controls.Add(label82);
-            Controls.Add(label83);
-            Controls.Add(label84);
-            Controls.Add(label85);
-            Controls.Add(label86);
-            Controls.Add(label87);
-            Controls.Add(label88);
-            Controls.Add(label89);
-            Controls.Add(label62);
-            Controls.Add(label61);
-            Controls.Add(label60);
-            Controls.Add(label59);
-            Controls.Add(label58);
-            Controls.Add(label57);
-            Controls.Add(label56);
-            Controls.Add(label55);
-            Controls.Add(label54);
-            Controls.Add(label53);
-            Controls.Add(label52);
-            Controls.Add(label44);
-            Controls.Add(label45);
-            Controls.Add(label46);
-            Controls.Add(label47);
-            Controls.Add(lbl54_Date);
-            Controls.Add(lbl53_Date);
-            Controls.Add(lbl52_Date);
-            Controls.Add(lbl51_Date);
-            Controls.Add(lbl50_Date);
-            Controls.Add(lbl44_Date);
-            Controls.Add(lbl43_Date);
-            Controls.Add(lbl42_Date);
-            Controls.Add(lbl41_Date);
-            Controls.Add(lbl40_Date);
-            Controls.Add(lbl30_Date);
-            Controls.Add(lbl20_Date);
+            Controls.Add(lblDate_Prod84);
+            Controls.Add(lblDate_Prod83);
+            Controls.Add(lblDate_Prod82);
+            Controls.Add(lblDate_Prod81);
+            Controls.Add(lblDate_Prod80);
+            Controls.Add(lblDate_Prod74);
+            Controls.Add(lblDate_Prod73);
+            Controls.Add(lblDate_Prod72);
+            Controls.Add(lblDate_Prod71);
+            Controls.Add(lblDate_Prod70);
+            Controls.Add(lblDate_Prod64);
+            Controls.Add(lblDate_Prod63);
+            Controls.Add(lblDate_Prod62);
+            Controls.Add(lblDate_Prod61);
+            Controls.Add(lblDate_Prod60);
+            Controls.Add(lblDate_Prod54);
+            Controls.Add(lblDate_Prod53);
+            Controls.Add(lblDate_Prod52);
+            Controls.Add(lblDate_Prod51);
+            Controls.Add(lblDate_Prod50);
+            Controls.Add(lblDate_Prod44);
+            Controls.Add(lblDate_Prod43);
+            Controls.Add(lblDate_Prod42);
+            Controls.Add(lblDate_Prod41);
+            Controls.Add(lblDate_Prod40);
+            Controls.Add(lblDate_Prod30);
+            Controls.Add(lblDate_Prod20);
+            Controls.Add(lblDate_Res84);
+            Controls.Add(lblDate_Res83);
+            Controls.Add(lblDate_Res82);
+            Controls.Add(lblDate_Res81);
+            Controls.Add(lblDate_Res80);
+            Controls.Add(lblDate_Res74);
+            Controls.Add(lblDate_Res73);
+            Controls.Add(lblDate_Res72);
+            Controls.Add(lblDate_Res71);
+            Controls.Add(lblDate_Res70);
+            Controls.Add(lblDate_Res64);
+            Controls.Add(lblDate_Res63);
+            Controls.Add(lblDate_Res62);
+            Controls.Add(lblDate_Res61);
+            Controls.Add(lblDate_Res60);
+            Controls.Add(lblDate_Res54);
+            Controls.Add(lblDate_Res53);
+            Controls.Add(lblDate_Res52);
+            Controls.Add(lblDate_Res51);
+            Controls.Add(lblDate_Res50);
+            Controls.Add(lblDate_Res44);
+            Controls.Add(lblDate_Res43);
+            Controls.Add(lblDate_Res42);
+            Controls.Add(lblDate_Res41);
+            Controls.Add(lblDate_Res40);
+            Controls.Add(lblDate_Res30);
+            Controls.Add(lblDate_Res20);
             Controls.Add(lblFocusP84);
             Controls.Add(lblFocusC84);
             Controls.Add(lblFocusFPFC84);
@@ -4380,7 +4489,7 @@
             Controls.Add(label1);
             ForeColor = SystemColors.ButtonFace;
             Name = "UserControl1";
-            Size = new Size(2469, 1584);
+            Size = new Size(2469, 1593);
             Load += UserControl1_Load;
             ((System.ComponentModel.ISupportInitialize)numResource20).EndInit();
             ((System.ComponentModel.ISupportInitialize)numProduct20).EndInit();
@@ -4668,59 +4777,60 @@
         private Label lblProfitS84;
         private NumericUpDown numProduct84;
         private NumericUpDown numResource84;
-        private Label lbl20_Date;
-        private Label lbl30_Date;
-        private Label lbl41_Date;
-        private Label lbl40_Date;
-        private Label lbl50_Date;
-        private Label lbl44_Date;
-        private Label lbl43_Date;
-        private Label lbl42_Date;
-        private Label label44;
-        private Label label45;
-        private Label label46;
-        private Label label47;
-        private Label lbl54_Date;
-        private Label lbl53_Date;
-        private Label lbl52_Date;
-        private Label lbl51_Date;
-        private Label label52;
-        private Label label53;
-        private Label label54;
-        private Label label55;
-        private Label label56;
-        private Label label57;
-        private Label label58;
-        private Label label59;
-        private Label label60;
-        private Label label61;
-        private Label label62;
-        private Label label63;
-        private Label label64;
-        private Label label65;
-        private Label label66;
-        private Label label67;
-        private Label label68;
-        private Label label69;
-        private Label label70;
-        private Label label71;
-        private Label label72;
-        private Label label73;
-        private Label label74;
-        private Label label75;
-        private Label label76;
-        private Label label77;
-        private Label label78;
-        private Label label79;
-        private Label label80;
-        private Label label81;
-        private Label label82;
-        private Label label83;
-        private Label label84;
-        private Label label85;
-        private Label label86;
-        private Label label87;
-        private Label label88;
-        private Label label89;
+        private Label lblDate_Res20;
+        private Label lblDate_Res30;
+        private Label lblDate_Res41;
+        private Label lblDate_Res40;
+        private Label lblDate_Res50;
+        private Label lblDate_Res44;
+        private Label lblDate_Res43;
+        private Label lblDate_Res42;
+        private Label lblDate_Res63;
+        private Label lblDate_Res62;
+        private Label lblDate_Res61;
+        private Label lblDate_Res60;
+        private Label lblDate_Res54;
+        private Label lblDate_Res53;
+        private Label lblDate_Res52;
+        private Label lblDate_Res51;
+        private Label lblDate_Res64;
+        private Label lblDate_Res70;
+        private Label lblDate_Res71;
+        private Label lblDate_Res72;
+        private Label lblDate_Res73;
+        private Label lblDate_Res74;
+        private Label lblDate_Res80;
+        private Label lblDate_Res81;
+        private Label lblDate_Res82;
+        private Label lblDate_Res83;
+        private Label lblDate_Res84;
+        private Label lblDate_Prod84;
+        private Label lblDate_Prod83;
+        private Label lblDate_Prod82;
+        private Label lblDate_Prod81;
+        private Label lblDate_Prod80;
+        private Label lblDate_Prod74;
+        private Label lblDate_Prod73;
+        private Label lblDate_Prod72;
+        private Label lblDate_Prod71;
+        private Label lblDate_Prod70;
+        private Label lblDate_Prod64;
+        private Label lblDate_Prod63;
+        private Label lblDate_Prod62;
+        private Label lblDate_Prod61;
+        private Label lblDate_Prod60;
+        private Label lblDate_Prod54;
+        private Label lblDate_Prod53;
+        private Label lblDate_Prod52;
+        private Label lblDate_Prod51;
+        private Label lblDate_Prod50;
+        private Label lblDate_Prod44;
+        private Label lblDate_Prod43;
+        private Label lblDate_Prod42;
+        private Label lblDate_Prod41;
+        private Label lblDate_Prod40;
+        private Label lblDate_Prod30;
+        private Label lblDate_Prod20;
+        private ToolTip toolTip1;
     }   
 }

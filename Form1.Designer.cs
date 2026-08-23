@@ -321,6 +321,7 @@ namespace Albion_Calcu_C3
             // 
             // cmbOrder
             // 
+            cmbOrder.Cursor = Cursors.Hand;
             cmbOrder.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbOrder.FormattingEnabled = true;
             cmbOrder.Items.AddRange(new object[] { resources.GetString("cmbOrder.Items"), resources.GetString("cmbOrder.Items1") });
@@ -330,6 +331,7 @@ namespace Albion_Calcu_C3
             // btnPull
             // 
             btnPull.BackColor = Color.Peru;
+            btnPull.Cursor = Cursors.Hand;
             btnPull.ForeColor = SystemColors.ActiveCaptionText;
             resources.ApplyResources(btnPull, "btnPull");
             btnPull.Name = "btnPull";
@@ -338,6 +340,7 @@ namespace Albion_Calcu_C3
             // 
             // cmbPull_Location
             // 
+            cmbPull_Location.Cursor = Cursors.Hand;
             cmbPull_Location.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbPull_Location.FormattingEnabled = true;
             cmbPull_Location.Items.AddRange(new object[] { resources.GetString("cmbPull_Location.Items"), resources.GetString("cmbPull_Location.Items1"), resources.GetString("cmbPull_Location.Items2"), resources.GetString("cmbPull_Location.Items3"), resources.GetString("cmbPull_Location.Items4"), resources.GetString("cmbPull_Location.Items5") });
@@ -364,6 +367,7 @@ namespace Albion_Calcu_C3
             // 
             // cmbType
             // 
+            cmbType.Cursor = Cursors.Hand;
             cmbType.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbType.FormattingEnabled = true;
             cmbType.Items.AddRange(new object[] { resources.GetString("cmbType.Items"), resources.GetString("cmbType.Items1") });

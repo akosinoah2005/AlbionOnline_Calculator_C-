@@ -12,7 +12,7 @@ namespace Albion_Calcu_C3
 
 
         //dictionaries
-        private Dictionary<string, (NumericUpDown Resource, NumericUpDown Product, Label Silver_profit, Label Percent_profit, Label Focus_cost, Label Focus_profit, Label Fp_Fc)> Prices_obj = new();
+        private Dictionary<string, (NumericUpDown Resource, NumericUpDown Product, Label Silver_profit, Label Percent_profit, Label Focus_cost, Label Focus_profit, Label Fp_Fc,Label Date_Res,Label Date_Product)> Prices_obj = new();
 
         private record class Item_Properties
         {
@@ -20,13 +20,13 @@ namespace Albion_Calcu_C3
             public string? city { get; set; }
             public int? quality { get; set; }
             public int? sell_price_min { get; set; }
-            public string? sell_price_min_date { get; set; }
+            public DateTime sell_price_min_date { get; set; }
             public int? sell_price_max { get; set; }
-            public string? sell_price_max_date { get; set; }
+            public DateTime sell_price_max_date { get; set; }
             public int? buy_price_min { get; set; }
-            public string? buy_price_min_date { get; set; }
+            public DateTime buy_price_min_date { get; set; }
             public int? buy_price_max { get; set; }
-            public string? buy_price_max_date { get; set; }
+            public DateTime buy_price_max_date { get; set; }
         };
 
         private static HttpClient sharedClient = new()
@@ -276,16 +276,30 @@ namespace Albion_Calcu_C3
                     {
                         what_num = Prices_obj[Tkey].Product;
                     }
+                    ToolTip hi = new ToolTip();
 
                     if (_parentForm.cmbOrder.Text == "Sell-Order")
                     {
                         what_num?.Text = data.sell_price_min.ToString();
+                        
+                        if (what_num != null)
+                        {
+                            hi.Show($"{DateTime.Now.Subtract(data.sell_price_min_date).TotalHours}Hours Ago", what_num);
+                        }
+
                     }
 
                     if (_parentForm.cmbOrder.Text == "Buy-Order")
                     {
                         what_num?.Text = data.buy_price_max.ToString();
+
+                        if (what_num != null)
+                        {
+                            hi.Show($"{DateTime.Now.Subtract(data.buy_price_max_date).TotalHours}Hours Ago", what_num);
+                        }
                     }
+
+                    
 
                 }
 
@@ -297,7 +311,6 @@ namespace Albion_Calcu_C3
 
             try
             {
-
                 string url = $"/api/v2/stats/prices/{id}.json?locations={loc}&qualities=1";
                 fetched_data = await sharedClient.GetFromJsonAsync<List<Item_Properties>>(url);
 
@@ -306,7 +319,7 @@ namespace Albion_Calcu_C3
                 {
 
                     MessageBox.Show("Data Prices Pulled Successfuly");
-
+                    
                     Populate_nums(fetched_data);
 
                 }
@@ -329,39 +342,39 @@ namespace Albion_Calcu_C3
             _parentForm.get_stripResource().Click += stripResource_Clicked;
             _parentForm.get_stripProduct().Click += stripProduct_Clicked;
             //populate the dictionary
-            Prices_obj["2.0"] = (numResource20, numProduct20, lblProfitS20, lblProfitP20, lblFocusC20, lblFocusP20, lblFocusFPFC20);
+            Prices_obj["2.0"] = (numResource20, numProduct20, lblProfitS20, lblProfitP20, lblFocusC20, lblFocusP20, lblFocusFPFC20, lblDate_Res20, lblDate_Prod20);
 
-            Prices_obj["3.0"] = (numResource30, numProduct30, lblProfitS30, lblProfitP30, lblFocusC30, lblFocusP30, lblFocusFPFC30);
+            Prices_obj["3.0"] = (numResource30, numProduct30, lblProfitS30, lblProfitP30, lblFocusC30, lblFocusP30, lblFocusFPFC30, lblDate_Res30, lblDate_Prod30);
 
-            Prices_obj["4.0"] = (numResource40, numProduct40, lblProfitS40, lblProfitP40, lblFocusC40, lblFocusP40, lblFocusFPFC40);
-            Prices_obj["4.1"] = (numResource41, numProduct41, lblProfitS41, lblProfitP41, lblFocusC41, lblFocusP41, lblFocusFPFC41);
-            Prices_obj["4.2"] = (numResource42, numProduct42, lblProfitS42, lblProfitP42, lblFocusC42, lblFocusP42, lblFocusFPFC42);
-            Prices_obj["4.3"] = (numResource43, numProduct43, lblProfitS43, lblProfitP43, lblFocusC43, lblFocusP43, lblFocusFPFC43);
-            Prices_obj["4.4"] = (numResource44, numProduct44, lblProfitS44, lblProfitP44, lblFocusC44, lblFocusP44, lblFocusFPFC44);
+            Prices_obj["4.0"] = (numResource40, numProduct40, lblProfitS40, lblProfitP40, lblFocusC40, lblFocusP40, lblFocusFPFC40, lblDate_Res40, lblDate_Prod40);
+            Prices_obj["4.1"] = (numResource41, numProduct41, lblProfitS41, lblProfitP41, lblFocusC41, lblFocusP41, lblFocusFPFC41, lblDate_Res41, lblDate_Prod41);
+            Prices_obj["4.2"] = (numResource42, numProduct42, lblProfitS42, lblProfitP42, lblFocusC42, lblFocusP42, lblFocusFPFC42, lblDate_Res42, lblDate_Prod42);
+            Prices_obj["4.3"] = (numResource43, numProduct43, lblProfitS43, lblProfitP43, lblFocusC43, lblFocusP43, lblFocusFPFC43, lblDate_Res43, lblDate_Prod43);
+            Prices_obj["4.4"] = (numResource44, numProduct44, lblProfitS44, lblProfitP44, lblFocusC44, lblFocusP44, lblFocusFPFC44, lblDate_Res44, lblDate_Prod44);
 
-            Prices_obj["5.0"] = (numResource50, numProduct50, lblProfitS50, lblProfitP50, lblFocusC50, lblFocusP50, lblFocusFPFC50);
-            Prices_obj["5.1"] = (numResource51, numProduct51, lblProfitS51, lblProfitP51, lblFocusC51, lblFocusP51, lblFocusFPFC51);
-            Prices_obj["5.2"] = (numResource52, numProduct52, lblProfitS52, lblProfitP52, lblFocusC52, lblFocusP52, lblFocusFPFC52);
-            Prices_obj["5.3"] = (numResource53, numProduct53, lblProfitS53, lblProfitP53, lblFocusC53, lblFocusP53, lblFocusFPFC53);
-            Prices_obj["5.4"] = (numResource54, numProduct54, lblProfitS54, lblProfitP54, lblFocusC54, lblFocusP54, lblFocusFPFC54);
+            Prices_obj["5.0"] = (numResource50, numProduct50, lblProfitS50, lblProfitP50, lblFocusC50, lblFocusP50, lblFocusFPFC50, lblDate_Res50, lblDate_Prod50);
+            Prices_obj["5.1"] = (numResource51, numProduct51, lblProfitS51, lblProfitP51, lblFocusC51, lblFocusP51, lblFocusFPFC51, lblDate_Res51, lblDate_Prod51);
+            Prices_obj["5.2"] = (numResource52, numProduct52, lblProfitS52, lblProfitP52, lblFocusC52, lblFocusP52, lblFocusFPFC52, lblDate_Res52, lblDate_Prod52);
+            Prices_obj["5.3"] = (numResource53, numProduct53, lblProfitS53, lblProfitP53, lblFocusC53, lblFocusP53, lblFocusFPFC53, lblDate_Res53, lblDate_Prod53);
+            Prices_obj["5.4"] = (numResource54, numProduct54, lblProfitS54, lblProfitP54, lblFocusC54, lblFocusP54, lblFocusFPFC54, lblDate_Res54, lblDate_Prod54);
 
-            Prices_obj["6.0"] = (numResource60, numProduct60, lblProfitS60, lblProfitP60, lblFocusC60, lblFocusP60, lblFocusFPFC60);
-            Prices_obj["6.1"] = (numResource61, numProduct61, lblProfitS61, lblProfitP61, lblFocusC61, lblFocusP61, lblFocusFPFC61);
-            Prices_obj["6.2"] = (numResource62, numProduct62, lblProfitS62, lblProfitP62, lblFocusC62, lblFocusP62, lblFocusFPFC62);
-            Prices_obj["6.3"] = (numResource63, numProduct63, lblProfitS63, lblProfitP63, lblFocusC63, lblFocusP63, lblFocusFPFC63);
-            Prices_obj["6.4"] = (numResource64, numProduct64, lblProfitS64, lblProfitP64, lblFocusC64, lblFocusP64, lblFocusFPFC64);
+            Prices_obj["6.0"] = (numResource60, numProduct60, lblProfitS60, lblProfitP60, lblFocusC60, lblFocusP60, lblFocusFPFC60, lblDate_Res60, lblDate_Prod60);
+            Prices_obj["6.1"] = (numResource61, numProduct61, lblProfitS61, lblProfitP61, lblFocusC61, lblFocusP61, lblFocusFPFC61, lblDate_Res61, lblDate_Prod61);
+            Prices_obj["6.2"] = (numResource62, numProduct62, lblProfitS62, lblProfitP62, lblFocusC62, lblFocusP62, lblFocusFPFC62, lblDate_Res62, lblDate_Prod62);
+            Prices_obj["6.3"] = (numResource63, numProduct63, lblProfitS63, lblProfitP63, lblFocusC63, lblFocusP63, lblFocusFPFC63, lblDate_Res63, lblDate_Prod63);
+            Prices_obj["6.4"] = (numResource64, numProduct64, lblProfitS64, lblProfitP64, lblFocusC64, lblFocusP64, lblFocusFPFC64, lblDate_Res64, lblDate_Prod64);
 
-            Prices_obj["7.0"] = (numResource70, numProduct70, lblProfitS70, lblProfitP70, lblFocusC70, lblFocusP70, lblFocusFPFC70);
-            Prices_obj["7.1"] = (numResource71, numProduct71, lblProfitS71, lblProfitP71, lblFocusC71, lblFocusP71, lblFocusFPFC71);
-            Prices_obj["7.2"] = (numResource72, numProduct72, lblProfitS72, lblProfitP72, lblFocusC72, lblFocusP72, lblFocusFPFC72);
-            Prices_obj["7.3"] = (numResource73, numProduct73, lblProfitS73, lblProfitP73, lblFocusC73, lblFocusP73, lblFocusFPFC73);
-            Prices_obj["7.4"] = (numResource74, numProduct74, lblProfitS74, lblProfitP74, lblFocusC74, lblFocusP74, lblFocusFPFC74);
+            Prices_obj["7.0"] = (numResource70, numProduct70, lblProfitS70, lblProfitP70, lblFocusC70, lblFocusP70, lblFocusFPFC70, lblDate_Res70, lblDate_Prod70);
+            Prices_obj["7.1"] = (numResource71, numProduct71, lblProfitS71, lblProfitP71, lblFocusC71, lblFocusP71, lblFocusFPFC71, lblDate_Res71, lblDate_Prod71);
+            Prices_obj["7.2"] = (numResource72, numProduct72, lblProfitS72, lblProfitP72, lblFocusC72, lblFocusP72, lblFocusFPFC72, lblDate_Res72, lblDate_Prod72);
+            Prices_obj["7.3"] = (numResource73, numProduct73, lblProfitS73, lblProfitP73, lblFocusC73, lblFocusP73, lblFocusFPFC73, lblDate_Res73, lblDate_Prod73);
+            Prices_obj["7.4"] = (numResource74, numProduct74, lblProfitS74, lblProfitP74, lblFocusC74, lblFocusP74, lblFocusFPFC74, lblDate_Res74, lblDate_Prod74);
 
-            Prices_obj["8.0"] = (numResource80, numProduct80, lblProfitS80, lblProfitP80, lblFocusC80, lblFocusP80, lblFocusFPFC80);
-            Prices_obj["8.1"] = (numResource81, numProduct81, lblProfitS81, lblProfitP81, lblFocusC81, lblFocusP81, lblFocusFPFC81);
-            Prices_obj["8.2"] = (numResource82, numProduct82, lblProfitS82, lblProfitP82, lblFocusC82, lblFocusP82, lblFocusFPFC82);
-            Prices_obj["8.3"] = (numResource83, numProduct83, lblProfitS83, lblProfitP83, lblFocusC83, lblFocusP83, lblFocusFPFC83);
-            Prices_obj["8.4"] = (numResource84, numProduct84, lblProfitS84, lblProfitP84, lblFocusC84, lblFocusP84, lblFocusFPFC84);
+            Prices_obj["8.0"] = (numResource80, numProduct80, lblProfitS80, lblProfitP80, lblFocusC80, lblFocusP80, lblFocusFPFC80, lblDate_Res80, lblDate_Prod80);
+            Prices_obj["8.1"] = (numResource81, numProduct81, lblProfitS81, lblProfitP81, lblFocusC81, lblFocusP81, lblFocusFPFC81, lblDate_Res81, lblDate_Prod81);
+            Prices_obj["8.2"] = (numResource82, numProduct82, lblProfitS82, lblProfitP82, lblFocusC82, lblFocusP82, lblFocusFPFC82, lblDate_Res82, lblDate_Prod82);
+            Prices_obj["8.3"] = (numResource83, numProduct83, lblProfitS83, lblProfitP83, lblFocusC83, lblFocusP83, lblFocusFPFC83, lblDate_Res83, lblDate_Prod83);
+            Prices_obj["8.4"] = (numResource84, numProduct84, lblProfitS84, lblProfitP84, lblFocusC84, lblFocusP84, lblFocusFPFC84, lblDate_Res84, lblDate_Prod84);
         }
 
         private string Get_Type()
@@ -417,7 +430,11 @@ namespace Albion_Calcu_C3
         private void UserControl1_Load(object sender, EventArgs e)
         {
             Load_defaults();
+            DateTime now = new DateTime(2026,8,22,16,6,0);
+            DateTime now_utc = DateTime.Now;
 
+            MessageBox.Show($"now:{now}\nnow_utc:{now_utc}\ndiff: {now_utc.Subtract(now).TotalHours}");
+           
         }
 
         private void btn_pull_clicked(object? sender, EventArgs e)
@@ -446,6 +463,7 @@ namespace Albion_Calcu_C3
 
             }
 
+            
             Get_API_Data(location_pull, item_ID_pull, check);
 
 
@@ -590,9 +608,9 @@ namespace Albion_Calcu_C3
                 string Tkey_product = Tkey;
 
                 Tkey_product = (Tkey_value + 1).ToString("0.0");
-                
 
-                
+
+
                 Int16 tier = Convert.ToInt16(Convert.ToDecimal(Tkey));
                 Int16 enchant = Convert.ToInt16((Convert.ToDecimal(Tkey) - tier) * 10);
 
@@ -600,7 +618,7 @@ namespace Albion_Calcu_C3
                 {
                     input_3(Tkey_value);
                 }
-                else if(!(Tkey.Contains("8")))
+                else if (!(Tkey.Contains("8")))
                 {
                     tier++;
                     if (tier == 2)
@@ -629,11 +647,6 @@ namespace Albion_Calcu_C3
                 numValueChanged_Resource(Prices_obj[Tkey].Resource, e);
 
             }
-
-        }
-
-        private void label50_Click(object sender, EventArgs e)
-        {
 
         }
     }

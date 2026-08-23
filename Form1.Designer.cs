@@ -61,13 +61,13 @@ namespace Albion_Calcu_C3
             groupBox3 = new GroupBox();
             chkSelectAll = new CheckBox();
             cmbOrder = new ComboBox();
-            label15 = new Label();
             btnPull = new Button();
-            label14 = new Label();
-            cmbType = new ComboBox();
+            cmbPull_Location = new ComboBox();
             checkTier = new CheckedListBox();
             label12 = new Label();
-            cmbPull_Location = new ComboBox();
+            cmbType = new ComboBox();
+            label14 = new Label();
+            label15 = new Label();
             menuStrip1 = new MenuStrip();
             fileToolStripMenuItem = new ToolStripMenuItem();
             settingsToolStripMenuItem = new ToolStripMenuItem();
@@ -196,6 +196,7 @@ namespace Albion_Calcu_C3
             // 
             groupBox1.BackColor = SystemColors.ActiveCaptionText;
             groupBox1.Controls.Add(lblReturnRate);
+            groupBox1.Controls.Add(groupBox2);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(label4);
@@ -298,14 +299,14 @@ namespace Albion_Calcu_C3
             groupBox3.Controls.Add(label2);
             groupBox3.Controls.Add(chkSelectAll);
             groupBox3.Controls.Add(cmbOrder);
-            groupBox3.Controls.Add(cmbChooseResource);
-            groupBox3.Controls.Add(label15);
             groupBox3.Controls.Add(btnPull);
-            groupBox3.Controls.Add(label14);
-            groupBox3.Controls.Add(cmbType);
+            groupBox3.Controls.Add(cmbPull_Location);
             groupBox3.Controls.Add(checkTier);
             groupBox3.Controls.Add(label12);
-            groupBox3.Controls.Add(cmbPull_Location);
+            groupBox3.Controls.Add(cmbType);
+            groupBox3.Controls.Add(cmbChooseResource);
+            groupBox3.Controls.Add(label14);
+            groupBox3.Controls.Add(label15);
             groupBox3.ForeColor = SystemColors.ButtonFace;
             resources.ApplyResources(groupBox3, "groupBox3");
             groupBox3.Name = "groupBox3";
@@ -326,11 +327,6 @@ namespace Albion_Calcu_C3
             resources.ApplyResources(cmbOrder, "cmbOrder");
             cmbOrder.Name = "cmbOrder";
             // 
-            // label15
-            // 
-            resources.ApplyResources(label15, "label15");
-            label15.Name = "label15";
-            // 
             // btnPull
             // 
             btnPull.BackColor = Color.Peru;
@@ -340,18 +336,13 @@ namespace Albion_Calcu_C3
             btnPull.UseVisualStyleBackColor = false;
             btnPull.Click += button1_Click;
             // 
-            // label14
+            // cmbPull_Location
             // 
-            resources.ApplyResources(label14, "label14");
-            label14.Name = "label14";
-            // 
-            // cmbType
-            // 
-            cmbType.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbType.FormattingEnabled = true;
-            cmbType.Items.AddRange(new object[] { resources.GetString("cmbType.Items"), resources.GetString("cmbType.Items1") });
-            resources.ApplyResources(cmbType, "cmbType");
-            cmbType.Name = "cmbType";
+            cmbPull_Location.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbPull_Location.FormattingEnabled = true;
+            cmbPull_Location.Items.AddRange(new object[] { resources.GetString("cmbPull_Location.Items"), resources.GetString("cmbPull_Location.Items1"), resources.GetString("cmbPull_Location.Items2"), resources.GetString("cmbPull_Location.Items3"), resources.GetString("cmbPull_Location.Items4"), resources.GetString("cmbPull_Location.Items5") });
+            resources.ApplyResources(cmbPull_Location, "cmbPull_Location");
+            cmbPull_Location.Name = "cmbPull_Location";
             // 
             // checkTier
             // 
@@ -361,6 +352,7 @@ namespace Albion_Calcu_C3
             checkTier.FormattingEnabled = true;
             checkTier.Items.AddRange(new object[] { resources.GetString("checkTier.Items"), resources.GetString("checkTier.Items1"), resources.GetString("checkTier.Items2"), resources.GetString("checkTier.Items3"), resources.GetString("checkTier.Items4"), resources.GetString("checkTier.Items5"), resources.GetString("checkTier.Items6"), resources.GetString("checkTier.Items7"), resources.GetString("checkTier.Items8"), resources.GetString("checkTier.Items9"), resources.GetString("checkTier.Items10"), resources.GetString("checkTier.Items11"), resources.GetString("checkTier.Items12"), resources.GetString("checkTier.Items13"), resources.GetString("checkTier.Items14"), resources.GetString("checkTier.Items15"), resources.GetString("checkTier.Items16"), resources.GetString("checkTier.Items17"), resources.GetString("checkTier.Items18"), resources.GetString("checkTier.Items19"), resources.GetString("checkTier.Items20"), resources.GetString("checkTier.Items21"), resources.GetString("checkTier.Items22"), resources.GetString("checkTier.Items23"), resources.GetString("checkTier.Items24"), resources.GetString("checkTier.Items25"), resources.GetString("checkTier.Items26") });
             resources.ApplyResources(checkTier, "checkTier");
+            checkTier.MultiColumn = true;
             checkTier.Name = "checkTier";
             checkTier.ItemCheck += ItemCheck;
             checkTier.Validated += checkTier_Validated;
@@ -370,13 +362,23 @@ namespace Albion_Calcu_C3
             resources.ApplyResources(label12, "label12");
             label12.Name = "label12";
             // 
-            // cmbPull_Location
+            // cmbType
             // 
-            cmbPull_Location.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbPull_Location.FormattingEnabled = true;
-            cmbPull_Location.Items.AddRange(new object[] { resources.GetString("cmbPull_Location.Items"), resources.GetString("cmbPull_Location.Items1"), resources.GetString("cmbPull_Location.Items2"), resources.GetString("cmbPull_Location.Items3"), resources.GetString("cmbPull_Location.Items4"), resources.GetString("cmbPull_Location.Items5") });
-            resources.ApplyResources(cmbPull_Location, "cmbPull_Location");
-            cmbPull_Location.Name = "cmbPull_Location";
+            cmbType.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbType.FormattingEnabled = true;
+            cmbType.Items.AddRange(new object[] { resources.GetString("cmbType.Items"), resources.GetString("cmbType.Items1") });
+            resources.ApplyResources(cmbType, "cmbType");
+            cmbType.Name = "cmbType";
+            // 
+            // label14
+            // 
+            resources.ApplyResources(label14, "label14");
+            label14.Name = "label14";
+            // 
+            // label15
+            // 
+            resources.ApplyResources(label15, "label15");
+            label15.Name = "label15";
             // 
             // menuStrip1
             // 
@@ -453,7 +455,6 @@ namespace Albion_Calcu_C3
             AutoValidate = AutoValidate.EnablePreventFocusChange;
             BackColor = SystemColors.ActiveCaptionText;
             Controls.Add(groupBox3);
-            Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Controls.Add(pnlRefine);
             Controls.Add(menuStrip1);

@@ -126,7 +126,7 @@
     <value>Segoe UI, 10pt</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 35</value>
+    <value>184, 174</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 23</value>
@@ -165,7 +165,7 @@
     <value>Planks</value>
   </data>
   <data name="cmbChooseResource.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 64</value>
+    <value>184, 203</value>
   </data>
   <data name="cmbChooseResource.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 28</value>
@@ -183,7 +183,7 @@
     <value>groupBox3</value>
   </data>
   <data name="&gt;&gt;cmbChooseResource.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>8</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -213,7 +213,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -243,7 +243,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="cmbBonus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
@@ -277,7 +277,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;cmbBonus.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -307,7 +307,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -337,7 +337,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="numAmount.Location" type="System.Drawing.Point, System.Drawing">
     <value>358, 82</value>
@@ -358,7 +358,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;numAmount.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="numUsageFee.Location" type="System.Drawing.Point, System.Drawing">
     <value>129, 82</value>
@@ -379,7 +379,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;numUsageFee.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="cmbLocation.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>System</value>
@@ -409,13 +409,13 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;cmbLocation.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 153</value>
+    <value>12, 126</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 20</value>
@@ -436,13 +436,13 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="lblReturnRate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lblReturnRate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 153</value>
+    <value>129, 126</value>
   </data>
   <data name="lblReturnRate.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 20</value>
@@ -493,30 +493,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pnlRefine.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 27</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>606, 192</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Station Config</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="numMasteryT8.Location" type="System.Drawing.Point, System.Drawing">
@@ -760,10 +736,10 @@
     <value>9</value>
   </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>624, 31</value>
+    <value>12, 149</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>460, 114</value>
+    <value>460, 86</value>
   </data>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -778,16 +754,40 @@
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 31</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>606, 247</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Station Config</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="chkSelectAll.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="chkSelectAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>704, 204</value>
+    <value>708, 203</value>
   </data>
   <data name="chkSelectAll.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 24</value>
@@ -817,7 +817,7 @@
     <value>Buy-Order</value>
   </data>
   <data name="cmbOrder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>538, 64</value>
+    <value>530, 203</value>
   </data>
   <data name="cmbOrder.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 28</value>
@@ -837,41 +837,8 @@
   <data name="&gt;&gt;cmbOrder.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10pt</value>
-  </data>
-  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>538, 32</value>
-  </data>
-  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 23</value>
-  </data>
-  <data name="label15.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label15.Text" xml:space="preserve">
-    <value>Order Type:</value>
-  </data>
-  <data name="&gt;&gt;label15.Name" xml:space="preserve">
-    <value>label15</value>
-  </data>
-  <data name="&gt;&gt;label15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="btnPull.Location" type="System.Drawing.Point, System.Drawing">
-    <value>540, 132</value>
+    <value>837, 171</value>
   </data>
   <data name="btnPull.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 56</value>
@@ -892,67 +859,46 @@
     <value>groupBox3</value>
   </data>
   <data name="&gt;&gt;btnPull.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>3</value>
   </data>
-  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="cmbPull_Location.Items" xml:space="preserve">
+    <value>Bridgewatch</value>
   </data>
-  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10pt</value>
+  <data name="cmbPull_Location.Items1" xml:space="preserve">
+    <value>Thetford</value>
   </data>
-  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="cmbPull_Location.Items2" xml:space="preserve">
+    <value>Caerleon</value>
   </data>
-  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>369, 32</value>
+  <data name="cmbPull_Location.Items3" xml:space="preserve">
+    <value>Fort Sterling</value>
   </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 23</value>
+  <data name="cmbPull_Location.Items4" xml:space="preserve">
+    <value>Lymhurst</value>
   </data>
-  <data name="label14.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="cmbPull_Location.Items5" xml:space="preserve">
+    <value>Martlock</value>
   </data>
-  <data name="label14.Text" xml:space="preserve">
-    <value>Type:</value>
+  <data name="cmbPull_Location.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 203</value>
   </data>
-  <data name="&gt;&gt;label14.Name" xml:space="preserve">
-    <value>label14</value>
-  </data>
-  <data name="&gt;&gt;label14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="cmbType.Items" xml:space="preserve">
-    <value>Raw</value>
-  </data>
-  <data name="cmbType.Items1" xml:space="preserve">
-    <value>Refined</value>
-  </data>
-  <data name="cmbType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>369, 64</value>
-  </data>
-  <data name="cmbType.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cmbPull_Location.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 28</value>
   </data>
-  <data name="cmbType.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="cmbPull_Location.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;cmbType.Name" xml:space="preserve">
-    <value>cmbType</value>
+  <data name="&gt;&gt;cmbPull_Location.Name" xml:space="preserve">
+    <value>cmbPull_Location</value>
   </data>
-  <data name="&gt;&gt;cmbType.Type" xml:space="preserve">
+  <data name="&gt;&gt;cmbPull_Location.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;cmbType.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cmbPull_Location.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
-  <data name="&gt;&gt;cmbType.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;cmbPull_Location.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="checkTier.Items" xml:space="preserve">
     <value>2.0</value>
@@ -1036,10 +982,10 @@
     <value>8.4</value>
   </data>
   <data name="checkTier.Location" type="System.Drawing.Point, System.Drawing">
-    <value>704, 26</value>
+    <value>6, 28</value>
   </data>
   <data name="checkTier.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 158</value>
+    <value>954, 114</value>
   </data>
   <data name="checkTier.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1054,7 +1000,7 @@
     <value>groupBox3</value>
   </data>
   <data name="&gt;&gt;checkTier.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>5</value>
   </data>
   <data name="label12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1063,7 +1009,7 @@
     <value>Segoe UI, 12pt</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 28</value>
+    <value>6, 167</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 28</value>
@@ -1084,52 +1030,106 @@
     <value>groupBox3</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>6</value>
   </data>
-  <data name="cmbPull_Location.Items" xml:space="preserve">
-    <value>Bridgewatch</value>
+  <data name="cmbType.Items" xml:space="preserve">
+    <value>Raw</value>
   </data>
-  <data name="cmbPull_Location.Items1" xml:space="preserve">
-    <value>Thetford</value>
+  <data name="cmbType.Items1" xml:space="preserve">
+    <value>Refined</value>
   </data>
-  <data name="cmbPull_Location.Items2" xml:space="preserve">
-    <value>Caerleon</value>
+  <data name="cmbType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 203</value>
   </data>
-  <data name="cmbPull_Location.Items3" xml:space="preserve">
-    <value>Fort Sterling</value>
-  </data>
-  <data name="cmbPull_Location.Items4" xml:space="preserve">
-    <value>Lymhurst</value>
-  </data>
-  <data name="cmbPull_Location.Items5" xml:space="preserve">
-    <value>Martlock</value>
-  </data>
-  <data name="cmbPull_Location.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 64</value>
-  </data>
-  <data name="cmbPull_Location.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cmbType.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 28</value>
   </data>
-  <data name="cmbPull_Location.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="cmbType.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="&gt;&gt;cmbPull_Location.Name" xml:space="preserve">
-    <value>cmbPull_Location</value>
+  <data name="&gt;&gt;cmbType.Name" xml:space="preserve">
+    <value>cmbType</value>
   </data>
-  <data name="&gt;&gt;cmbPull_Location.Type" xml:space="preserve">
+  <data name="&gt;&gt;cmbType.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;cmbPull_Location.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cmbType.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
-  <data name="&gt;&gt;cmbPull_Location.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cmbType.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 171</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 23</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 171</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Order Type:</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
   <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1090, 31</value>
+    <value>624, 31</value>
   </data>
   <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>811, 238</value>
+    <value>1003, 247</value>
   </data>
   <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -1240,7 +1240,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

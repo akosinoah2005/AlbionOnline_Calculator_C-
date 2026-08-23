@@ -252,22 +252,22 @@
             lblProfitS84 = new Label();
             numProduct84 = new NumericUpDown();
             numResource84 = new NumericUpDown();
-            label32 = new Label();
-            label33 = new Label();
-            label35 = new Label();
-            label37 = new Label();
-            label39 = new Label();
-            label41 = new Label();
-            label42 = new Label();
-            label43 = new Label();
+            lbl20_Date = new Label();
+            lbl30_Date = new Label();
+            lbl41_Date = new Label();
+            lbl40_Date = new Label();
+            lbl50_Date = new Label();
+            lbl44_Date = new Label();
+            lbl43_Date = new Label();
+            lbl42_Date = new Label();
             label44 = new Label();
             label45 = new Label();
             label46 = new Label();
             label47 = new Label();
-            label48 = new Label();
-            label49 = new Label();
-            label50 = new Label();
-            label51 = new Label();
+            lbl54_Date = new Label();
+            lbl53_Date = new Label();
+            lbl52_Date = new Label();
+            lbl51_Date = new Label();
             label52 = new Label();
             label53 = new Label();
             label54 = new Label();
@@ -3608,77 +3608,77 @@
             numResource84.Leave += numLeave;
             numResource84.Validated += numValidated;
             // 
-            // label32
+            // lbl20_Date
             // 
-            label32.AutoSize = true;
-            label32.Location = new Point(273, 100);
-            label32.Name = "label32";
-            label32.Size = new Size(58, 20);
-            label32.TabIndex = 227;
-            label32.Text = "label32";
+            lbl20_Date.AutoSize = true;
+            lbl20_Date.Location = new Point(273, 100);
+            lbl20_Date.Name = "lbl20_Date";
+            lbl20_Date.Size = new Size(58, 20);
+            lbl20_Date.TabIndex = 227;
+            lbl20_Date.Text = "label32";
             // 
-            // label33
+            // lbl30_Date
             // 
-            label33.AutoSize = true;
-            label33.Location = new Point(273, 160);
-            label33.Name = "label33";
-            label33.Size = new Size(58, 20);
-            label33.TabIndex = 228;
-            label33.Text = "label33";
+            lbl30_Date.AutoSize = true;
+            lbl30_Date.Location = new Point(273, 160);
+            lbl30_Date.Name = "lbl30_Date";
+            lbl30_Date.Size = new Size(58, 20);
+            lbl30_Date.TabIndex = 228;
+            lbl30_Date.Text = "lbl30_Date";
             // 
-            // label35
+            // lbl41_Date
             // 
-            label35.AutoSize = true;
-            label35.Location = new Point(273, 270);
-            label35.Name = "label35";
-            label35.Size = new Size(58, 20);
-            label35.TabIndex = 230;
-            label35.Text = "label35";
+            lbl41_Date.AutoSize = true;
+            lbl41_Date.Location = new Point(273, 270);
+            lbl41_Date.Name = "lbl41_Date";
+            lbl41_Date.Size = new Size(58, 20);
+            lbl41_Date.TabIndex = 230;
+            lbl41_Date.Text = "lbl41_Date";
             // 
-            // label37
+            // lbl40_Date
             // 
-            label37.AutoSize = true;
-            label37.Location = new Point(273, 215);
-            label37.Name = "label37";
-            label37.Size = new Size(58, 20);
-            label37.TabIndex = 229;
-            label37.Text = "label37";
+            lbl40_Date.AutoSize = true;
+            lbl40_Date.Location = new Point(273, 215);
+            lbl40_Date.Name = "lbl40_Date";
+            lbl40_Date.Size = new Size(58, 20);
+            lbl40_Date.TabIndex = 229;
+            lbl40_Date.Text = "lbl40_Date";
             // 
-            // label39
+            // lbl50_Date
             // 
-            label39.AutoSize = true;
-            label39.Location = new Point(273, 490);
-            label39.Name = "label39";
-            label39.Size = new Size(58, 20);
-            label39.TabIndex = 234;
-            label39.Text = "label39";
+            lbl50_Date.AutoSize = true;
+            lbl50_Date.Location = new Point(273, 490);
+            lbl50_Date.Name = "lbl50_Date";
+            lbl50_Date.Size = new Size(58, 20);
+            lbl50_Date.TabIndex = 234;
+            lbl50_Date.Text = "lbl50_Date";
             // 
-            // label41
+            // lbl44_Date
             // 
-            label41.AutoSize = true;
-            label41.Location = new Point(273, 435);
-            label41.Name = "label41";
-            label41.Size = new Size(58, 20);
-            label41.TabIndex = 233;
-            label41.Text = "label41";
+            lbl44_Date.AutoSize = true;
+            lbl44_Date.Location = new Point(273, 435);
+            lbl44_Date.Name = "lbl44_Date";
+            lbl44_Date.Size = new Size(58, 20);
+            lbl44_Date.TabIndex = 233;
+            lbl44_Date.Text = "lbl44_Date";
             // 
-            // label42
+            // lbl43_Date
             // 
-            label42.AutoSize = true;
-            label42.Location = new Point(273, 380);
-            label42.Name = "label42";
-            label42.Size = new Size(58, 20);
-            label42.TabIndex = 232;
-            label42.Text = "label42";
+            lbl43_Date.AutoSize = true;
+            lbl43_Date.Location = new Point(273, 380);
+            lbl43_Date.Name = "lbl43_Date";
+            lbl43_Date.Size = new Size(58, 20);
+            lbl43_Date.TabIndex = 232;
+            lbl43_Date.Text = "lbl43_Date";
             // 
-            // label43
+            // lbl42_Date
             // 
-            label43.AutoSize = true;
-            label43.Location = new Point(273, 325);
-            label43.Name = "label43";
-            label43.Size = new Size(58, 20);
-            label43.TabIndex = 231;
-            label43.Text = "label43";
+            lbl42_Date.AutoSize = true;
+            lbl42_Date.Location = new Point(273, 325);
+            lbl42_Date.Name = "lbl42_Date";
+            lbl42_Date.Size = new Size(58, 20);
+            lbl42_Date.TabIndex = 231;
+            lbl42_Date.Text = "lbl42_Date";
             // 
             // label44
             // 
@@ -3716,42 +3716,42 @@
             label47.TabIndex = 239;
             label47.Text = "label47";
             // 
-            // label48
+            // lbl54_Date
             // 
-            label48.AutoSize = true;
-            label48.Location = new Point(273, 710);
-            label48.Name = "label48";
-            label48.Size = new Size(58, 20);
-            label48.TabIndex = 238;
-            label48.Text = "label48";
+            lbl54_Date.AutoSize = true;
+            lbl54_Date.Location = new Point(273, 710);
+            lbl54_Date.Name = "lbl54_Date";
+            lbl54_Date.Size = new Size(58, 20);
+            lbl54_Date.TabIndex = 238;
+            lbl54_Date.Text = "lbl54_Date";
             // 
-            // label49
+            // lbl53_Date
             // 
-            label49.AutoSize = true;
-            label49.Location = new Point(273, 656);
-            label49.Name = "label49";
-            label49.Size = new Size(58, 20);
-            label49.TabIndex = 237;
-            label49.Text = "label49";
+            lbl53_Date.AutoSize = true;
+            lbl53_Date.Location = new Point(273, 656);
+            lbl53_Date.Name = "lbl53_Date";
+            lbl53_Date.Size = new Size(58, 20);
+            lbl53_Date.TabIndex = 237;
+            lbl53_Date.Text = "lbl53_Date";
             // 
-            // label50
+            // lbl52_Date
             // 
-            label50.AutoSize = true;
-            label50.Location = new Point(273, 600);
-            label50.Name = "label50";
-            label50.Size = new Size(58, 20);
-            label50.TabIndex = 236;
-            label50.Text = "label50";
-            label50.Click += label50_Click;
+            lbl52_Date.AutoSize = true;
+            lbl52_Date.Location = new Point(273, 600);
+            lbl52_Date.Name = "lbl52_Date";
+            lbl52_Date.Size = new Size(58, 20);
+            lbl52_Date.TabIndex = 236;
+            lbl52_Date.Text = "lbl52_Date";
+            lbl52_Date.Click += label50_Click;
             // 
-            // label51
+            // lbl51_Date
             // 
-            label51.AutoSize = true;
-            label51.Location = new Point(273, 545);
-            label51.Name = "label51";
-            label51.Size = new Size(58, 20);
-            label51.TabIndex = 235;
-            label51.Text = "label51";
+            lbl51_Date.AutoSize = true;
+            lbl51_Date.Location = new Point(273, 545);
+            lbl51_Date.Name = "lbl51_Date";
+            lbl51_Date.Size = new Size(58, 20);
+            lbl51_Date.TabIndex = 235;
+            lbl51_Date.Text = "lbl51_Date";
             // 
             // label52
             // 
@@ -4142,18 +4142,18 @@
             Controls.Add(label45);
             Controls.Add(label46);
             Controls.Add(label47);
-            Controls.Add(label48);
-            Controls.Add(label49);
-            Controls.Add(label50);
-            Controls.Add(label51);
-            Controls.Add(label39);
-            Controls.Add(label41);
-            Controls.Add(label42);
-            Controls.Add(label43);
-            Controls.Add(label35);
-            Controls.Add(label37);
-            Controls.Add(label33);
-            Controls.Add(label32);
+            Controls.Add(lbl54_Date);
+            Controls.Add(lbl53_Date);
+            Controls.Add(lbl52_Date);
+            Controls.Add(lbl51_Date);
+            Controls.Add(lbl50_Date);
+            Controls.Add(lbl44_Date);
+            Controls.Add(lbl43_Date);
+            Controls.Add(lbl42_Date);
+            Controls.Add(lbl41_Date);
+            Controls.Add(lbl40_Date);
+            Controls.Add(lbl30_Date);
+            Controls.Add(lbl20_Date);
             Controls.Add(lblFocusP84);
             Controls.Add(lblFocusC84);
             Controls.Add(lblFocusFPFC84);
@@ -4668,22 +4668,22 @@
         private Label lblProfitS84;
         private NumericUpDown numProduct84;
         private NumericUpDown numResource84;
-        private Label label32;
-        private Label label33;
-        private Label label35;
-        private Label label37;
-        private Label label39;
-        private Label label41;
-        private Label label42;
-        private Label label43;
+        private Label lbl20_Date;
+        private Label lbl30_Date;
+        private Label lbl41_Date;
+        private Label lbl40_Date;
+        private Label lbl50_Date;
+        private Label lbl44_Date;
+        private Label lbl43_Date;
+        private Label lbl42_Date;
         private Label label44;
         private Label label45;
         private Label label46;
         private Label label47;
-        private Label label48;
-        private Label label49;
-        private Label label50;
-        private Label label51;
+        private Label lbl54_Date;
+        private Label lbl53_Date;
+        private Label lbl52_Date;
+        private Label lbl51_Date;
         private Label label52;
         private Label label53;
         private Label label54;

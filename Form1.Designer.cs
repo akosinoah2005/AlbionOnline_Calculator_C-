@@ -62,12 +62,12 @@ namespace Albion_Calcu_C3
             chkSelectAll = new CheckBox();
             cmbOrder = new ComboBox();
             label15 = new Label();
+            btnPull = new Button();
             label14 = new Label();
             cmbType = new ComboBox();
             checkTier = new CheckedListBox();
             label12 = new Label();
             cmbPull_Location = new ComboBox();
-            btnPull = new Button();
             menuStrip1 = new MenuStrip();
             fileToolStripMenuItem = new ToolStripMenuItem();
             settingsToolStripMenuItem = new ToolStripMenuItem();
@@ -195,8 +195,6 @@ namespace Albion_Calcu_C3
             // groupBox1
             // 
             groupBox1.BackColor = SystemColors.ActiveCaptionText;
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(cmbChooseResource);
             groupBox1.Controls.Add(lblReturnRate);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label7);
@@ -297,15 +295,17 @@ namespace Albion_Calcu_C3
             // groupBox3
             // 
             groupBox3.BackColor = SystemColors.ActiveCaptionText;
+            groupBox3.Controls.Add(label2);
             groupBox3.Controls.Add(chkSelectAll);
             groupBox3.Controls.Add(cmbOrder);
+            groupBox3.Controls.Add(cmbChooseResource);
             groupBox3.Controls.Add(label15);
+            groupBox3.Controls.Add(btnPull);
             groupBox3.Controls.Add(label14);
             groupBox3.Controls.Add(cmbType);
             groupBox3.Controls.Add(checkTier);
             groupBox3.Controls.Add(label12);
             groupBox3.Controls.Add(cmbPull_Location);
-            groupBox3.Controls.Add(btnPull);
             groupBox3.ForeColor = SystemColors.ButtonFace;
             resources.ApplyResources(groupBox3, "groupBox3");
             groupBox3.Name = "groupBox3";
@@ -330,6 +330,15 @@ namespace Albion_Calcu_C3
             // 
             resources.ApplyResources(label15, "label15");
             label15.Name = "label15";
+            // 
+            // btnPull
+            // 
+            btnPull.BackColor = Color.Peru;
+            btnPull.ForeColor = SystemColors.ActiveCaptionText;
+            resources.ApplyResources(btnPull, "btnPull");
+            btnPull.Name = "btnPull";
+            btnPull.UseVisualStyleBackColor = false;
+            btnPull.Click += button1_Click;
             // 
             // label14
             // 
@@ -368,15 +377,6 @@ namespace Albion_Calcu_C3
             cmbPull_Location.Items.AddRange(new object[] { resources.GetString("cmbPull_Location.Items"), resources.GetString("cmbPull_Location.Items1"), resources.GetString("cmbPull_Location.Items2"), resources.GetString("cmbPull_Location.Items3"), resources.GetString("cmbPull_Location.Items4"), resources.GetString("cmbPull_Location.Items5") });
             resources.ApplyResources(cmbPull_Location, "cmbPull_Location");
             cmbPull_Location.Name = "cmbPull_Location";
-            // 
-            // btnPull
-            // 
-            btnPull.BackColor = Color.Peru;
-            btnPull.ForeColor = SystemColors.ActiveCaptionText;
-            resources.ApplyResources(btnPull, "btnPull");
-            btnPull.Name = "btnPull";
-            btnPull.UseVisualStyleBackColor = false;
-            btnPull.Click += button1_Click;
             // 
             // menuStrip1
             // 

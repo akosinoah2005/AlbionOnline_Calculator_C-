@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             label1 = new Label();
             label2 = new Label();
             label5 = new Label();
@@ -307,7 +306,6 @@
             lblDate_Prod40 = new Label();
             lblDate_Prod30 = new Label();
             lblDate_Prod20 = new Label();
-            toolTip1 = new ToolTip(components);
             ((System.ComponentModel.ISupportInitialize)numResource20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numProduct20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numProduct30).BeginInit();
@@ -3613,596 +3611,650 @@
             // lblDate_Res20
             // 
             lblDate_Res20.AutoSize = true;
+            lblDate_Res20.FlatStyle = FlatStyle.Flat;
             lblDate_Res20.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res20.ForeColor = Color.Chartreuse;
             lblDate_Res20.Location = new Point(371, 77);
             lblDate_Res20.Name = "lblDate_Res20";
-            lblDate_Res20.Size = new Size(52, 13);
+            lblDate_Res20.Size = new Size(11, 13);
             lblDate_Res20.TabIndex = 227;
-            lblDate_Res20.Text = "0hrs ago";
+            lblDate_Res20.Text = "-";
             // 
             // lblDate_Res30
             // 
             lblDate_Res30.AutoSize = true;
+            lblDate_Res30.FlatStyle = FlatStyle.Flat;
             lblDate_Res30.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res30.ForeColor = Color.Lime;
             lblDate_Res30.Location = new Point(371, 137);
             lblDate_Res30.Name = "lblDate_Res30";
-            lblDate_Res30.Size = new Size(52, 13);
+            lblDate_Res30.Size = new Size(11, 13);
             lblDate_Res30.TabIndex = 228;
-            lblDate_Res30.Text = "0hrs ago";
+            lblDate_Res30.Text = "-";
             // 
             // lblDate_Res41
             // 
             lblDate_Res41.AutoSize = true;
+            lblDate_Res41.FlatStyle = FlatStyle.Flat;
             lblDate_Res41.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res41.ForeColor = Color.Lime;
             lblDate_Res41.Location = new Point(371, 246);
             lblDate_Res41.Name = "lblDate_Res41";
-            lblDate_Res41.Size = new Size(52, 13);
+            lblDate_Res41.Size = new Size(11, 13);
             lblDate_Res41.TabIndex = 230;
-            lblDate_Res41.Text = "0hrs ago";
+            lblDate_Res41.Text = "-";
             // 
             // lblDate_Res40
             // 
             lblDate_Res40.AutoSize = true;
+            lblDate_Res40.FlatStyle = FlatStyle.Flat;
             lblDate_Res40.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res40.ForeColor = Color.Lime;
             lblDate_Res40.Location = new Point(371, 191);
             lblDate_Res40.Name = "lblDate_Res40";
-            lblDate_Res40.Size = new Size(52, 13);
+            lblDate_Res40.Size = new Size(11, 13);
             lblDate_Res40.TabIndex = 229;
-            lblDate_Res40.Text = "0hrs ago";
+            lblDate_Res40.Text = "-";
             // 
             // lblDate_Res50
             // 
             lblDate_Res50.AutoSize = true;
+            lblDate_Res50.FlatStyle = FlatStyle.Flat;
             lblDate_Res50.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res50.ForeColor = Color.Lime;
             lblDate_Res50.Location = new Point(371, 465);
             lblDate_Res50.Name = "lblDate_Res50";
-            lblDate_Res50.Size = new Size(52, 13);
+            lblDate_Res50.Size = new Size(11, 13);
             lblDate_Res50.TabIndex = 234;
-            lblDate_Res50.Text = "0hrs ago";
+            lblDate_Res50.Text = "-";
             // 
             // lblDate_Res44
             // 
             lblDate_Res44.AutoSize = true;
+            lblDate_Res44.FlatStyle = FlatStyle.Flat;
             lblDate_Res44.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res44.ForeColor = Color.Lime;
             lblDate_Res44.Location = new Point(371, 410);
             lblDate_Res44.Name = "lblDate_Res44";
-            lblDate_Res44.Size = new Size(52, 13);
+            lblDate_Res44.Size = new Size(11, 13);
             lblDate_Res44.TabIndex = 233;
-            lblDate_Res44.Text = "0hrs ago";
+            lblDate_Res44.Text = "-";
             // 
             // lblDate_Res43
             // 
             lblDate_Res43.AutoSize = true;
+            lblDate_Res43.FlatStyle = FlatStyle.Flat;
             lblDate_Res43.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res43.ForeColor = Color.Lime;
             lblDate_Res43.Location = new Point(371, 355);
             lblDate_Res43.Name = "lblDate_Res43";
-            lblDate_Res43.Size = new Size(52, 13);
+            lblDate_Res43.Size = new Size(11, 13);
             lblDate_Res43.TabIndex = 232;
-            lblDate_Res43.Text = "0hrs ago";
+            lblDate_Res43.Text = "-";
             // 
             // lblDate_Res42
             // 
             lblDate_Res42.AutoSize = true;
+            lblDate_Res42.FlatStyle = FlatStyle.Flat;
             lblDate_Res42.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res42.ForeColor = Color.Lime;
             lblDate_Res42.Location = new Point(371, 302);
             lblDate_Res42.Name = "lblDate_Res42";
-            lblDate_Res42.Size = new Size(52, 13);
+            lblDate_Res42.Size = new Size(11, 13);
             lblDate_Res42.TabIndex = 231;
-            lblDate_Res42.Text = "0hrs ago";
+            lblDate_Res42.Text = "-";
             // 
             // lblDate_Res63
             // 
             lblDate_Res63.AutoSize = true;
+            lblDate_Res63.FlatStyle = FlatStyle.Flat;
             lblDate_Res63.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res63.ForeColor = Color.Lime;
             lblDate_Res63.Location = new Point(371, 905);
             lblDate_Res63.Name = "lblDate_Res63";
-            lblDate_Res63.Size = new Size(52, 13);
+            lblDate_Res63.Size = new Size(11, 13);
             lblDate_Res63.TabIndex = 242;
-            lblDate_Res63.Text = "0hrs ago";
+            lblDate_Res63.Text = "-";
             // 
             // lblDate_Res62
             // 
             lblDate_Res62.AutoSize = true;
+            lblDate_Res62.FlatStyle = FlatStyle.Flat;
             lblDate_Res62.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res62.ForeColor = Color.Lime;
             lblDate_Res62.Location = new Point(371, 850);
             lblDate_Res62.Name = "lblDate_Res62";
-            lblDate_Res62.Size = new Size(52, 13);
+            lblDate_Res62.Size = new Size(11, 13);
             lblDate_Res62.TabIndex = 241;
-            lblDate_Res62.Text = "0hrs ago";
+            lblDate_Res62.Text = "-";
             // 
             // lblDate_Res61
             // 
             lblDate_Res61.AutoSize = true;
+            lblDate_Res61.FlatStyle = FlatStyle.Flat;
             lblDate_Res61.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res61.ForeColor = Color.Lime;
             lblDate_Res61.Location = new Point(371, 795);
             lblDate_Res61.Name = "lblDate_Res61";
-            lblDate_Res61.Size = new Size(52, 13);
+            lblDate_Res61.Size = new Size(11, 13);
             lblDate_Res61.TabIndex = 240;
-            lblDate_Res61.Text = "0hrs ago";
+            lblDate_Res61.Text = "-";
             // 
             // lblDate_Res60
             // 
             lblDate_Res60.AutoSize = true;
+            lblDate_Res60.FlatStyle = FlatStyle.Flat;
             lblDate_Res60.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res60.ForeColor = Color.Lime;
             lblDate_Res60.Location = new Point(371, 740);
             lblDate_Res60.Name = "lblDate_Res60";
-            lblDate_Res60.Size = new Size(52, 13);
+            lblDate_Res60.Size = new Size(11, 13);
             lblDate_Res60.TabIndex = 239;
-            lblDate_Res60.Text = "0hrs ago";
+            lblDate_Res60.Text = "-";
             // 
             // lblDate_Res54
             // 
             lblDate_Res54.AutoSize = true;
+            lblDate_Res54.FlatStyle = FlatStyle.Flat;
             lblDate_Res54.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res54.ForeColor = Color.Lime;
             lblDate_Res54.Location = new Point(371, 685);
             lblDate_Res54.Name = "lblDate_Res54";
-            lblDate_Res54.Size = new Size(52, 13);
+            lblDate_Res54.Size = new Size(11, 13);
             lblDate_Res54.TabIndex = 238;
-            lblDate_Res54.Text = "0hrs ago";
+            lblDate_Res54.Text = "-";
             // 
             // lblDate_Res53
             // 
             lblDate_Res53.AutoSize = true;
+            lblDate_Res53.FlatStyle = FlatStyle.Flat;
             lblDate_Res53.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res53.ForeColor = Color.Lime;
             lblDate_Res53.Location = new Point(371, 631);
             lblDate_Res53.Name = "lblDate_Res53";
-            lblDate_Res53.Size = new Size(52, 13);
+            lblDate_Res53.Size = new Size(11, 13);
             lblDate_Res53.TabIndex = 237;
-            lblDate_Res53.Text = "0hrs ago";
+            lblDate_Res53.Text = "-";
             // 
             // lblDate_Res52
             // 
             lblDate_Res52.AutoSize = true;
+            lblDate_Res52.FlatStyle = FlatStyle.Flat;
             lblDate_Res52.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res52.ForeColor = Color.Lime;
             lblDate_Res52.Location = new Point(371, 575);
             lblDate_Res52.Name = "lblDate_Res52";
-            lblDate_Res52.Size = new Size(52, 13);
+            lblDate_Res52.Size = new Size(11, 13);
             lblDate_Res52.TabIndex = 236;
-            lblDate_Res52.Text = "0hrs ago";
+            lblDate_Res52.Text = "-";
             // 
             // lblDate_Res51
             // 
             lblDate_Res51.AutoSize = true;
+            lblDate_Res51.FlatStyle = FlatStyle.Flat;
             lblDate_Res51.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res51.ForeColor = Color.Lime;
             lblDate_Res51.Location = new Point(371, 520);
             lblDate_Res51.Name = "lblDate_Res51";
-            lblDate_Res51.Size = new Size(52, 13);
+            lblDate_Res51.Size = new Size(11, 13);
             lblDate_Res51.TabIndex = 235;
-            lblDate_Res51.Text = "0hrs ago";
+            lblDate_Res51.Text = "-";
             // 
             // lblDate_Res64
             // 
             lblDate_Res64.AutoSize = true;
+            lblDate_Res64.FlatStyle = FlatStyle.Flat;
             lblDate_Res64.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res64.ForeColor = Color.Lime;
             lblDate_Res64.Location = new Point(371, 960);
             lblDate_Res64.Name = "lblDate_Res64";
-            lblDate_Res64.Size = new Size(52, 13);
+            lblDate_Res64.Size = new Size(11, 13);
             lblDate_Res64.TabIndex = 243;
-            lblDate_Res64.Text = "0hrs ago";
+            lblDate_Res64.Text = "-";
             // 
             // lblDate_Res70
             // 
             lblDate_Res70.AutoSize = true;
+            lblDate_Res70.FlatStyle = FlatStyle.Flat;
             lblDate_Res70.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Res70.ForeColor = Color.Lime;
-            lblDate_Res70.Location = new Point(480, 994);
+            lblDate_Res70.Location = new Point(375, 1017);
             lblDate_Res70.Name = "lblDate_Res70";
-            lblDate_Res70.Size = new Size(48, 13);
+            lblDate_Res70.Size = new Size(10, 13);
             lblDate_Res70.TabIndex = 244;
-            lblDate_Res70.Text = "0hrs ago";
+            lblDate_Res70.Text = "-";
             // 
             // lblDate_Res71
             // 
             lblDate_Res71.AutoSize = true;
+            lblDate_Res71.FlatStyle = FlatStyle.Flat;
             lblDate_Res71.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res71.ForeColor = Color.Lime;
             lblDate_Res71.Location = new Point(371, 1072);
             lblDate_Res71.Name = "lblDate_Res71";
-            lblDate_Res71.Size = new Size(52, 13);
+            lblDate_Res71.Size = new Size(11, 13);
             lblDate_Res71.TabIndex = 245;
-            lblDate_Res71.Text = "0hrs ago";
+            lblDate_Res71.Text = "-";
             // 
             // lblDate_Res72
             // 
             lblDate_Res72.AutoSize = true;
+            lblDate_Res72.FlatStyle = FlatStyle.Flat;
             lblDate_Res72.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res72.ForeColor = Color.Lime;
             lblDate_Res72.Location = new Point(371, 1127);
             lblDate_Res72.Name = "lblDate_Res72";
-            lblDate_Res72.Size = new Size(52, 13);
+            lblDate_Res72.Size = new Size(11, 13);
             lblDate_Res72.TabIndex = 246;
-            lblDate_Res72.Text = "0hrs ago";
+            lblDate_Res72.Text = "-";
             // 
             // lblDate_Res73
             // 
             lblDate_Res73.AutoSize = true;
+            lblDate_Res73.FlatStyle = FlatStyle.Flat;
             lblDate_Res73.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res73.ForeColor = Color.Lime;
             lblDate_Res73.Location = new Point(371, 1180);
             lblDate_Res73.Name = "lblDate_Res73";
-            lblDate_Res73.Size = new Size(52, 13);
+            lblDate_Res73.Size = new Size(11, 13);
             lblDate_Res73.TabIndex = 247;
-            lblDate_Res73.Text = "0hrs ago";
+            lblDate_Res73.Text = "-";
             // 
             // lblDate_Res74
             // 
             lblDate_Res74.AutoSize = true;
+            lblDate_Res74.FlatStyle = FlatStyle.Flat;
             lblDate_Res74.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res74.ForeColor = Color.Lime;
             lblDate_Res74.Location = new Point(371, 1237);
             lblDate_Res74.Name = "lblDate_Res74";
-            lblDate_Res74.Size = new Size(52, 13);
+            lblDate_Res74.Size = new Size(11, 13);
             lblDate_Res74.TabIndex = 248;
-            lblDate_Res74.Text = "0hrs ago";
+            lblDate_Res74.Text = "-";
             // 
             // lblDate_Res80
             // 
             lblDate_Res80.AutoSize = true;
+            lblDate_Res80.FlatStyle = FlatStyle.Flat;
             lblDate_Res80.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res80.ForeColor = Color.Lime;
             lblDate_Res80.Location = new Point(371, 1292);
             lblDate_Res80.Name = "lblDate_Res80";
-            lblDate_Res80.Size = new Size(52, 13);
+            lblDate_Res80.Size = new Size(11, 13);
             lblDate_Res80.TabIndex = 249;
-            lblDate_Res80.Text = "0hrs ago";
+            lblDate_Res80.Text = "-";
             // 
             // lblDate_Res81
             // 
             lblDate_Res81.AutoSize = true;
+            lblDate_Res81.FlatStyle = FlatStyle.Flat;
             lblDate_Res81.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res81.ForeColor = Color.Lime;
             lblDate_Res81.Location = new Point(371, 1347);
             lblDate_Res81.Name = "lblDate_Res81";
-            lblDate_Res81.Size = new Size(52, 13);
+            lblDate_Res81.Size = new Size(11, 13);
             lblDate_Res81.TabIndex = 250;
-            lblDate_Res81.Text = "0hrs ago";
+            lblDate_Res81.Text = "-";
             // 
             // lblDate_Res82
             // 
             lblDate_Res82.AutoSize = true;
+            lblDate_Res82.FlatStyle = FlatStyle.Flat;
             lblDate_Res82.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res82.ForeColor = Color.Lime;
             lblDate_Res82.Location = new Point(371, 1402);
             lblDate_Res82.Name = "lblDate_Res82";
-            lblDate_Res82.Size = new Size(52, 13);
+            lblDate_Res82.Size = new Size(11, 13);
             lblDate_Res82.TabIndex = 251;
-            lblDate_Res82.Text = "0hrs ago";
+            lblDate_Res82.Text = "-";
             // 
             // lblDate_Res83
             // 
             lblDate_Res83.AutoSize = true;
+            lblDate_Res83.FlatStyle = FlatStyle.Flat;
             lblDate_Res83.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res83.ForeColor = Color.Lime;
             lblDate_Res83.Location = new Point(371, 1458);
             lblDate_Res83.Name = "lblDate_Res83";
-            lblDate_Res83.Size = new Size(52, 13);
+            lblDate_Res83.Size = new Size(11, 13);
             lblDate_Res83.TabIndex = 252;
-            lblDate_Res83.Text = "0hrs ago";
+            lblDate_Res83.Text = "-";
             // 
             // lblDate_Res84
             // 
             lblDate_Res84.AutoSize = true;
+            lblDate_Res84.FlatStyle = FlatStyle.Flat;
             lblDate_Res84.Font = new Font("Segoe UI", 6.5F);
             lblDate_Res84.ForeColor = Color.Lime;
             lblDate_Res84.Location = new Point(371, 1510);
             lblDate_Res84.Name = "lblDate_Res84";
-            lblDate_Res84.Size = new Size(52, 13);
+            lblDate_Res84.Size = new Size(11, 13);
             lblDate_Res84.TabIndex = 253;
-            lblDate_Res84.Text = "0hrs ago";
+            lblDate_Res84.Text = "-";
             // 
             // lblDate_Prod84
             // 
             lblDate_Prod84.AutoSize = true;
+            lblDate_Prod84.FlatStyle = FlatStyle.Flat;
             lblDate_Prod84.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod84.ForeColor = Color.Lime;
             lblDate_Prod84.Location = new Point(753, 1512);
             lblDate_Prod84.Name = "lblDate_Prod84";
-            lblDate_Prod84.Size = new Size(48, 13);
+            lblDate_Prod84.Size = new Size(10, 13);
             lblDate_Prod84.TabIndex = 280;
-            lblDate_Prod84.Text = "0hrs ago";
+            lblDate_Prod84.Text = "-";
             // 
             // lblDate_Prod83
             // 
             lblDate_Prod83.AutoSize = true;
+            lblDate_Prod83.FlatStyle = FlatStyle.Flat;
             lblDate_Prod83.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod83.ForeColor = Color.Lime;
             lblDate_Prod83.Location = new Point(753, 1459);
             lblDate_Prod83.Name = "lblDate_Prod83";
-            lblDate_Prod83.Size = new Size(48, 13);
+            lblDate_Prod83.Size = new Size(10, 13);
             lblDate_Prod83.TabIndex = 279;
-            lblDate_Prod83.Text = "0hrs ago";
+            lblDate_Prod83.Text = "-";
             // 
             // lblDate_Prod82
             // 
             lblDate_Prod82.AutoSize = true;
+            lblDate_Prod82.FlatStyle = FlatStyle.Flat;
             lblDate_Prod82.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod82.ForeColor = Color.Lime;
             lblDate_Prod82.Location = new Point(753, 1401);
             lblDate_Prod82.Name = "lblDate_Prod82";
-            lblDate_Prod82.Size = new Size(48, 13);
+            lblDate_Prod82.Size = new Size(10, 13);
             lblDate_Prod82.TabIndex = 278;
-            lblDate_Prod82.Text = "0hrs ago";
+            lblDate_Prod82.Text = "-";
             // 
             // lblDate_Prod81
             // 
             lblDate_Prod81.AutoSize = true;
+            lblDate_Prod81.FlatStyle = FlatStyle.Flat;
             lblDate_Prod81.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod81.ForeColor = Color.Lime;
             lblDate_Prod81.Location = new Point(753, 1347);
             lblDate_Prod81.Name = "lblDate_Prod81";
-            lblDate_Prod81.Size = new Size(48, 13);
+            lblDate_Prod81.Size = new Size(10, 13);
             lblDate_Prod81.TabIndex = 277;
-            lblDate_Prod81.Text = "0hrs ago";
+            lblDate_Prod81.Text = "-";
             // 
             // lblDate_Prod80
             // 
             lblDate_Prod80.AutoSize = true;
+            lblDate_Prod80.FlatStyle = FlatStyle.Flat;
             lblDate_Prod80.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod80.ForeColor = Color.Lime;
             lblDate_Prod80.Location = new Point(753, 1292);
             lblDate_Prod80.Name = "lblDate_Prod80";
-            lblDate_Prod80.Size = new Size(48, 13);
+            lblDate_Prod80.Size = new Size(10, 13);
             lblDate_Prod80.TabIndex = 276;
-            lblDate_Prod80.Text = "0hrs ago";
+            lblDate_Prod80.Text = "-";
             // 
             // lblDate_Prod74
             // 
             lblDate_Prod74.AutoSize = true;
+            lblDate_Prod74.FlatStyle = FlatStyle.Flat;
             lblDate_Prod74.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod74.ForeColor = Color.Lime;
             lblDate_Prod74.Location = new Point(753, 1237);
             lblDate_Prod74.Name = "lblDate_Prod74";
-            lblDate_Prod74.Size = new Size(48, 13);
+            lblDate_Prod74.Size = new Size(10, 13);
             lblDate_Prod74.TabIndex = 275;
-            lblDate_Prod74.Text = "0hrs ago";
+            lblDate_Prod74.Text = "-";
             // 
             // lblDate_Prod73
             // 
             lblDate_Prod73.AutoSize = true;
+            lblDate_Prod73.FlatStyle = FlatStyle.Flat;
             lblDate_Prod73.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod73.ForeColor = Color.Lime;
             lblDate_Prod73.Location = new Point(753, 1180);
             lblDate_Prod73.Name = "lblDate_Prod73";
-            lblDate_Prod73.Size = new Size(48, 13);
+            lblDate_Prod73.Size = new Size(10, 13);
             lblDate_Prod73.TabIndex = 274;
-            lblDate_Prod73.Text = "0hrs ago";
+            lblDate_Prod73.Text = "-";
             // 
             // lblDate_Prod72
             // 
             lblDate_Prod72.AutoSize = true;
+            lblDate_Prod72.FlatStyle = FlatStyle.Flat;
             lblDate_Prod72.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod72.ForeColor = Color.Lime;
             lblDate_Prod72.Location = new Point(753, 1127);
             lblDate_Prod72.Name = "lblDate_Prod72";
-            lblDate_Prod72.Size = new Size(48, 13);
+            lblDate_Prod72.Size = new Size(10, 13);
             lblDate_Prod72.TabIndex = 273;
-            lblDate_Prod72.Text = "0hrs ago";
+            lblDate_Prod72.Text = "-";
             // 
             // lblDate_Prod71
             // 
             lblDate_Prod71.AutoSize = true;
+            lblDate_Prod71.FlatStyle = FlatStyle.Flat;
             lblDate_Prod71.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod71.ForeColor = Color.Lime;
             lblDate_Prod71.Location = new Point(753, 1072);
             lblDate_Prod71.Name = "lblDate_Prod71";
-            lblDate_Prod71.Size = new Size(48, 13);
+            lblDate_Prod71.Size = new Size(10, 13);
             lblDate_Prod71.TabIndex = 272;
-            lblDate_Prod71.Text = "0hrs ago";
+            lblDate_Prod71.Text = "-";
             // 
             // lblDate_Prod70
             // 
             lblDate_Prod70.AutoSize = true;
+            lblDate_Prod70.FlatStyle = FlatStyle.Flat;
             lblDate_Prod70.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod70.ForeColor = Color.Lime;
             lblDate_Prod70.Location = new Point(753, 1017);
             lblDate_Prod70.Name = "lblDate_Prod70";
-            lblDate_Prod70.Size = new Size(48, 13);
+            lblDate_Prod70.Size = new Size(10, 13);
             lblDate_Prod70.TabIndex = 271;
-            lblDate_Prod70.Text = "0hrs ago";
+            lblDate_Prod70.Text = "-";
             // 
             // lblDate_Prod64
             // 
             lblDate_Prod64.AutoSize = true;
+            lblDate_Prod64.FlatStyle = FlatStyle.Flat;
             lblDate_Prod64.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod64.ForeColor = Color.Lime;
             lblDate_Prod64.Location = new Point(753, 962);
             lblDate_Prod64.Name = "lblDate_Prod64";
-            lblDate_Prod64.Size = new Size(48, 13);
+            lblDate_Prod64.Size = new Size(10, 13);
             lblDate_Prod64.TabIndex = 270;
-            lblDate_Prod64.Text = "0hrs ago";
+            lblDate_Prod64.Text = "-";
             // 
             // lblDate_Prod63
             // 
             lblDate_Prod63.AutoSize = true;
+            lblDate_Prod63.FlatStyle = FlatStyle.Flat;
             lblDate_Prod63.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod63.ForeColor = Color.Lime;
             lblDate_Prod63.Location = new Point(753, 907);
             lblDate_Prod63.Name = "lblDate_Prod63";
-            lblDate_Prod63.Size = new Size(48, 13);
+            lblDate_Prod63.Size = new Size(10, 13);
             lblDate_Prod63.TabIndex = 269;
-            lblDate_Prod63.Text = "0hrs ago";
+            lblDate_Prod63.Text = "-";
             // 
             // lblDate_Prod62
             // 
             lblDate_Prod62.AutoSize = true;
+            lblDate_Prod62.FlatStyle = FlatStyle.Flat;
             lblDate_Prod62.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod62.ForeColor = Color.Lime;
             lblDate_Prod62.Location = new Point(753, 852);
             lblDate_Prod62.Name = "lblDate_Prod62";
-            lblDate_Prod62.Size = new Size(48, 13);
+            lblDate_Prod62.Size = new Size(10, 13);
             lblDate_Prod62.TabIndex = 268;
-            lblDate_Prod62.Text = "0hrs ago";
+            lblDate_Prod62.Text = "-";
             // 
             // lblDate_Prod61
             // 
             lblDate_Prod61.AutoSize = true;
+            lblDate_Prod61.FlatStyle = FlatStyle.Flat;
             lblDate_Prod61.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod61.ForeColor = Color.Lime;
             lblDate_Prod61.Location = new Point(753, 797);
             lblDate_Prod61.Name = "lblDate_Prod61";
-            lblDate_Prod61.Size = new Size(48, 13);
+            lblDate_Prod61.Size = new Size(10, 13);
             lblDate_Prod61.TabIndex = 267;
-            lblDate_Prod61.Text = "0hrs ago";
+            lblDate_Prod61.Text = "-";
             // 
             // lblDate_Prod60
             // 
             lblDate_Prod60.AutoSize = true;
+            lblDate_Prod60.FlatStyle = FlatStyle.Flat;
             lblDate_Prod60.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod60.ForeColor = Color.Lime;
             lblDate_Prod60.Location = new Point(753, 742);
             lblDate_Prod60.Name = "lblDate_Prod60";
-            lblDate_Prod60.Size = new Size(48, 13);
+            lblDate_Prod60.Size = new Size(10, 13);
             lblDate_Prod60.TabIndex = 266;
-            lblDate_Prod60.Text = "0hrs ago";
+            lblDate_Prod60.Text = "-";
             // 
             // lblDate_Prod54
             // 
             lblDate_Prod54.AutoSize = true;
+            lblDate_Prod54.FlatStyle = FlatStyle.Flat;
             lblDate_Prod54.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod54.ForeColor = Color.Lime;
             lblDate_Prod54.Location = new Point(753, 687);
             lblDate_Prod54.Name = "lblDate_Prod54";
-            lblDate_Prod54.Size = new Size(48, 13);
+            lblDate_Prod54.Size = new Size(10, 13);
             lblDate_Prod54.TabIndex = 265;
-            lblDate_Prod54.Text = "0hrs ago";
+            lblDate_Prod54.Text = "-";
             // 
             // lblDate_Prod53
             // 
             lblDate_Prod53.AutoSize = true;
+            lblDate_Prod53.FlatStyle = FlatStyle.Flat;
             lblDate_Prod53.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod53.ForeColor = Color.Lime;
             lblDate_Prod53.Location = new Point(753, 633);
             lblDate_Prod53.Name = "lblDate_Prod53";
-            lblDate_Prod53.Size = new Size(48, 13);
+            lblDate_Prod53.Size = new Size(10, 13);
             lblDate_Prod53.TabIndex = 264;
-            lblDate_Prod53.Text = "0hrs ago";
+            lblDate_Prod53.Text = "-";
             // 
             // lblDate_Prod52
             // 
             lblDate_Prod52.AutoSize = true;
+            lblDate_Prod52.FlatStyle = FlatStyle.Flat;
             lblDate_Prod52.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod52.ForeColor = Color.Lime;
             lblDate_Prod52.Location = new Point(753, 577);
             lblDate_Prod52.Name = "lblDate_Prod52";
-            lblDate_Prod52.Size = new Size(48, 13);
+            lblDate_Prod52.Size = new Size(10, 13);
             lblDate_Prod52.TabIndex = 263;
-            lblDate_Prod52.Text = "0hrs ago";
+            lblDate_Prod52.Text = "-";
             // 
             // lblDate_Prod51
             // 
             lblDate_Prod51.AutoSize = true;
+            lblDate_Prod51.FlatStyle = FlatStyle.Flat;
             lblDate_Prod51.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod51.ForeColor = Color.Lime;
             lblDate_Prod51.Location = new Point(753, 522);
             lblDate_Prod51.Name = "lblDate_Prod51";
-            lblDate_Prod51.Size = new Size(48, 13);
+            lblDate_Prod51.Size = new Size(10, 13);
             lblDate_Prod51.TabIndex = 262;
-            lblDate_Prod51.Text = "0hrs ago";
+            lblDate_Prod51.Text = "-";
             // 
             // lblDate_Prod50
             // 
             lblDate_Prod50.AutoSize = true;
+            lblDate_Prod50.FlatStyle = FlatStyle.Flat;
             lblDate_Prod50.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod50.ForeColor = Color.Lime;
             lblDate_Prod50.Location = new Point(753, 467);
             lblDate_Prod50.Name = "lblDate_Prod50";
-            lblDate_Prod50.Size = new Size(48, 13);
+            lblDate_Prod50.Size = new Size(10, 13);
             lblDate_Prod50.TabIndex = 261;
-            lblDate_Prod50.Text = "0hrs ago";
+            lblDate_Prod50.Text = "-";
             // 
             // lblDate_Prod44
             // 
             lblDate_Prod44.AutoSize = true;
+            lblDate_Prod44.FlatStyle = FlatStyle.Flat;
             lblDate_Prod44.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod44.ForeColor = Color.Lime;
             lblDate_Prod44.Location = new Point(753, 412);
             lblDate_Prod44.Name = "lblDate_Prod44";
-            lblDate_Prod44.Size = new Size(48, 13);
+            lblDate_Prod44.Size = new Size(10, 13);
             lblDate_Prod44.TabIndex = 260;
-            lblDate_Prod44.Text = "0hrs ago";
+            lblDate_Prod44.Text = "-";
             // 
             // lblDate_Prod43
             // 
             lblDate_Prod43.AutoSize = true;
+            lblDate_Prod43.FlatStyle = FlatStyle.Flat;
             lblDate_Prod43.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod43.ForeColor = Color.Lime;
             lblDate_Prod43.Location = new Point(753, 357);
             lblDate_Prod43.Name = "lblDate_Prod43";
-            lblDate_Prod43.Size = new Size(48, 13);
+            lblDate_Prod43.Size = new Size(10, 13);
             lblDate_Prod43.TabIndex = 259;
-            lblDate_Prod43.Text = "0hrs ago";
+            lblDate_Prod43.Text = "-";
             // 
             // lblDate_Prod42
             // 
             lblDate_Prod42.AutoSize = true;
+            lblDate_Prod42.FlatStyle = FlatStyle.Flat;
             lblDate_Prod42.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod42.ForeColor = Color.Lime;
             lblDate_Prod42.Location = new Point(753, 302);
             lblDate_Prod42.Name = "lblDate_Prod42";
-            lblDate_Prod42.Size = new Size(48, 13);
+            lblDate_Prod42.Size = new Size(10, 13);
             lblDate_Prod42.TabIndex = 258;
-            lblDate_Prod42.Text = "0hrs ago";
+            lblDate_Prod42.Text = "-";
             // 
             // lblDate_Prod41
             // 
             lblDate_Prod41.AutoSize = true;
+            lblDate_Prod41.FlatStyle = FlatStyle.Flat;
             lblDate_Prod41.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod41.ForeColor = Color.Lime;
             lblDate_Prod41.Location = new Point(753, 247);
             lblDate_Prod41.Name = "lblDate_Prod41";
-            lblDate_Prod41.Size = new Size(48, 13);
+            lblDate_Prod41.Size = new Size(10, 13);
             lblDate_Prod41.TabIndex = 257;
-            lblDate_Prod41.Text = "0hrs ago";
+            lblDate_Prod41.Text = "-";
             // 
             // lblDate_Prod40
             // 
             lblDate_Prod40.AutoSize = true;
+            lblDate_Prod40.FlatStyle = FlatStyle.Flat;
             lblDate_Prod40.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod40.ForeColor = Color.Lime;
             lblDate_Prod40.Location = new Point(753, 192);
             lblDate_Prod40.Name = "lblDate_Prod40";
-            lblDate_Prod40.Size = new Size(48, 13);
+            lblDate_Prod40.Size = new Size(10, 13);
             lblDate_Prod40.TabIndex = 256;
-            lblDate_Prod40.Text = "0hrs ago";
+            lblDate_Prod40.Text = "-";
             // 
             // lblDate_Prod30
             // 
             lblDate_Prod30.AutoSize = true;
+            lblDate_Prod30.FlatStyle = FlatStyle.Flat;
             lblDate_Prod30.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod30.ForeColor = Color.Lime;
             lblDate_Prod30.Location = new Point(753, 137);
             lblDate_Prod30.Name = "lblDate_Prod30";
-            lblDate_Prod30.Size = new Size(48, 13);
+            lblDate_Prod30.Size = new Size(10, 13);
             lblDate_Prod30.TabIndex = 255;
-            lblDate_Prod30.Text = "0hrs ago";
+            lblDate_Prod30.Text = "-";
             // 
             // lblDate_Prod20
             // 
             lblDate_Prod20.AutoSize = true;
+            lblDate_Prod20.FlatStyle = FlatStyle.Flat;
             lblDate_Prod20.Font = new Font("Microsoft Sans Serif", 6.5F);
             lblDate_Prod20.ForeColor = Color.Lime;
             lblDate_Prod20.Location = new Point(753, 77);
             lblDate_Prod20.Name = "lblDate_Prod20";
-            lblDate_Prod20.Size = new Size(48, 13);
+            lblDate_Prod20.Size = new Size(10, 13);
             lblDate_Prod20.TabIndex = 254;
-            lblDate_Prod20.Text = "0hrs ago";
+            lblDate_Prod20.Text = "-";
             // 
             // UserControl1
             // 
@@ -4831,6 +4883,5 @@
         private Label lblDate_Prod40;
         private Label lblDate_Prod30;
         private Label lblDate_Prod20;
-        private ToolTip toolTip1;
     }   
 }

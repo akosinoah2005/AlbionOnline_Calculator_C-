@@ -251,6 +251,9 @@ namespace Albion_Calcu_C3
         private void Populate_nums(List<Item_Properties> fetched_data)
         {
             string string_data = "";
+            Double? output = null;
+            string? selected_item = _parentForm.cmbType.SelectedItem?.ToString();
+            string? order_type = _parentForm.cmbOrder.Text;
             foreach (var data in fetched_data)
             {
                 string_data += data.ToString();
@@ -267,39 +270,70 @@ namespace Albion_Calcu_C3
 
                     NumericUpDown? what_num = null;
 
-                    if (_parentForm.cmbType.SelectedItem?.ToString() == "Raw")
+                    if (selected_item== "Raw")
                     {
                         what_num = Prices_obj[Tkey].Resource;
+
+                        
+
                     }
 
-                    if (_parentForm.cmbType.SelectedItem?.ToString() == "Refined")
+                    if (selected_item == "Refined")
                     {
                         what_num = Prices_obj[Tkey].Product;
-                    }
-                    ToolTip hi = new ToolTip();
 
-                    if (_parentForm.cmbOrder.Text == "Sell-Order")
+
+                    }
+                    
+
+                    if (order_type == "Sell-Order")
                     {
                         what_num?.Text = data.sell_price_min.ToString();
-                        
-                        if (what_num != null)
-                        {
-                            hi.Show($"{DateTime.Now.Subtract(data.sell_price_min_date).TotalHours}Hours Ago", what_num);
-                        }
 
+                        output = DateTime.UtcNow.AddDays(-1).Subtract(data.sell_price_min_date).TotalHours;
+
+                        
                     }
 
-                    if (_parentForm.cmbOrder.Text == "Buy-Order")
+                    if (order_type == "Buy-Order")
                     {
                         what_num?.Text = data.buy_price_max.ToString();
 
-                        if (what_num != null)
-                        {
-                            hi.Show($"{DateTime.Now.Subtract(data.buy_price_max_date).TotalHours}Hours Ago", what_num);
-                        }
+                        output = DateTime.UtcNow.AddDays(-1).Subtract(data.buy_price_max_date).TotalHours;
                     }
 
                     
+                    if(selected_item == "Raw")
+                    {
+                        
+                        Prices_obj[Tkey].Date_Res.Text = $"{output:n0}hrs ago";
+
+                        if (data.buy_price_max == 0 && order_type == "Buy-Order")
+                        {
+                            Prices_obj[Tkey].Date_Res.Text = "-";
+                        }
+                        if (data.sell_price_min == 0 && order_type == "Sell-Order")
+                        {
+                            Prices_obj[Tkey].Date_Res.Text = "-";
+                        }
+
+                    }
+
+                    if(selected_item == "Refined")
+                    {
+                        
+                        Prices_obj[Tkey].Date_Product.Text = $"{output:n0}hrs ago";
+                        
+                        if (data.buy_price_max == 0 && order_type == "Buy-Order")
+                        {
+                            Prices_obj[Tkey].Date_Product.Text = "-";
+                        }
+                        if (data.sell_price_min == 0 && order_type == "Sell-Order")
+                        {
+                            Prices_obj[Tkey].Date_Product.Text = "-";
+                        }
+
+                    }
 
                 }
 
@@ -418,6 +452,88 @@ namespace Albion_Calcu_C3
             return "";
         }
 
+        private void VC_Resource(string? Tkey,Decimal Tkey_value)
+        {
+
+            if(Tkey != null)
+            {
+                string Tkey_product = (Tkey_value - 1).ToString("0.0");
+
+
+                Int16 tier = Convert.ToInt16(Convert.ToDecimal(Tkey));
+                Int16 enchant = Convert.ToInt16((Convert.ToDecimal(Tkey) - tier) * 10);
+
+                if (Tkey_value == 2.0m)
+                {
+                    Tkey_product = "2.0";
+                }
+
+                if (Tkey_value >= 4.0m && Tkey_value <= 4.4m)
+                {
+                    Tkey_product = "3.0";
+                }
+
+
+                NumericUpDown Resource = Prices_obj[Tkey].Resource;
+                NumericUpDown Product_revenue = Prices_obj[Tkey].Product;
+                NumericUpDown Product = Prices_obj[Tkey_product].Product;
+
+                //MessageBox.Show($"Resource:{Resource.Name}\nProduct:{Product.Name}");
+
+                Label Profit_silver = Prices_obj[Tkey].Silver_profit;
+                Label Profit_percent = Prices_obj[Tkey].Percent_profit;
+                Label Focus_cost = Prices_obj[Tkey].Focus_cost;
+                Label Focus_profit = Prices_obj[Tkey].Focus_profit;
+                Label Fp_Fc = Prices_obj[Tkey].Fp_Fc;
+
+                Compute_Profit(Resource, Product_revenue, Product, Profit_silver, Profit_percent, Focus_cost, Focus_profit, Fp_Fc, tier, enchant);
+            }
+        }
+        private void VC_Product(string? Tkey, Decimal Tkey_value)
+        {
+            if(Tkey != null)
+            {
+                string? Tkey_product = Tkey;
+
+                Tkey_product = (Tkey_value + 1).ToString("0.0");
+
+
+
+                Int16 tier = Convert.ToInt16(Convert.ToDecimal(Tkey));
+                Int16 enchant = Convert.ToInt16((Convert.ToDecimal(Tkey) - tier) * 10);
+
+                if (Tkey == "3.0")
+                {
+                    input_3(Tkey_value);
+                }
+                else if (!(Tkey.Contains("8")))
+                {
+                    tier++;
+                    if (tier == 2)
+                    {
+                        tier = 3;
+                    }
+
+                    //MessageBox.Show($"Tier:{tier}\nEnchant:{enchant}");
+
+
+                    NumericUpDown Resource = Prices_obj[Tkey_product].Resource;
+                    NumericUpDown Product_revenue = Prices_obj[Tkey_product].Product;
+                    NumericUpDown Product = Prices_obj[Tkey].Product;
+
+                    //MessageBox.Show($"Resource:{Resource.Name}\nProduct:{Product.Name}");
+
+                    Label Profit_silver = Prices_obj[Tkey_product].Silver_profit;
+                    Label Profit_percent = Prices_obj[Tkey_product].Percent_profit;
+                    Label Focus_cost = Prices_obj[Tkey_product].Focus_cost;
+                    Label Focus_profit = Prices_obj[Tkey_product].Focus_profit;
+                    Label Fp_Fc = Prices_obj[Tkey_product].Fp_Fc;
+
+                    Compute_Profit(Resource, Product_revenue, Product, Profit_silver, Profit_percent, Focus_cost, Focus_profit, Fp_Fc, tier, enchant);
+                }
+            }
+            
+        }
 
         public UserControl1(Form1 parentForm)
         {
@@ -465,8 +581,6 @@ namespace Albion_Calcu_C3
 
             
             Get_API_Data(location_pull, item_ID_pull, check);
-
-
 
 
         }
@@ -559,36 +673,14 @@ namespace Albion_Calcu_C3
 
             if (Tkey != null)
             {
-                string Tkey_product = (Tkey_value - 1).ToString("0.0");
 
-
-                Int16 tier = Convert.ToInt16(Convert.ToDecimal(Tkey));
-                Int16 enchant = Convert.ToInt16((Convert.ToDecimal(Tkey) - tier) * 10);
-
-                if (Tkey_value == 2.0m)
+                if (Prices_obj[Tkey].Date_Res.Text.Contains("ago"))
                 {
-                    Tkey_product = "2.0";
+                    Prices_obj[Tkey].Date_Res.Text = "-";
                 }
 
-                if (Tkey_value >= 4.0m && Tkey_value <= 4.4m)
-                {
-                    Tkey_product = "3.0";
-                }
+                VC_Resource(Tkey, Tkey_value);
 
-
-                NumericUpDown Resource = Prices_obj[Tkey].Resource;
-                NumericUpDown Product_revenue = Prices_obj[Tkey].Product;
-                NumericUpDown Product = Prices_obj[Tkey_product].Product;
-
-                //MessageBox.Show($"Resource:{Resource.Name}\nProduct:{Product.Name}");
-
-                Label Profit_silver = Prices_obj[Tkey].Silver_profit;
-                Label Profit_percent = Prices_obj[Tkey].Percent_profit;
-                Label Focus_cost = Prices_obj[Tkey].Focus_cost;
-                Label Focus_profit = Prices_obj[Tkey].Focus_profit;
-                Label Fp_Fc = Prices_obj[Tkey].Fp_Fc;
-
-                Compute_Profit(Resource, Product_revenue, Product, Profit_silver, Profit_percent, Focus_cost, Focus_profit, Fp_Fc, tier, enchant);
 
 
             }
@@ -596,6 +688,7 @@ namespace Albion_Calcu_C3
 
         private void ValueChanged_Product(object sender, EventArgs e)
         {
+            
             NumericUpDown numobj = (NumericUpDown)sender;
 
             string? Tkey = numobj.Tag?.ToString();
@@ -603,51 +696,24 @@ namespace Albion_Calcu_C3
 
             //MessageBox.Show(Tkey_value.ToString());
 
+            
+            
             if (Tkey != null)
             {
-                string Tkey_product = Tkey;
-
-                Tkey_product = (Tkey_value + 1).ToString("0.0");
-
-
-
-                Int16 tier = Convert.ToInt16(Convert.ToDecimal(Tkey));
-                Int16 enchant = Convert.ToInt16((Convert.ToDecimal(Tkey) - tier) * 10);
-
-                if (Tkey == "3.0")
+                //for when you edit the pulled data from the api
+                if (Prices_obj[Tkey].Date_Product.Text.Contains("ago"))
                 {
-                    input_3(Tkey_value);
+                    Prices_obj[Tkey].Date_Product.Text = "-";
                 }
-                else if (!(Tkey.Contains("8")))
-                {
-                    tier++;
-                    if (tier == 2)
-                    {
-                        tier = 3;
-                    }
 
-                    //MessageBox.Show($"Tier:{tier}\nEnchant:{enchant}");
+                VC_Product(Tkey,Tkey_value);
 
-
-                    NumericUpDown Resource = Prices_obj[Tkey_product].Resource;
-                    NumericUpDown Product_revenue = Prices_obj[Tkey_product].Product;
-                    NumericUpDown Product = Prices_obj[Tkey].Product;
-
-                    //MessageBox.Show($"Resource:{Resource.Name}\nProduct:{Product.Name}");
-
-                    Label Profit_silver = Prices_obj[Tkey_product].Silver_profit;
-                    Label Profit_percent = Prices_obj[Tkey_product].Percent_profit;
-                    Label Focus_cost = Prices_obj[Tkey_product].Focus_cost;
-                    Label Focus_profit = Prices_obj[Tkey_product].Focus_profit;
-                    Label Fp_Fc = Prices_obj[Tkey_product].Fp_Fc;
-
-                    Compute_Profit(Resource, Product_revenue, Product, Profit_silver, Profit_percent, Focus_cost, Focus_profit, Fp_Fc, tier, enchant);
-
-                }
-                numValueChanged_Resource(Prices_obj[Tkey].Resource, e);
-
+                VC_Resource(Tkey,Tkey_value);
             }
+                
 
         }
+
     }
 }
+

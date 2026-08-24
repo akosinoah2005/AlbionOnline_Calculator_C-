@@ -80,6 +80,9 @@ namespace Albion_Calcu_C3
             stripResource = new ToolStripMenuItem();
             stripMastery = new ToolStripMenuItem();
             helpToolStripMenuItem = new ToolStripMenuItem();
+            stripTime = new ToolStripMenuItem();
+            stripTime_Resource = new ToolStripMenuItem();
+            stripTime_Product = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)numAmount).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numUsageFee).BeginInit();
             groupBox1.SuspendLayout();
@@ -415,7 +418,7 @@ namespace Albion_Calcu_C3
             // 
             // stripClearAll
             // 
-            stripClearAll.DropDownItems.AddRange(new ToolStripItem[] { stripStation, stripPrices, stripMastery });
+            stripClearAll.DropDownItems.AddRange(new ToolStripItem[] { stripStation, stripPrices, stripMastery, stripTime });
             stripClearAll.Name = "stripClearAll";
             resources.ApplyResources(stripClearAll, "stripClearAll");
             // 
@@ -451,6 +454,22 @@ namespace Albion_Calcu_C3
             // 
             helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             resources.ApplyResources(helpToolStripMenuItem, "helpToolStripMenuItem");
+            // 
+            // stripTime
+            // 
+            stripTime.DropDownItems.AddRange(new ToolStripItem[] { stripTime_Resource, stripTime_Product });
+            stripTime.Name = "stripTime";
+            resources.ApplyResources(stripTime, "stripTime");
+            // 
+            // stripTime_Resource
+            // 
+            stripTime_Resource.Name = "stripTime_Resource";
+            resources.ApplyResources(stripTime_Resource, "stripTime_Resource");
+            // 
+            // stripTime_Product
+            // 
+            stripTime_Product.Name = "stripTime_Product";
+            resources.ApplyResources(stripTime_Product, "stripTime_Product");
             // 
             // Form1
             // 
@@ -541,5 +560,8 @@ namespace Albion_Calcu_C3
         private ToolStripMenuItem stripMastery;
         private ToolStripMenuItem stripProduct;
         private ToolStripMenuItem stripResource;
+        private ToolStripMenuItem stripTime;
+        private ToolStripMenuItem stripTime_Resource;
+        private ToolStripMenuItem stripTime_Product;
     }
 }

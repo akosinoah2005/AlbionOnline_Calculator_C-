@@ -290,7 +290,7 @@ namespace Albion_Calcu_C3
                     {
                         what_num?.Text = data.sell_price_min.ToString();
 
-                        output = DateTime.UtcNow.AddDays(-1).Subtract(data.sell_price_min_date).TotalHours;
+                        output = DateTime.UtcNow.Subtract(data.sell_price_min_date).TotalHours;
 
                         
                     }
@@ -299,7 +299,7 @@ namespace Albion_Calcu_C3
                     {
                         what_num?.Text = data.buy_price_max.ToString();
 
-                        output = DateTime.UtcNow.AddDays(-1).Subtract(data.buy_price_max_date).TotalHours;
+                        output = DateTime.UtcNow.Subtract(data.buy_price_max_date).TotalHours;
                     }
 
                     
@@ -375,6 +375,10 @@ namespace Albion_Calcu_C3
             _parentForm.get_Prices().Click += stripPrices_Clicked;
             _parentForm.get_stripResource().Click += stripResource_Clicked;
             _parentForm.get_stripProduct().Click += stripProduct_Clicked;
+            _parentForm.get_stripTime().Click += stripTime_Clicked;
+            _parentForm.get_stripTime_Resource().Click += stripTime_Resource_Clicked;
+            _parentForm.get_stripTime_Product().Click += stripTime_Product_Clicked;
+
             //populate the dictionary
             Prices_obj["2.0"] = (numResource20, numProduct20, lblProfitS20, lblProfitP20, lblFocusC20, lblFocusP20, lblFocusFPFC20, lblDate_Res20, lblDate_Prod20);
 
@@ -491,8 +495,10 @@ namespace Albion_Calcu_C3
         }
         private void VC_Product(string? Tkey, Decimal Tkey_value)
         {
+
             if(Tkey != null)
             {
+
                 string? Tkey_product = Tkey;
 
                 Tkey_product = (Tkey_value + 1).ToString("0.0");
@@ -531,6 +537,8 @@ namespace Albion_Calcu_C3
 
                     Compute_Profit(Resource, Product_revenue, Product, Profit_silver, Profit_percent, Focus_cost, Focus_profit, Fp_Fc, tier, enchant);
                 }
+
+                VC_Resource(Tkey, Tkey_value);
             }
             
         }
@@ -543,14 +551,43 @@ namespace Albion_Calcu_C3
 
 
         //EVENTS
+
+        private void stripTime_Resource_Clicked(object? sender, EventArgs e)
+        {
+            if(_parentForm.msg_results("Would you like to CLEAR the RESOURCE TIME?","Confirmation",MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                foreach(var item in Prices_obj)
+                {
+                    item.Value.Date_Res.Text = "-";
+                }
+            }
+        }
+
+        private void stripTime_Product_Clicked(object? sender,EventArgs e)
+        {
+            if (_parentForm.msg_results("Would you like to CLEAR the PRODUCT TIME?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                foreach (var item in Prices_obj)
+                {
+                    item.Value.Date_Product.Text = "-";
+                }
+            }
+        }
+
+        private void stripTime_Clicked(object? sender,EventArgs e)
+        {
+            if (_parentForm.msg_results("Would you like to CLEAR the PRODUCT TIME and RESOURCE TIME?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                foreach (var item in Prices_obj)
+                {
+                    item.Value.Date_Product.Text = "-";
+                    item.Value.Date_Res.Text = "-";
+                }
+            }
+        }
         private void UserControl1_Load(object sender, EventArgs e)
         {
             Load_defaults();
-            DateTime now = new DateTime(2026,8,22,16,6,0);
-            DateTime now_utc = DateTime.Now;
-
-            MessageBox.Show($"now:{now}\nnow_utc:{now_utc}\ndiff: {now_utc.Subtract(now).TotalHours}");
-           
         }
 
         private void btn_pull_clicked(object? sender, EventArgs e)
@@ -622,7 +659,13 @@ namespace Albion_Calcu_C3
 
             foreach (var dic in Prices_obj)
             {
-                ValueChanged_Product(dic.Value.Product, e);
+
+                NumericUpDown numobj = dic.Value.Product;
+
+                string? Tkey = numobj.Tag?.ToString();
+                Decimal Tkey_value = Convert.ToDecimal(Tkey);
+
+                VC_Product(Tkey,Tkey_value);
             }
 
         }
@@ -708,7 +751,7 @@ namespace Albion_Calcu_C3
 
                 VC_Product(Tkey,Tkey_value);
 
-                VC_Resource(Tkey,Tkey_value);
+                
             }
                 
 

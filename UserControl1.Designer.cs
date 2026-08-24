@@ -705,7 +705,6 @@
             numResource20.Size = new Size(273, 27);
             numResource20.TabIndex = 32;
             numResource20.Tag = "2.0";
-            numResource20.TextAlign = HorizontalAlignment.Center;
             numResource20.ValueChanged += numValueChanged_Resource;
             numResource20.Enter += numEnter;
             numResource20.KeyPress += numKeyPress;
@@ -726,7 +725,6 @@
             numProduct20.Size = new Size(273, 27);
             numProduct20.TabIndex = 33;
             numProduct20.Tag = "2.0";
-            numProduct20.TextAlign = HorizontalAlignment.Center;
             numProduct20.ValueChanged += ValueChanged_Product;
             numProduct20.Enter += numEnter;
             numProduct20.KeyPress += numKeyPress;
@@ -930,7 +928,6 @@
             numProduct30.Size = new Size(273, 27);
             numProduct30.TabIndex = 46;
             numProduct30.Tag = "3.0";
-            numProduct30.TextAlign = HorizontalAlignment.Center;
             numProduct30.ValueChanged += ValueChanged_Product;
             numProduct30.Enter += numEnter;
             numProduct30.KeyPress += numKeyPress;
@@ -951,7 +948,6 @@
             numResource30.Size = new Size(273, 27);
             numResource30.TabIndex = 45;
             numResource30.Tag = "3.0";
-            numResource30.TextAlign = HorizontalAlignment.Center;
             numResource30.ValueChanged += numValueChanged_Resource;
             numResource30.Enter += numEnter;
             numResource30.KeyPress += numKeyPress;
@@ -1036,7 +1032,6 @@
             numProduct40.Size = new Size(273, 27);
             numProduct40.TabIndex = 53;
             numProduct40.Tag = "4.0";
-            numProduct40.TextAlign = HorizontalAlignment.Center;
             numProduct40.ValueChanged += ValueChanged_Product;
             numProduct40.Enter += numEnter;
             numProduct40.KeyPress += numKeyPress;
@@ -1057,7 +1052,6 @@
             numResource40.Size = new Size(273, 27);
             numResource40.TabIndex = 52;
             numResource40.Tag = "4.0";
-            numResource40.TextAlign = HorizontalAlignment.Center;
             numResource40.ValueChanged += numValueChanged_Resource;
             numResource40.Enter += numEnter;
             numResource40.KeyPress += numKeyPress;
@@ -1142,7 +1136,6 @@
             numProduct41.Size = new Size(273, 27);
             numProduct41.TabIndex = 60;
             numProduct41.Tag = "4.1";
-            numProduct41.TextAlign = HorizontalAlignment.Center;
             numProduct41.ValueChanged += ValueChanged_Product;
             numProduct41.Enter += numEnter;
             numProduct41.KeyPress += numKeyPress;
@@ -1163,7 +1156,6 @@
             numResource41.Size = new Size(273, 27);
             numResource41.TabIndex = 59;
             numResource41.Tag = "4.1";
-            numResource41.TextAlign = HorizontalAlignment.Center;
             numResource41.ValueChanged += numValueChanged_Resource;
             numResource41.Enter += numEnter;
             numResource41.KeyPress += numKeyPress;
@@ -1248,7 +1240,6 @@
             numProduct42.Size = new Size(273, 27);
             numProduct42.TabIndex = 67;
             numProduct42.Tag = "4.2";
-            numProduct42.TextAlign = HorizontalAlignment.Center;
             numProduct42.ValueChanged += ValueChanged_Product;
             numProduct42.Enter += numEnter;
             numProduct42.KeyPress += numKeyPress;
@@ -1269,7 +1260,6 @@
             numResource42.Size = new Size(273, 27);
             numResource42.TabIndex = 66;
             numResource42.Tag = "4.2";
-            numResource42.TextAlign = HorizontalAlignment.Center;
             numResource42.ValueChanged += numValueChanged_Resource;
             numResource42.Enter += numEnter;
             numResource42.KeyPress += numKeyPress;
@@ -1354,7 +1344,6 @@
             numProduct43.Size = new Size(273, 27);
             numProduct43.TabIndex = 74;
             numProduct43.Tag = "4.3";
-            numProduct43.TextAlign = HorizontalAlignment.Center;
             numProduct43.ValueChanged += ValueChanged_Product;
             numProduct43.Enter += numEnter;
             numProduct43.KeyPress += numKeyPress;
@@ -1375,7 +1364,6 @@
             numResource43.Size = new Size(273, 27);
             numResource43.TabIndex = 73;
             numResource43.Tag = "4.3";
-            numResource43.TextAlign = HorizontalAlignment.Center;
             numResource43.ValueChanged += numValueChanged_Resource;
             numResource43.Enter += numEnter;
             numResource43.KeyPress += numKeyPress;
@@ -1460,7 +1448,6 @@
             numProduct44.Size = new Size(273, 27);
             numProduct44.TabIndex = 81;
             numProduct44.Tag = "4.4";
-            numProduct44.TextAlign = HorizontalAlignment.Center;
             numProduct44.ValueChanged += ValueChanged_Product;
             numProduct44.Enter += numEnter;
             numProduct44.KeyPress += numKeyPress;
@@ -1481,7 +1468,6 @@
             numResource44.Size = new Size(273, 27);
             numResource44.TabIndex = 80;
             numResource44.Tag = "4.4";
-            numResource44.TextAlign = HorizontalAlignment.Center;
             numResource44.ValueChanged += numValueChanged_Resource;
             numResource44.Enter += numEnter;
             numResource44.KeyPress += numKeyPress;
@@ -1566,7 +1552,6 @@
             numProduct50.Size = new Size(273, 27);
             numProduct50.TabIndex = 88;
             numProduct50.Tag = "5.0";
-            numProduct50.TextAlign = HorizontalAlignment.Center;
             numProduct50.ValueChanged += ValueChanged_Product;
             numProduct50.Enter += numEnter;
             numProduct50.KeyPress += numKeyPress;
@@ -1587,7 +1572,6 @@
             numResource50.Size = new Size(273, 27);
             numResource50.TabIndex = 87;
             numResource50.Tag = "5.0";
-            numResource50.TextAlign = HorizontalAlignment.Center;
             numResource50.ValueChanged += numValueChanged_Resource;
             numResource50.Enter += numEnter;
             numResource50.KeyPress += numKeyPress;
@@ -1672,7 +1656,6 @@
             numProduct51.Size = new Size(273, 27);
             numProduct51.TabIndex = 95;
             numProduct51.Tag = "5.1";
-            numProduct51.TextAlign = HorizontalAlignment.Center;
             numProduct51.ValueChanged += ValueChanged_Product;
             numProduct51.Enter += numEnter;
             numProduct51.KeyPress += numKeyPress;
@@ -1693,7 +1676,6 @@
             numResource51.Size = new Size(273, 27);
             numResource51.TabIndex = 94;
             numResource51.Tag = "5.1";
-            numResource51.TextAlign = HorizontalAlignment.Center;
             numResource51.ValueChanged += numValueChanged_Resource;
             numResource51.Enter += numEnter;
             numResource51.KeyPress += numKeyPress;
@@ -1778,7 +1760,6 @@
             numProduct52.Size = new Size(273, 27);
             numProduct52.TabIndex = 102;
             numProduct52.Tag = "5.2";
-            numProduct52.TextAlign = HorizontalAlignment.Center;
             numProduct52.ValueChanged += ValueChanged_Product;
             numProduct52.Enter += numEnter;
             numProduct52.KeyPress += numKeyPress;
@@ -1799,7 +1780,6 @@
             numResource52.Size = new Size(273, 27);
             numResource52.TabIndex = 101;
             numResource52.Tag = "5.2";
-            numResource52.TextAlign = HorizontalAlignment.Center;
             numResource52.ValueChanged += numValueChanged_Resource;
             numResource52.Enter += numEnter;
             numResource52.KeyPress += numKeyPress;
@@ -1884,7 +1864,6 @@
             numProduct53.Size = new Size(273, 27);
             numProduct53.TabIndex = 109;
             numProduct53.Tag = "5.3";
-            numProduct53.TextAlign = HorizontalAlignment.Center;
             numProduct53.ValueChanged += ValueChanged_Product;
             numProduct53.Enter += numEnter;
             numProduct53.KeyPress += numKeyPress;
@@ -1905,7 +1884,6 @@
             numResource53.Size = new Size(273, 27);
             numResource53.TabIndex = 108;
             numResource53.Tag = "5.3";
-            numResource53.TextAlign = HorizontalAlignment.Center;
             numResource53.ValueChanged += numValueChanged_Resource;
             numResource53.Enter += numEnter;
             numResource53.KeyPress += numKeyPress;
@@ -1990,7 +1968,6 @@
             numProduct54.Size = new Size(273, 27);
             numProduct54.TabIndex = 116;
             numProduct54.Tag = "5.4";
-            numProduct54.TextAlign = HorizontalAlignment.Center;
             numProduct54.ValueChanged += ValueChanged_Product;
             numProduct54.Enter += numEnter;
             numProduct54.KeyPress += numKeyPress;
@@ -2011,7 +1988,6 @@
             numResource54.Size = new Size(273, 27);
             numResource54.TabIndex = 115;
             numResource54.Tag = "5.4";
-            numResource54.TextAlign = HorizontalAlignment.Center;
             numResource54.ValueChanged += numValueChanged_Resource;
             numResource54.Enter += numEnter;
             numResource54.KeyPress += numKeyPress;
@@ -2096,7 +2072,6 @@
             numProduct60.Size = new Size(273, 27);
             numProduct60.TabIndex = 123;
             numProduct60.Tag = "6.0";
-            numProduct60.TextAlign = HorizontalAlignment.Center;
             numProduct60.ValueChanged += ValueChanged_Product;
             numProduct60.Enter += numEnter;
             numProduct60.KeyPress += numKeyPress;
@@ -2117,7 +2092,6 @@
             numResource60.Size = new Size(273, 27);
             numResource60.TabIndex = 122;
             numResource60.Tag = "6.0";
-            numResource60.TextAlign = HorizontalAlignment.Center;
             numResource60.ValueChanged += numValueChanged_Resource;
             numResource60.Enter += numEnter;
             numResource60.KeyPress += numKeyPress;
@@ -2202,7 +2176,6 @@
             numProduct61.Size = new Size(273, 27);
             numProduct61.TabIndex = 130;
             numProduct61.Tag = "6.1";
-            numProduct61.TextAlign = HorizontalAlignment.Center;
             numProduct61.ValueChanged += ValueChanged_Product;
             numProduct61.Enter += numEnter;
             numProduct61.KeyPress += numKeyPress;
@@ -2223,7 +2196,6 @@
             numResource61.Size = new Size(273, 27);
             numResource61.TabIndex = 129;
             numResource61.Tag = "6.1";
-            numResource61.TextAlign = HorizontalAlignment.Center;
             numResource61.ValueChanged += numValueChanged_Resource;
             numResource61.Enter += numEnter;
             numResource61.KeyPress += numKeyPress;
@@ -2308,7 +2280,6 @@
             numProduct62.Size = new Size(273, 27);
             numProduct62.TabIndex = 137;
             numProduct62.Tag = "6.2";
-            numProduct62.TextAlign = HorizontalAlignment.Center;
             numProduct62.ValueChanged += ValueChanged_Product;
             numProduct62.Enter += numEnter;
             numProduct62.KeyPress += numKeyPress;
@@ -2329,7 +2300,6 @@
             numResource62.Size = new Size(273, 27);
             numResource62.TabIndex = 136;
             numResource62.Tag = "6.2";
-            numResource62.TextAlign = HorizontalAlignment.Center;
             numResource62.ValueChanged += numValueChanged_Resource;
             numResource62.Enter += numEnter;
             numResource62.KeyPress += numKeyPress;
@@ -2414,7 +2384,6 @@
             numProduct63.Size = new Size(273, 27);
             numProduct63.TabIndex = 144;
             numProduct63.Tag = "6.3";
-            numProduct63.TextAlign = HorizontalAlignment.Center;
             numProduct63.ValueChanged += ValueChanged_Product;
             numProduct63.Enter += numEnter;
             numProduct63.KeyPress += numKeyPress;
@@ -2435,7 +2404,6 @@
             numResource63.Size = new Size(273, 27);
             numResource63.TabIndex = 143;
             numResource63.Tag = "6.3";
-            numResource63.TextAlign = HorizontalAlignment.Center;
             numResource63.ValueChanged += numValueChanged_Resource;
             numResource63.Enter += numEnter;
             numResource63.KeyPress += numKeyPress;
@@ -2520,7 +2488,6 @@
             numProduct64.Size = new Size(273, 27);
             numProduct64.TabIndex = 151;
             numProduct64.Tag = "6.4";
-            numProduct64.TextAlign = HorizontalAlignment.Center;
             numProduct64.ValueChanged += ValueChanged_Product;
             numProduct64.Enter += numEnter;
             numProduct64.KeyPress += numKeyPress;
@@ -2541,7 +2508,6 @@
             numResource64.Size = new Size(273, 27);
             numResource64.TabIndex = 150;
             numResource64.Tag = "6.4";
-            numResource64.TextAlign = HorizontalAlignment.Center;
             numResource64.ValueChanged += numValueChanged_Resource;
             numResource64.Enter += numEnter;
             numResource64.KeyPress += numKeyPress;
@@ -2626,7 +2592,6 @@
             numProduct70.Size = new Size(273, 27);
             numProduct70.TabIndex = 158;
             numProduct70.Tag = "7.0";
-            numProduct70.TextAlign = HorizontalAlignment.Center;
             numProduct70.ValueChanged += ValueChanged_Product;
             numProduct70.Enter += numEnter;
             numProduct70.KeyPress += numKeyPress;
@@ -2647,7 +2612,6 @@
             numResource70.Size = new Size(273, 27);
             numResource70.TabIndex = 157;
             numResource70.Tag = "7.0";
-            numResource70.TextAlign = HorizontalAlignment.Center;
             numResource70.ValueChanged += numValueChanged_Resource;
             numResource70.Enter += numEnter;
             numResource70.KeyPress += numKeyPress;
@@ -2732,7 +2696,6 @@
             numProduct71.Size = new Size(273, 27);
             numProduct71.TabIndex = 165;
             numProduct71.Tag = "7.1";
-            numProduct71.TextAlign = HorizontalAlignment.Center;
             numProduct71.ValueChanged += ValueChanged_Product;
             numProduct71.Enter += numEnter;
             numProduct71.KeyPress += numKeyPress;
@@ -2753,7 +2716,6 @@
             numResource71.Size = new Size(273, 27);
             numResource71.TabIndex = 164;
             numResource71.Tag = "7.1";
-            numResource71.TextAlign = HorizontalAlignment.Center;
             numResource71.ValueChanged += numValueChanged_Resource;
             numResource71.Enter += numEnter;
             numResource71.KeyPress += numKeyPress;
@@ -2838,7 +2800,6 @@
             numProduct72.Size = new Size(273, 27);
             numProduct72.TabIndex = 172;
             numProduct72.Tag = "7.2";
-            numProduct72.TextAlign = HorizontalAlignment.Center;
             numProduct72.ValueChanged += ValueChanged_Product;
             numProduct72.Enter += numEnter;
             numProduct72.KeyPress += numKeyPress;
@@ -2859,7 +2820,6 @@
             numResource72.Size = new Size(273, 27);
             numResource72.TabIndex = 171;
             numResource72.Tag = "7.2";
-            numResource72.TextAlign = HorizontalAlignment.Center;
             numResource72.ValueChanged += numValueChanged_Resource;
             numResource72.Enter += numEnter;
             numResource72.KeyPress += numKeyPress;
@@ -2944,7 +2904,6 @@
             numProduct73.Size = new Size(273, 27);
             numProduct73.TabIndex = 179;
             numProduct73.Tag = "7.3";
-            numProduct73.TextAlign = HorizontalAlignment.Center;
             numProduct73.ValueChanged += ValueChanged_Product;
             numProduct73.Enter += numEnter;
             numProduct73.KeyPress += numKeyPress;
@@ -2965,7 +2924,6 @@
             numResource73.Size = new Size(273, 27);
             numResource73.TabIndex = 178;
             numResource73.Tag = "7.3";
-            numResource73.TextAlign = HorizontalAlignment.Center;
             numResource73.ValueChanged += numValueChanged_Resource;
             numResource73.Enter += numEnter;
             numResource73.KeyPress += numKeyPress;
@@ -3050,7 +3008,6 @@
             numProduct74.Size = new Size(273, 27);
             numProduct74.TabIndex = 186;
             numProduct74.Tag = "7.4";
-            numProduct74.TextAlign = HorizontalAlignment.Center;
             numProduct74.ValueChanged += ValueChanged_Product;
             numProduct74.Enter += numEnter;
             numProduct74.KeyPress += numKeyPress;
@@ -3071,7 +3028,6 @@
             numResource74.Size = new Size(273, 27);
             numResource74.TabIndex = 185;
             numResource74.Tag = "7.4";
-            numResource74.TextAlign = HorizontalAlignment.Center;
             numResource74.ValueChanged += numValueChanged_Resource;
             numResource74.Enter += numEnter;
             numResource74.KeyPress += numKeyPress;
@@ -3156,7 +3112,6 @@
             numProduct80.Size = new Size(273, 27);
             numProduct80.TabIndex = 193;
             numProduct80.Tag = "8.0";
-            numProduct80.TextAlign = HorizontalAlignment.Center;
             numProduct80.ValueChanged += ValueChanged_Product;
             numProduct80.Enter += numEnter;
             numProduct80.KeyPress += numKeyPress;
@@ -3177,7 +3132,6 @@
             numResource80.Size = new Size(273, 27);
             numResource80.TabIndex = 192;
             numResource80.Tag = "8.0";
-            numResource80.TextAlign = HorizontalAlignment.Center;
             numResource80.ValueChanged += numValueChanged_Resource;
             numResource80.Enter += numEnter;
             numResource80.KeyPress += numKeyPress;
@@ -3262,7 +3216,6 @@
             numProduct81.Size = new Size(273, 27);
             numProduct81.TabIndex = 200;
             numProduct81.Tag = "8.1";
-            numProduct81.TextAlign = HorizontalAlignment.Center;
             numProduct81.ValueChanged += ValueChanged_Product;
             numProduct81.Enter += numEnter;
             numProduct81.KeyPress += numKeyPress;
@@ -3283,7 +3236,6 @@
             numResource81.Size = new Size(273, 27);
             numResource81.TabIndex = 199;
             numResource81.Tag = "8.1";
-            numResource81.TextAlign = HorizontalAlignment.Center;
             numResource81.ValueChanged += numValueChanged_Resource;
             numResource81.Enter += numEnter;
             numResource81.KeyPress += numKeyPress;
@@ -3368,7 +3320,6 @@
             numProduct82.Size = new Size(273, 27);
             numProduct82.TabIndex = 207;
             numProduct82.Tag = "8.2";
-            numProduct82.TextAlign = HorizontalAlignment.Center;
             numProduct82.ValueChanged += ValueChanged_Product;
             numProduct82.Enter += numEnter;
             numProduct82.KeyPress += numKeyPress;
@@ -3389,7 +3340,6 @@
             numResource82.Size = new Size(273, 27);
             numResource82.TabIndex = 206;
             numResource82.Tag = "8.2";
-            numResource82.TextAlign = HorizontalAlignment.Center;
             numResource82.ValueChanged += numValueChanged_Resource;
             numResource82.Enter += numEnter;
             numResource82.KeyPress += numKeyPress;
@@ -3474,7 +3424,6 @@
             numProduct83.Size = new Size(273, 27);
             numProduct83.TabIndex = 214;
             numProduct83.Tag = "8.3";
-            numProduct83.TextAlign = HorizontalAlignment.Center;
             numProduct83.ValueChanged += ValueChanged_Product;
             numProduct83.Enter += numEnter;
             numProduct83.KeyPress += numKeyPress;
@@ -3495,7 +3444,6 @@
             numResource83.Size = new Size(273, 27);
             numResource83.TabIndex = 213;
             numResource83.Tag = "8.3";
-            numResource83.TextAlign = HorizontalAlignment.Center;
             numResource83.ValueChanged += numValueChanged_Resource;
             numResource83.Enter += numEnter;
             numResource83.KeyPress += numKeyPress;
@@ -3580,7 +3528,6 @@
             numProduct84.Size = new Size(273, 27);
             numProduct84.TabIndex = 221;
             numProduct84.Tag = "8.4";
-            numProduct84.TextAlign = HorizontalAlignment.Center;
             numProduct84.ValueChanged += ValueChanged_Product;
             numProduct84.Enter += numEnter;
             numProduct84.KeyPress += numKeyPress;
@@ -3601,7 +3548,6 @@
             numResource84.Size = new Size(273, 27);
             numResource84.TabIndex = 220;
             numResource84.Tag = "8.4";
-            numResource84.TextAlign = HorizontalAlignment.Center;
             numResource84.ValueChanged += numValueChanged_Resource;
             numResource84.Enter += numEnter;
             numResource84.KeyPress += numKeyPress;

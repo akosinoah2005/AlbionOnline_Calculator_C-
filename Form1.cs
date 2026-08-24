@@ -4,6 +4,21 @@ namespace Albion_Calcu_C3
 {
     public partial class Form1 : Form
     {
+        public ToolStripMenuItem get_stripTime()
+        {
+            return stripTime;
+        }
+
+        public ToolStripMenuItem get_stripTime_Resource()
+        {
+            return stripTime_Resource;
+        }
+
+        public ToolStripMenuItem get_stripTime_Product()
+        {
+            return stripTime_Product;
+        }
+
         public ToolStripMenuItem get_Prices()
         {
 
@@ -302,11 +317,11 @@ namespace Albion_Calcu_C3
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if(msg_results("Would you like to close the application?","Confirmation", MessageBoxButtons.YesNo) != DialogResult.Yes)
+            if (msg_results("Would you like to close the application?", "Confirmation", MessageBoxButtons.YesNo) != DialogResult.Yes)
             {
                 e.Cancel = true;
             }
-            
+
         }
     }
 }

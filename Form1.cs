@@ -4,6 +4,14 @@ namespace Albion_Calcu_C3
 {
     public partial class Form1 : Form
     {
+        public ComboBox get_cmbBonus()
+        {
+            return cmbBonus;
+        }
+        public ComboBox get_cmbLocation()
+        {
+            return cmbLocation;
+        }
         public ToolStripMenuItem get_stripTime()
         {
             return stripTime;

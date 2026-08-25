@@ -432,7 +432,7 @@ namespace Albion_Calcu_C3
         {
             //populate the Prices_obj(dictionary object)
             populate_dictionary();
-            //EVENT load
+            //EVENTS
             _parentForm.btnPull.Click += btn_pull_clicked;
             _parentForm.get_numAmount().ValueChanged += numparent_ValueChanged;
             _parentForm.get_numUsageFee().ValueChanged += numparent_ValueChanged;
@@ -443,9 +443,10 @@ namespace Albion_Calcu_C3
             _parentForm.get_stripTime().Click += stripTime_Clicked;
             _parentForm.get_stripTime_Resource().Click += stripTime_Resource_Clicked;
             _parentForm.get_stripTime_Product().Click += stripTime_Product_Clicked;
-
+            _parentForm.get_cmbBonus().SelectedIndexChanged += cmbBonus_SelectedIndexChanged;
+            _parentForm.get_cmbLocation().SelectedIndexChanged += cmbLocation_SelectedIndexChanged;
             //Control Defaults
-            foreach(var item in Prices_obj)
+            foreach (var item in Prices_obj)
             {
                 item.Value.Additional_Info.SelectedIndex = 0;
             }
@@ -582,6 +583,20 @@ namespace Albion_Calcu_C3
             }
             
         }
+        
+        private void parentForm_ValueChanged()
+        {
+            foreach (var dic in Prices_obj)
+            {
+
+                NumericUpDown numobj = dic.Value.Product;
+
+                string? Tkey = numobj.Tag?.ToString();
+                Decimal Tkey_value = Convert.ToDecimal(Tkey);
+
+                VC_Product(Tkey, Tkey_value);
+            }
+        }
 
         public UserControl1(Form1 parentForm)
         {
@@ -592,6 +607,14 @@ namespace Albion_Calcu_C3
 
         //EVENTS
 
+        private void cmbLocation_SelectedIndexChanged(object? sender, EventArgs e)
+        {
+            parentForm_ValueChanged();
+        }
+        private void cmbBonus_SelectedIndexChanged(object? sender,EventArgs e)
+        {
+            parentForm_ValueChanged();
+        }
         private void stripTime_Resource_Clicked(object? sender, EventArgs e)
         {
             if(_parentForm.msg_results("Would you like to CLEAR the RESOURCE TIME?","Confirmation",MessageBoxButtons.YesNo) == DialogResult.Yes)
@@ -697,16 +720,7 @@ namespace Albion_Calcu_C3
         private void numparent_ValueChanged(object? sender, EventArgs e)
         {
 
-            foreach (var dic in Prices_obj)
-            {
-
-                NumericUpDown numobj = dic.Value.Product;
-
-                string? Tkey = numobj.Tag?.ToString();
-                Decimal Tkey_value = Convert.ToDecimal(Tkey);
-
-                VC_Product(Tkey,Tkey_value);
-            }
+            parentForm_ValueChanged();
 
         }
 

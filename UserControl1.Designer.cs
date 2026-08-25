@@ -306,6 +306,33 @@
             lblDate_Prod40 = new Label();
             lblDate_Prod30 = new Label();
             lblDate_Prod20 = new Label();
+            cmbAdditional20 = new ComboBox();
+            cmbAdditional30 = new ComboBox();
+            cmbAdditional40 = new ComboBox();
+            cmbAdditional41 = new ComboBox();
+            cmbAdditional42 = new ComboBox();
+            cmbAdditional43 = new ComboBox();
+            cmbAdditional44 = new ComboBox();
+            cmbAdditional50 = new ComboBox();
+            cmbAdditional51 = new ComboBox();
+            cmbAdditional52 = new ComboBox();
+            cmbAdditional53 = new ComboBox();
+            cmbAdditional54 = new ComboBox();
+            cmbAdditional60 = new ComboBox();
+            cmbAdditional61 = new ComboBox();
+            cmbAdditional62 = new ComboBox();
+            cmbAdditional63 = new ComboBox();
+            cmbAdditional64 = new ComboBox();
+            cmbAdditional70 = new ComboBox();
+            cmbAdditional71 = new ComboBox();
+            cmbAdditional72 = new ComboBox();
+            cmbAdditional73 = new ComboBox();
+            cmbAdditional74 = new ComboBox();
+            cmbAdditional80 = new ComboBox();
+            cmbAdditional81 = new ComboBox();
+            cmbAdditional82 = new ComboBox();
+            cmbAdditional83 = new ComboBox();
+            cmbAdditional84 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)numResource20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numProduct20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numProduct30).BeginInit();
@@ -4202,11 +4229,362 @@
             lblDate_Prod20.TabIndex = 254;
             lblDate_Prod20.Text = "-";
             // 
+            // cmbAdditional20
+            // 
+            cmbAdditional20.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional20.DropDownWidth = 350;
+            cmbAdditional20.FlatStyle = FlatStyle.Popup;
+            cmbAdditional20.FormattingEnabled = true;
+            cmbAdditional20.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional20.Location = new Point(453, 69);
+            cmbAdditional20.Name = "cmbAdditional20";
+            cmbAdditional20.Size = new Size(89, 28);
+            cmbAdditional20.TabIndex = 281;
+            // 
+            // cmbAdditional30
+            // 
+            cmbAdditional30.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional30.DropDownWidth = 350;
+            cmbAdditional30.FlatStyle = FlatStyle.Popup;
+            cmbAdditional30.FormattingEnabled = true;
+            cmbAdditional30.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional30.Location = new Point(453, 130);
+            cmbAdditional30.Name = "cmbAdditional30";
+            cmbAdditional30.Size = new Size(89, 28);
+            cmbAdditional30.TabIndex = 282;
+            // 
+            // cmbAdditional40
+            // 
+            cmbAdditional40.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional40.DropDownWidth = 350;
+            cmbAdditional40.FlatStyle = FlatStyle.Popup;
+            cmbAdditional40.FormattingEnabled = true;
+            cmbAdditional40.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional40.Location = new Point(453, 186);
+            cmbAdditional40.Name = "cmbAdditional40";
+            cmbAdditional40.Size = new Size(89, 28);
+            cmbAdditional40.TabIndex = 283;
+            // 
+            // cmbAdditional41
+            // 
+            cmbAdditional41.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional41.DropDownWidth = 350;
+            cmbAdditional41.FlatStyle = FlatStyle.Popup;
+            cmbAdditional41.FormattingEnabled = true;
+            cmbAdditional41.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional41.Location = new Point(453, 241);
+            cmbAdditional41.Name = "cmbAdditional41";
+            cmbAdditional41.Size = new Size(89, 28);
+            cmbAdditional41.TabIndex = 284;
+            // 
+            // cmbAdditional42
+            // 
+            cmbAdditional42.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional42.DropDownWidth = 350;
+            cmbAdditional42.FlatStyle = FlatStyle.Popup;
+            cmbAdditional42.FormattingEnabled = true;
+            cmbAdditional42.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional42.Location = new Point(453, 295);
+            cmbAdditional42.Name = "cmbAdditional42";
+            cmbAdditional42.Size = new Size(89, 28);
+            cmbAdditional42.TabIndex = 285;
+            // 
+            // cmbAdditional43
+            // 
+            cmbAdditional43.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional43.DropDownWidth = 350;
+            cmbAdditional43.FlatStyle = FlatStyle.Popup;
+            cmbAdditional43.FormattingEnabled = true;
+            cmbAdditional43.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional43.Location = new Point(453, 350);
+            cmbAdditional43.Name = "cmbAdditional43";
+            cmbAdditional43.Size = new Size(89, 28);
+            cmbAdditional43.TabIndex = 286;
+            // 
+            // cmbAdditional44
+            // 
+            cmbAdditional44.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional44.DropDownWidth = 350;
+            cmbAdditional44.FlatStyle = FlatStyle.Popup;
+            cmbAdditional44.FormattingEnabled = true;
+            cmbAdditional44.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional44.Location = new Point(453, 404);
+            cmbAdditional44.Name = "cmbAdditional44";
+            cmbAdditional44.Size = new Size(89, 28);
+            cmbAdditional44.TabIndex = 287;
+            // 
+            // cmbAdditional50
+            // 
+            cmbAdditional50.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional50.DropDownWidth = 350;
+            cmbAdditional50.FlatStyle = FlatStyle.Popup;
+            cmbAdditional50.FormattingEnabled = true;
+            cmbAdditional50.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional50.Location = new Point(453, 459);
+            cmbAdditional50.Name = "cmbAdditional50";
+            cmbAdditional50.Size = new Size(89, 28);
+            cmbAdditional50.TabIndex = 288;
+            // 
+            // cmbAdditional51
+            // 
+            cmbAdditional51.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional51.DropDownWidth = 350;
+            cmbAdditional51.FlatStyle = FlatStyle.Popup;
+            cmbAdditional51.FormattingEnabled = true;
+            cmbAdditional51.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional51.Location = new Point(453, 512);
+            cmbAdditional51.Name = "cmbAdditional51";
+            cmbAdditional51.Size = new Size(89, 28);
+            cmbAdditional51.TabIndex = 289;
+            // 
+            // cmbAdditional52
+            // 
+            cmbAdditional52.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional52.DropDownWidth = 350;
+            cmbAdditional52.FlatStyle = FlatStyle.Popup;
+            cmbAdditional52.FormattingEnabled = true;
+            cmbAdditional52.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional52.Location = new Point(453, 569);
+            cmbAdditional52.Name = "cmbAdditional52";
+            cmbAdditional52.Size = new Size(89, 28);
+            cmbAdditional52.TabIndex = 290;
+            // 
+            // cmbAdditional53
+            // 
+            cmbAdditional53.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional53.DropDownWidth = 350;
+            cmbAdditional53.FlatStyle = FlatStyle.Popup;
+            cmbAdditional53.FormattingEnabled = true;
+            cmbAdditional53.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional53.Location = new Point(453, 623);
+            cmbAdditional53.Name = "cmbAdditional53";
+            cmbAdditional53.Size = new Size(89, 28);
+            cmbAdditional53.TabIndex = 291;
+            // 
+            // cmbAdditional54
+            // 
+            cmbAdditional54.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional54.DropDownWidth = 350;
+            cmbAdditional54.FlatStyle = FlatStyle.Popup;
+            cmbAdditional54.FormattingEnabled = true;
+            cmbAdditional54.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional54.Location = new Point(453, 680);
+            cmbAdditional54.Name = "cmbAdditional54";
+            cmbAdditional54.Size = new Size(89, 28);
+            cmbAdditional54.TabIndex = 292;
+            // 
+            // cmbAdditional60
+            // 
+            cmbAdditional60.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional60.DropDownWidth = 350;
+            cmbAdditional60.FlatStyle = FlatStyle.Popup;
+            cmbAdditional60.FormattingEnabled = true;
+            cmbAdditional60.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional60.Location = new Point(453, 734);
+            cmbAdditional60.Name = "cmbAdditional60";
+            cmbAdditional60.Size = new Size(89, 28);
+            cmbAdditional60.TabIndex = 293;
+            // 
+            // cmbAdditional61
+            // 
+            cmbAdditional61.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional61.DropDownWidth = 350;
+            cmbAdditional61.FlatStyle = FlatStyle.Popup;
+            cmbAdditional61.FormattingEnabled = true;
+            cmbAdditional61.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional61.Location = new Point(453, 789);
+            cmbAdditional61.Name = "cmbAdditional61";
+            cmbAdditional61.Size = new Size(89, 28);
+            cmbAdditional61.TabIndex = 294;
+            // 
+            // cmbAdditional62
+            // 
+            cmbAdditional62.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional62.DropDownWidth = 350;
+            cmbAdditional62.FlatStyle = FlatStyle.Popup;
+            cmbAdditional62.FormattingEnabled = true;
+            cmbAdditional62.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional62.Location = new Point(453, 845);
+            cmbAdditional62.Name = "cmbAdditional62";
+            cmbAdditional62.Size = new Size(89, 28);
+            cmbAdditional62.TabIndex = 295;
+            // 
+            // cmbAdditional63
+            // 
+            cmbAdditional63.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional63.DropDownWidth = 350;
+            cmbAdditional63.FlatStyle = FlatStyle.Popup;
+            cmbAdditional63.FormattingEnabled = true;
+            cmbAdditional63.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional63.Location = new Point(453, 900);
+            cmbAdditional63.Name = "cmbAdditional63";
+            cmbAdditional63.Size = new Size(89, 28);
+            cmbAdditional63.TabIndex = 296;
+            // 
+            // cmbAdditional64
+            // 
+            cmbAdditional64.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional64.DropDownWidth = 350;
+            cmbAdditional64.FlatStyle = FlatStyle.Popup;
+            cmbAdditional64.FormattingEnabled = true;
+            cmbAdditional64.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional64.Location = new Point(453, 955);
+            cmbAdditional64.Name = "cmbAdditional64";
+            cmbAdditional64.Size = new Size(89, 28);
+            cmbAdditional64.TabIndex = 297;
+            // 
+            // cmbAdditional70
+            // 
+            cmbAdditional70.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional70.DropDownWidth = 350;
+            cmbAdditional70.FlatStyle = FlatStyle.Popup;
+            cmbAdditional70.FormattingEnabled = true;
+            cmbAdditional70.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional70.Location = new Point(453, 1009);
+            cmbAdditional70.Name = "cmbAdditional70";
+            cmbAdditional70.Size = new Size(89, 28);
+            cmbAdditional70.TabIndex = 297;
+            // 
+            // cmbAdditional71
+            // 
+            cmbAdditional71.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional71.DropDownWidth = 350;
+            cmbAdditional71.FlatStyle = FlatStyle.Popup;
+            cmbAdditional71.FormattingEnabled = true;
+            cmbAdditional71.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional71.Location = new Point(453, 1064);
+            cmbAdditional71.Name = "cmbAdditional71";
+            cmbAdditional71.Size = new Size(89, 28);
+            cmbAdditional71.TabIndex = 298;
+            // 
+            // cmbAdditional72
+            // 
+            cmbAdditional72.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional72.DropDownWidth = 350;
+            cmbAdditional72.FlatStyle = FlatStyle.Popup;
+            cmbAdditional72.FormattingEnabled = true;
+            cmbAdditional72.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional72.Location = new Point(453, 1119);
+            cmbAdditional72.Name = "cmbAdditional72";
+            cmbAdditional72.Size = new Size(89, 28);
+            cmbAdditional72.TabIndex = 299;
+            // 
+            // cmbAdditional73
+            // 
+            cmbAdditional73.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional73.DropDownWidth = 350;
+            cmbAdditional73.FlatStyle = FlatStyle.Popup;
+            cmbAdditional73.FormattingEnabled = true;
+            cmbAdditional73.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional73.Location = new Point(453, 1174);
+            cmbAdditional73.Name = "cmbAdditional73";
+            cmbAdditional73.Size = new Size(89, 28);
+            cmbAdditional73.TabIndex = 300;
+            // 
+            // cmbAdditional74
+            // 
+            cmbAdditional74.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional74.DropDownWidth = 350;
+            cmbAdditional74.FlatStyle = FlatStyle.Popup;
+            cmbAdditional74.FormattingEnabled = true;
+            cmbAdditional74.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional74.Location = new Point(453, 1231);
+            cmbAdditional74.Name = "cmbAdditional74";
+            cmbAdditional74.Size = new Size(89, 28);
+            cmbAdditional74.TabIndex = 301;
+            // 
+            // cmbAdditional80
+            // 
+            cmbAdditional80.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional80.DropDownWidth = 350;
+            cmbAdditional80.FlatStyle = FlatStyle.Popup;
+            cmbAdditional80.FormattingEnabled = true;
+            cmbAdditional80.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional80.Location = new Point(453, 1285);
+            cmbAdditional80.Name = "cmbAdditional80";
+            cmbAdditional80.Size = new Size(89, 28);
+            cmbAdditional80.TabIndex = 302;
+            // 
+            // cmbAdditional81
+            // 
+            cmbAdditional81.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional81.DropDownWidth = 350;
+            cmbAdditional81.FlatStyle = FlatStyle.Popup;
+            cmbAdditional81.FormattingEnabled = true;
+            cmbAdditional81.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional81.Location = new Point(453, 1339);
+            cmbAdditional81.Name = "cmbAdditional81";
+            cmbAdditional81.Size = new Size(89, 28);
+            cmbAdditional81.TabIndex = 303;
+            // 
+            // cmbAdditional82
+            // 
+            cmbAdditional82.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional82.DropDownWidth = 350;
+            cmbAdditional82.FlatStyle = FlatStyle.Popup;
+            cmbAdditional82.FormattingEnabled = true;
+            cmbAdditional82.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional82.Location = new Point(453, 1395);
+            cmbAdditional82.Name = "cmbAdditional82";
+            cmbAdditional82.Size = new Size(89, 28);
+            cmbAdditional82.TabIndex = 304;
+            // 
+            // cmbAdditional83
+            // 
+            cmbAdditional83.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional83.DropDownWidth = 350;
+            cmbAdditional83.FlatStyle = FlatStyle.Popup;
+            cmbAdditional83.FormattingEnabled = true;
+            cmbAdditional83.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional83.Location = new Point(453, 1451);
+            cmbAdditional83.Name = "cmbAdditional83";
+            cmbAdditional83.Size = new Size(89, 28);
+            cmbAdditional83.TabIndex = 305;
+            // 
+            // cmbAdditional84
+            // 
+            cmbAdditional84.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbAdditional84.DropDownWidth = 350;
+            cmbAdditional84.FlatStyle = FlatStyle.Popup;
+            cmbAdditional84.FormattingEnabled = true;
+            cmbAdditional84.Items.AddRange(new object[] { "Add. Info" });
+            cmbAdditional84.Location = new Point(453, 1504);
+            cmbAdditional84.Name = "cmbAdditional84";
+            cmbAdditional84.Size = new Size(89, 28);
+            cmbAdditional84.TabIndex = 306;
+            // 
             // UserControl1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
+            Controls.Add(cmbAdditional84);
+            Controls.Add(cmbAdditional83);
+            Controls.Add(cmbAdditional82);
+            Controls.Add(cmbAdditional81);
+            Controls.Add(cmbAdditional80);
+            Controls.Add(cmbAdditional74);
+            Controls.Add(cmbAdditional73);
+            Controls.Add(cmbAdditional72);
+            Controls.Add(cmbAdditional71);
+            Controls.Add(cmbAdditional70);
+            Controls.Add(cmbAdditional64);
+            Controls.Add(cmbAdditional63);
+            Controls.Add(cmbAdditional62);
+            Controls.Add(cmbAdditional61);
+            Controls.Add(cmbAdditional60);
+            Controls.Add(cmbAdditional54);
+            Controls.Add(cmbAdditional53);
+            Controls.Add(cmbAdditional52);
+            Controls.Add(cmbAdditional51);
+            Controls.Add(cmbAdditional50);
+            Controls.Add(cmbAdditional44);
+            Controls.Add(cmbAdditional43);
+            Controls.Add(cmbAdditional42);
+            Controls.Add(cmbAdditional41);
+            Controls.Add(cmbAdditional40);
+            Controls.Add(cmbAdditional30);
+            Controls.Add(cmbAdditional20);
             Controls.Add(lblDate_Prod84);
             Controls.Add(lblDate_Prod83);
             Controls.Add(lblDate_Prod82);
@@ -4549,7 +4927,7 @@
 
         #endregion
 
-
+        
         //drag-drop shits
         private Label label1;
         private Label label2;
@@ -4829,5 +5207,32 @@
         private Label lblDate_Prod40;
         private Label lblDate_Prod30;
         private Label lblDate_Prod20;
+        private ComboBox cmbAdditional20;
+        private ComboBox cmbAdditional30;
+        private ComboBox cmbAdditional40;
+        private ComboBox cmbAdditional41;
+        private ComboBox cmbAdditional42;
+        private ComboBox cmbAdditional43;
+        private ComboBox cmbAdditional44;
+        private ComboBox cmbAdditional50;
+        private ComboBox cmbAdditional51;
+        private ComboBox cmbAdditional52;
+        private ComboBox cmbAdditional53;
+        private ComboBox cmbAdditional54;
+        private ComboBox cmbAdditional60;
+        private ComboBox cmbAdditional61;
+        private ComboBox cmbAdditional62;
+        private ComboBox cmbAdditional63;
+        private ComboBox cmbAdditional64;
+        private ComboBox cmbAdditional70;
+        private ComboBox cmbAdditional71;
+        private ComboBox cmbAdditional72;
+        private ComboBox cmbAdditional73;
+        private ComboBox cmbAdditional74;
+        private ComboBox cmbAdditional80;
+        private ComboBox cmbAdditional81;
+        private ComboBox cmbAdditional82;
+        private ComboBox cmbAdditional83;
+        private ComboBox cmbAdditional84;
     }   
 }

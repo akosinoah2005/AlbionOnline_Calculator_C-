@@ -722,7 +722,8 @@
             // 
             numResource20.BackColor = Color.DarkGray;
             numResource20.Cursor = Cursors.IBeam;
-            numResource20.ForeColor = SystemColors.ButtonFace;
+            numResource20.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource20.ForeColor = Color.Black;
             numResource20.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource20.InterceptArrowKeys = false;
             numResource20.Location = new Point(174, 70);
@@ -742,7 +743,8 @@
             // 
             numProduct20.BackColor = Color.DarkGray;
             numProduct20.Cursor = Cursors.IBeam;
-            numProduct20.ForeColor = SystemColors.ButtonFace;
+            numProduct20.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct20.ForeColor = Color.Black;
             numProduct20.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct20.InterceptArrowKeys = false;
             numProduct20.Location = new Point(550, 70);
@@ -945,7 +947,8 @@
             // 
             numProduct30.BackColor = Color.DarkGray;
             numProduct30.Cursor = Cursors.IBeam;
-            numProduct30.ForeColor = SystemColors.ButtonFace;
+            numProduct30.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct30.ForeColor = Color.Black;
             numProduct30.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct30.InterceptArrowKeys = false;
             numProduct30.Location = new Point(550, 130);
@@ -965,7 +968,8 @@
             // 
             numResource30.BackColor = Color.DarkGray;
             numResource30.Cursor = Cursors.IBeam;
-            numResource30.ForeColor = SystemColors.ButtonFace;
+            numResource30.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource30.ForeColor = Color.Black;
             numResource30.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource30.InterceptArrowKeys = false;
             numResource30.Location = new Point(174, 130);
@@ -1049,7 +1053,8 @@
             // 
             numProduct40.BackColor = Color.DarkGray;
             numProduct40.Cursor = Cursors.IBeam;
-            numProduct40.ForeColor = SystemColors.ButtonFace;
+            numProduct40.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct40.ForeColor = Color.Black;
             numProduct40.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct40.InterceptArrowKeys = false;
             numProduct40.Location = new Point(550, 185);
@@ -1069,7 +1074,8 @@
             // 
             numResource40.BackColor = Color.DarkGray;
             numResource40.Cursor = Cursors.IBeam;
-            numResource40.ForeColor = SystemColors.ButtonFace;
+            numResource40.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource40.ForeColor = Color.Black;
             numResource40.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource40.InterceptArrowKeys = false;
             numResource40.Location = new Point(174, 185);
@@ -1153,7 +1159,8 @@
             // 
             numProduct41.BackColor = Color.DarkGray;
             numProduct41.Cursor = Cursors.IBeam;
-            numProduct41.ForeColor = SystemColors.ButtonFace;
+            numProduct41.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct41.ForeColor = Color.Black;
             numProduct41.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct41.InterceptArrowKeys = false;
             numProduct41.Location = new Point(550, 240);
@@ -1173,7 +1180,8 @@
             // 
             numResource41.BackColor = Color.DarkGray;
             numResource41.Cursor = Cursors.IBeam;
-            numResource41.ForeColor = SystemColors.ButtonFace;
+            numResource41.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource41.ForeColor = Color.Black;
             numResource41.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource41.InterceptArrowKeys = false;
             numResource41.Location = new Point(174, 240);
@@ -1257,7 +1265,8 @@
             // 
             numProduct42.BackColor = Color.DarkGray;
             numProduct42.Cursor = Cursors.IBeam;
-            numProduct42.ForeColor = SystemColors.ButtonFace;
+            numProduct42.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct42.ForeColor = Color.Black;
             numProduct42.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct42.InterceptArrowKeys = false;
             numProduct42.Location = new Point(550, 295);
@@ -1277,7 +1286,8 @@
             // 
             numResource42.BackColor = Color.DarkGray;
             numResource42.Cursor = Cursors.IBeam;
-            numResource42.ForeColor = SystemColors.ButtonFace;
+            numResource42.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource42.ForeColor = Color.Black;
             numResource42.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource42.InterceptArrowKeys = false;
             numResource42.Location = new Point(174, 295);
@@ -1361,7 +1371,8 @@
             // 
             numProduct43.BackColor = Color.DarkGray;
             numProduct43.Cursor = Cursors.IBeam;
-            numProduct43.ForeColor = SystemColors.ButtonFace;
+            numProduct43.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct43.ForeColor = Color.Black;
             numProduct43.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct43.InterceptArrowKeys = false;
             numProduct43.Location = new Point(550, 350);
@@ -1381,7 +1392,8 @@
             // 
             numResource43.BackColor = Color.DarkGray;
             numResource43.Cursor = Cursors.IBeam;
-            numResource43.ForeColor = SystemColors.ButtonFace;
+            numResource43.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource43.ForeColor = Color.Black;
             numResource43.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource43.InterceptArrowKeys = false;
             numResource43.Location = new Point(174, 350);
@@ -1465,7 +1477,8 @@
             // 
             numProduct44.BackColor = Color.DarkGray;
             numProduct44.Cursor = Cursors.IBeam;
-            numProduct44.ForeColor = SystemColors.ButtonFace;
+            numProduct44.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct44.ForeColor = Color.Black;
             numProduct44.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct44.InterceptArrowKeys = false;
             numProduct44.Location = new Point(550, 405);
@@ -1485,7 +1498,8 @@
             // 
             numResource44.BackColor = Color.DarkGray;
             numResource44.Cursor = Cursors.IBeam;
-            numResource44.ForeColor = SystemColors.ButtonFace;
+            numResource44.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource44.ForeColor = Color.Black;
             numResource44.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource44.InterceptArrowKeys = false;
             numResource44.Location = new Point(174, 405);
@@ -1569,7 +1583,8 @@
             // 
             numProduct50.BackColor = Color.DarkGray;
             numProduct50.Cursor = Cursors.IBeam;
-            numProduct50.ForeColor = SystemColors.ButtonFace;
+            numProduct50.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct50.ForeColor = Color.Black;
             numProduct50.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct50.InterceptArrowKeys = false;
             numProduct50.Location = new Point(550, 460);
@@ -1589,7 +1604,8 @@
             // 
             numResource50.BackColor = Color.DarkGray;
             numResource50.Cursor = Cursors.IBeam;
-            numResource50.ForeColor = SystemColors.ButtonFace;
+            numResource50.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource50.ForeColor = Color.Black;
             numResource50.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource50.InterceptArrowKeys = false;
             numResource50.Location = new Point(174, 460);
@@ -1673,7 +1689,8 @@
             // 
             numProduct51.BackColor = Color.DarkGray;
             numProduct51.Cursor = Cursors.IBeam;
-            numProduct51.ForeColor = SystemColors.ButtonFace;
+            numProduct51.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct51.ForeColor = Color.Black;
             numProduct51.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct51.InterceptArrowKeys = false;
             numProduct51.Location = new Point(550, 515);
@@ -1693,7 +1710,8 @@
             // 
             numResource51.BackColor = Color.DarkGray;
             numResource51.Cursor = Cursors.IBeam;
-            numResource51.ForeColor = SystemColors.ButtonFace;
+            numResource51.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource51.ForeColor = Color.Black;
             numResource51.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource51.InterceptArrowKeys = false;
             numResource51.Location = new Point(174, 515);
@@ -1777,7 +1795,8 @@
             // 
             numProduct52.BackColor = Color.DarkGray;
             numProduct52.Cursor = Cursors.IBeam;
-            numProduct52.ForeColor = SystemColors.ButtonFace;
+            numProduct52.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct52.ForeColor = Color.Black;
             numProduct52.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct52.InterceptArrowKeys = false;
             numProduct52.Location = new Point(550, 570);
@@ -1797,7 +1816,8 @@
             // 
             numResource52.BackColor = Color.DarkGray;
             numResource52.Cursor = Cursors.IBeam;
-            numResource52.ForeColor = SystemColors.ButtonFace;
+            numResource52.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource52.ForeColor = Color.Black;
             numResource52.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource52.InterceptArrowKeys = false;
             numResource52.Location = new Point(174, 570);
@@ -1881,7 +1901,8 @@
             // 
             numProduct53.BackColor = Color.DarkGray;
             numProduct53.Cursor = Cursors.IBeam;
-            numProduct53.ForeColor = SystemColors.ButtonFace;
+            numProduct53.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct53.ForeColor = Color.Black;
             numProduct53.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct53.InterceptArrowKeys = false;
             numProduct53.Location = new Point(550, 625);
@@ -1901,7 +1922,8 @@
             // 
             numResource53.BackColor = Color.DarkGray;
             numResource53.Cursor = Cursors.IBeam;
-            numResource53.ForeColor = SystemColors.ButtonFace;
+            numResource53.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource53.ForeColor = Color.Black;
             numResource53.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource53.InterceptArrowKeys = false;
             numResource53.Location = new Point(174, 625);
@@ -1985,7 +2007,8 @@
             // 
             numProduct54.BackColor = Color.DarkGray;
             numProduct54.Cursor = Cursors.IBeam;
-            numProduct54.ForeColor = SystemColors.ButtonFace;
+            numProduct54.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct54.ForeColor = Color.Black;
             numProduct54.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct54.InterceptArrowKeys = false;
             numProduct54.Location = new Point(550, 680);
@@ -2005,7 +2028,8 @@
             // 
             numResource54.BackColor = Color.DarkGray;
             numResource54.Cursor = Cursors.IBeam;
-            numResource54.ForeColor = SystemColors.ButtonFace;
+            numResource54.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource54.ForeColor = Color.Black;
             numResource54.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource54.InterceptArrowKeys = false;
             numResource54.Location = new Point(174, 680);
@@ -2089,7 +2113,8 @@
             // 
             numProduct60.BackColor = Color.DarkGray;
             numProduct60.Cursor = Cursors.IBeam;
-            numProduct60.ForeColor = SystemColors.ButtonFace;
+            numProduct60.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct60.ForeColor = Color.Black;
             numProduct60.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct60.InterceptArrowKeys = false;
             numProduct60.Location = new Point(550, 735);
@@ -2109,7 +2134,8 @@
             // 
             numResource60.BackColor = Color.DarkGray;
             numResource60.Cursor = Cursors.IBeam;
-            numResource60.ForeColor = SystemColors.ButtonFace;
+            numResource60.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource60.ForeColor = Color.Black;
             numResource60.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource60.InterceptArrowKeys = false;
             numResource60.Location = new Point(174, 735);
@@ -2193,7 +2219,8 @@
             // 
             numProduct61.BackColor = Color.DarkGray;
             numProduct61.Cursor = Cursors.IBeam;
-            numProduct61.ForeColor = SystemColors.ButtonFace;
+            numProduct61.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct61.ForeColor = Color.Black;
             numProduct61.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct61.InterceptArrowKeys = false;
             numProduct61.Location = new Point(550, 790);
@@ -2213,7 +2240,8 @@
             // 
             numResource61.BackColor = Color.DarkGray;
             numResource61.Cursor = Cursors.IBeam;
-            numResource61.ForeColor = SystemColors.ButtonFace;
+            numResource61.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource61.ForeColor = Color.Black;
             numResource61.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource61.InterceptArrowKeys = false;
             numResource61.Location = new Point(174, 790);
@@ -2297,7 +2325,8 @@
             // 
             numProduct62.BackColor = Color.DarkGray;
             numProduct62.Cursor = Cursors.IBeam;
-            numProduct62.ForeColor = SystemColors.ButtonFace;
+            numProduct62.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct62.ForeColor = Color.Black;
             numProduct62.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct62.InterceptArrowKeys = false;
             numProduct62.Location = new Point(550, 845);
@@ -2317,7 +2346,8 @@
             // 
             numResource62.BackColor = Color.DarkGray;
             numResource62.Cursor = Cursors.IBeam;
-            numResource62.ForeColor = SystemColors.ButtonFace;
+            numResource62.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource62.ForeColor = Color.Black;
             numResource62.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource62.InterceptArrowKeys = false;
             numResource62.Location = new Point(174, 845);
@@ -2401,7 +2431,8 @@
             // 
             numProduct63.BackColor = Color.DarkGray;
             numProduct63.Cursor = Cursors.IBeam;
-            numProduct63.ForeColor = SystemColors.ButtonFace;
+            numProduct63.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct63.ForeColor = Color.Black;
             numProduct63.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct63.InterceptArrowKeys = false;
             numProduct63.Location = new Point(550, 900);
@@ -2421,7 +2452,8 @@
             // 
             numResource63.BackColor = Color.DarkGray;
             numResource63.Cursor = Cursors.IBeam;
-            numResource63.ForeColor = SystemColors.ButtonFace;
+            numResource63.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource63.ForeColor = Color.Black;
             numResource63.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource63.InterceptArrowKeys = false;
             numResource63.Location = new Point(174, 900);
@@ -2505,7 +2537,8 @@
             // 
             numProduct64.BackColor = Color.DarkGray;
             numProduct64.Cursor = Cursors.IBeam;
-            numProduct64.ForeColor = SystemColors.ButtonFace;
+            numProduct64.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct64.ForeColor = Color.Black;
             numProduct64.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct64.InterceptArrowKeys = false;
             numProduct64.Location = new Point(550, 955);
@@ -2525,7 +2558,8 @@
             // 
             numResource64.BackColor = Color.DarkGray;
             numResource64.Cursor = Cursors.IBeam;
-            numResource64.ForeColor = SystemColors.ButtonFace;
+            numResource64.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource64.ForeColor = Color.Black;
             numResource64.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource64.InterceptArrowKeys = false;
             numResource64.Location = new Point(174, 955);
@@ -2609,7 +2643,8 @@
             // 
             numProduct70.BackColor = Color.DarkGray;
             numProduct70.Cursor = Cursors.IBeam;
-            numProduct70.ForeColor = SystemColors.ButtonFace;
+            numProduct70.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct70.ForeColor = Color.Black;
             numProduct70.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct70.InterceptArrowKeys = false;
             numProduct70.Location = new Point(550, 1010);
@@ -2629,7 +2664,8 @@
             // 
             numResource70.BackColor = Color.DarkGray;
             numResource70.Cursor = Cursors.IBeam;
-            numResource70.ForeColor = SystemColors.ButtonFace;
+            numResource70.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource70.ForeColor = Color.Black;
             numResource70.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource70.InterceptArrowKeys = false;
             numResource70.Location = new Point(174, 1010);
@@ -2713,7 +2749,8 @@
             // 
             numProduct71.BackColor = Color.DarkGray;
             numProduct71.Cursor = Cursors.IBeam;
-            numProduct71.ForeColor = SystemColors.ButtonFace;
+            numProduct71.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct71.ForeColor = Color.Black;
             numProduct71.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct71.InterceptArrowKeys = false;
             numProduct71.Location = new Point(550, 1065);
@@ -2733,7 +2770,8 @@
             // 
             numResource71.BackColor = Color.DarkGray;
             numResource71.Cursor = Cursors.IBeam;
-            numResource71.ForeColor = SystemColors.ButtonFace;
+            numResource71.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource71.ForeColor = Color.Black;
             numResource71.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource71.InterceptArrowKeys = false;
             numResource71.Location = new Point(174, 1065);
@@ -2817,7 +2855,8 @@
             // 
             numProduct72.BackColor = Color.DarkGray;
             numProduct72.Cursor = Cursors.IBeam;
-            numProduct72.ForeColor = SystemColors.ButtonFace;
+            numProduct72.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct72.ForeColor = Color.Black;
             numProduct72.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct72.InterceptArrowKeys = false;
             numProduct72.Location = new Point(550, 1120);
@@ -2837,7 +2876,8 @@
             // 
             numResource72.BackColor = Color.DarkGray;
             numResource72.Cursor = Cursors.IBeam;
-            numResource72.ForeColor = SystemColors.ButtonFace;
+            numResource72.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource72.ForeColor = Color.Black;
             numResource72.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource72.InterceptArrowKeys = false;
             numResource72.Location = new Point(174, 1120);
@@ -2921,7 +2961,8 @@
             // 
             numProduct73.BackColor = Color.DarkGray;
             numProduct73.Cursor = Cursors.IBeam;
-            numProduct73.ForeColor = SystemColors.ButtonFace;
+            numProduct73.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct73.ForeColor = Color.Black;
             numProduct73.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct73.InterceptArrowKeys = false;
             numProduct73.Location = new Point(550, 1175);
@@ -2941,7 +2982,8 @@
             // 
             numResource73.BackColor = Color.DarkGray;
             numResource73.Cursor = Cursors.IBeam;
-            numResource73.ForeColor = SystemColors.ButtonFace;
+            numResource73.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource73.ForeColor = Color.Black;
             numResource73.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource73.InterceptArrowKeys = false;
             numResource73.Location = new Point(174, 1175);
@@ -3025,7 +3067,8 @@
             // 
             numProduct74.BackColor = Color.DarkGray;
             numProduct74.Cursor = Cursors.IBeam;
-            numProduct74.ForeColor = SystemColors.ButtonFace;
+            numProduct74.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct74.ForeColor = Color.Black;
             numProduct74.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct74.InterceptArrowKeys = false;
             numProduct74.Location = new Point(550, 1230);
@@ -3045,7 +3088,8 @@
             // 
             numResource74.BackColor = Color.DarkGray;
             numResource74.Cursor = Cursors.IBeam;
-            numResource74.ForeColor = SystemColors.ButtonFace;
+            numResource74.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource74.ForeColor = Color.Black;
             numResource74.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource74.InterceptArrowKeys = false;
             numResource74.Location = new Point(174, 1230);
@@ -3129,7 +3173,8 @@
             // 
             numProduct80.BackColor = Color.DarkGray;
             numProduct80.Cursor = Cursors.IBeam;
-            numProduct80.ForeColor = SystemColors.ButtonFace;
+            numProduct80.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct80.ForeColor = Color.Black;
             numProduct80.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct80.InterceptArrowKeys = false;
             numProduct80.Location = new Point(550, 1285);
@@ -3149,7 +3194,8 @@
             // 
             numResource80.BackColor = Color.DarkGray;
             numResource80.Cursor = Cursors.IBeam;
-            numResource80.ForeColor = SystemColors.ButtonFace;
+            numResource80.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource80.ForeColor = Color.Black;
             numResource80.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource80.InterceptArrowKeys = false;
             numResource80.Location = new Point(174, 1285);
@@ -3233,7 +3279,8 @@
             // 
             numProduct81.BackColor = Color.DarkGray;
             numProduct81.Cursor = Cursors.IBeam;
-            numProduct81.ForeColor = SystemColors.ButtonFace;
+            numProduct81.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct81.ForeColor = Color.Black;
             numProduct81.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct81.InterceptArrowKeys = false;
             numProduct81.Location = new Point(550, 1340);
@@ -3253,7 +3300,8 @@
             // 
             numResource81.BackColor = Color.DarkGray;
             numResource81.Cursor = Cursors.IBeam;
-            numResource81.ForeColor = SystemColors.ButtonFace;
+            numResource81.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource81.ForeColor = Color.Black;
             numResource81.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource81.InterceptArrowKeys = false;
             numResource81.Location = new Point(174, 1340);
@@ -3337,7 +3385,8 @@
             // 
             numProduct82.BackColor = Color.DarkGray;
             numProduct82.Cursor = Cursors.IBeam;
-            numProduct82.ForeColor = SystemColors.ButtonFace;
+            numProduct82.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct82.ForeColor = Color.Black;
             numProduct82.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct82.InterceptArrowKeys = false;
             numProduct82.Location = new Point(550, 1395);
@@ -3357,7 +3406,8 @@
             // 
             numResource82.BackColor = Color.DarkGray;
             numResource82.Cursor = Cursors.IBeam;
-            numResource82.ForeColor = SystemColors.ButtonFace;
+            numResource82.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource82.ForeColor = Color.Black;
             numResource82.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource82.InterceptArrowKeys = false;
             numResource82.Location = new Point(174, 1395);
@@ -3441,7 +3491,8 @@
             // 
             numProduct83.BackColor = Color.DarkGray;
             numProduct83.Cursor = Cursors.IBeam;
-            numProduct83.ForeColor = SystemColors.ButtonFace;
+            numProduct83.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct83.ForeColor = Color.Black;
             numProduct83.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct83.InterceptArrowKeys = false;
             numProduct83.Location = new Point(550, 1452);
@@ -3461,7 +3512,8 @@
             // 
             numResource83.BackColor = Color.DarkGray;
             numResource83.Cursor = Cursors.IBeam;
-            numResource83.ForeColor = SystemColors.ButtonFace;
+            numResource83.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource83.ForeColor = Color.Black;
             numResource83.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource83.InterceptArrowKeys = false;
             numResource83.Location = new Point(174, 1452);
@@ -3545,7 +3597,8 @@
             // 
             numProduct84.BackColor = Color.DarkGray;
             numProduct84.Cursor = Cursors.IBeam;
-            numProduct84.ForeColor = SystemColors.ButtonFace;
+            numProduct84.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numProduct84.ForeColor = Color.Black;
             numProduct84.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numProduct84.InterceptArrowKeys = false;
             numProduct84.Location = new Point(550, 1505);
@@ -3565,7 +3618,8 @@
             // 
             numResource84.BackColor = Color.DarkGray;
             numResource84.Cursor = Cursors.IBeam;
-            numResource84.ForeColor = SystemColors.ButtonFace;
+            numResource84.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            numResource84.ForeColor = Color.Black;
             numResource84.Increment = new decimal(new int[] { 0, 0, 0, 0 });
             numResource84.InterceptArrowKeys = false;
             numResource84.Location = new Point(174, 1505);
@@ -4927,7 +4981,7 @@
 
         #endregion
 
-        
+
         //drag-drop shits
         private Label label1;
         private Label label2;

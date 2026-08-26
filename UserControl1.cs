@@ -34,8 +34,6 @@ namespace Albion_Calcu_C3
             BaseAddress = new Uri("https://east.albion-online-data.com")
         };
 
-
-
         private void stealfocus_UserControl1() => label19.Focus();
 
         private int Get_multiplier(int tier)
@@ -331,31 +329,24 @@ namespace Albion_Calcu_C3
                     if(selected_item == "Raw")
                     {
                         
-                        Prices_obj[Tkey].Date_Res.Text = $"{output:n0}hrs ago";
+                        Prices_obj[Tkey].Date_Res.Text = $"{output:n0}hrs ago [{data.city?[0]}]" ;
 
-                        if (data.buy_price_max == 0 && order_type == "Buy-Order")
+                        if ((data.sell_price_min == 0 || data.buy_price_max == 0) && (order_type == "Buy-Order" || order_type == "Sell-Order"))
                         {
-                            Prices_obj[Tkey].Date_Res.Text = "-";
-                        }
-                        if (data.sell_price_min == 0 && order_type == "Sell-Order")
-                        {
-                            Prices_obj[Tkey].Date_Res.Text = "-";
+                            Prices_obj[Tkey].Date_Res.Text = $"[{data.city?[0]}]";
                         }
 
+                        
                     }
 
                     if(selected_item == "Refined")
                     {
                         
-                        Prices_obj[Tkey].Date_Product.Text = $"{output:n0}hrs ago";
+                        Prices_obj[Tkey].Date_Product.Text = $"{output:n0}hrs ago [{data.city?[0]}]";
                         
-                        if (data.buy_price_max == 0 && order_type == "Buy-Order")
+                        if (data.buy_price_max == 0 && (order_type == "Buy-Order" || order_type == "Sell-Order"))
                         {
-                            Prices_obj[Tkey].Date_Product.Text = "-";
-                        }
-                        if (data.sell_price_min == 0 && order_type == "Sell-Order")
-                        {
-                            Prices_obj[Tkey].Date_Product.Text = "-";
+                            Prices_obj[Tkey].Date_Product.Text = $"[{data.city?[0]}]";
                         }
 
                     }
@@ -432,11 +423,12 @@ namespace Albion_Calcu_C3
         {
             //populate the Prices_obj(dictionary object)
             populate_dictionary();
+
             //EVENTS
             _parentForm.btnPull.Click += btn_pull_clicked;
             _parentForm.get_numAmount().ValueChanged += numparent_ValueChanged;
             _parentForm.get_numUsageFee().ValueChanged += numparent_ValueChanged;
-
+            
             _parentForm.get_Prices().Click += stripPrices_Clicked;
             _parentForm.get_stripResource().Click += stripResource_Clicked;
             _parentForm.get_stripProduct().Click += stripProduct_Clicked;
@@ -445,15 +437,15 @@ namespace Albion_Calcu_C3
             _parentForm.get_stripTime_Product().Click += stripTime_Product_Clicked;
             _parentForm.get_cmbBonus().SelectedIndexChanged += cmbBonus_SelectedIndexChanged;
             _parentForm.get_cmbLocation().SelectedIndexChanged += cmbLocation_SelectedIndexChanged;
+
             //Control Defaults
             foreach (var item in Prices_obj)
             {
                 item.Value.Additional_Info.SelectedIndex = 0;
             }
+            
 
-            
-            
-            
+
         }
 
         private string Get_Type()
@@ -771,7 +763,7 @@ namespace Albion_Calcu_C3
             if (Tkey != null)
             {
 
-                if (Prices_obj[Tkey].Date_Res.Text.Contains("ago"))
+                if (!Prices_obj[Tkey].Date_Res.Text.Contains("-"))
                 {
                     Prices_obj[Tkey].Date_Res.Text = "-";
                 }
@@ -798,7 +790,7 @@ namespace Albion_Calcu_C3
             if (Tkey != null)
             {
                 //for when you edit the pulled data from the api
-                if (Prices_obj[Tkey].Date_Product.Text.Contains("ago"))
+                if (!Prices_obj[Tkey].Date_Product.Text.Contains("-"))
                 {
                     Prices_obj[Tkey].Date_Product.Text = "-";
                 }

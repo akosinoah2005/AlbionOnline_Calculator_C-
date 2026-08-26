@@ -331,5 +331,28 @@ namespace Albion_Calcu_C3
             }
 
         }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void hideConfigToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
+        {
+            if (hideConfigToolStripMenuItem.Checked)
+            {
+                groupBox1.Visible = false;
+                groupBox2.Visible = false;
+                groupBox3.Visible = false;
+                pnlRefine.Dock = DockStyle.Fill;
+            }
+            else
+            {
+                pnlRefine.Dock = DockStyle.Bottom;
+                groupBox1.Visible = true;
+                groupBox2.Visible = true;
+                groupBox3.Visible = true;
+            }
+        }
     }
 }

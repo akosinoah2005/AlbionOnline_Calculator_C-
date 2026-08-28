@@ -98,16 +98,23 @@ namespace Albion_Calcu_C3
             
             while ((int)(ref_Amount) != 0)
             {
-                ref_Amount *= rrr;
-
-                Quantity += (int)(Math.Round(ref_Amount));
                 if (Tier != 2)
                 {
                     UsageFee_cost += (int)Math.Round(Usage_Fee_per_Nutri * Consumption * ref_Amount);
+
                 }
+
+                ref_Amount *= rrr;
+
+                Quantity += (int)(Math.Round(ref_Amount));
+                
 
             }
 
+            if (Tier == 3)
+            {
+                MessageBox.Show($"Tier: {Tier}\nEnchant: {Enchant}\nper100:{Usage_Fee_per_Nutri}\nCons:{Consumption}");
+            }
 
             if (Tier == 2)
             {

@@ -69,6 +69,15 @@ namespace Albion_Calcu_C3
         }
         private void Compute_Profit(NumericUpDown Price_Res, NumericUpDown Price_prod_revenue, NumericUpDown Price_Prod, Label Silver_profit, Label Percent_profit, Label Focus_cost, Label Focus_profit, Label Fp_Fc, int Tier, int Enchant)
         {
+            if(Price_Res.Value == 0 && Price_prod_revenue.Value == 0)
+            {
+                Silver_profit.Text = "0";
+                Percent_profit.Text = "0.00";
+                Focus_cost.Text = "0";
+                Focus_profit.Text = "0";
+                Fp_Fc.Text = "0";
+                return;
+            }
 
             float ref_Amount = _parentForm.Get_Amount();
             int ref_cost = (int)(ref_Amount) * (int)Price_Prod.Value;
@@ -111,10 +120,7 @@ namespace Albion_Calcu_C3
 
             }
 
-            if (Tier == 3)
-            {
-                MessageBox.Show($"Tier: {Tier}\nEnchant: {Enchant}\nper100:{Usage_Fee_per_Nutri}\nCons:{Consumption}");
-            }
+            
 
             if (Tier == 2)
             {

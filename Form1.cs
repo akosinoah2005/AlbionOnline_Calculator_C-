@@ -177,7 +177,7 @@ namespace Albion_Calcu_C3
         //EVENTS
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
             Load_Defaults();
         }
 

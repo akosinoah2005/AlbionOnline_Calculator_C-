@@ -12,7 +12,7 @@ namespace Albion_Calcu_C3
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             
-            Application.Run(new Form1());
+            Application.Run(new MainMenu());
         }
     }
 }

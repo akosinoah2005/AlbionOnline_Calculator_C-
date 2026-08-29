@@ -50,7 +50,8 @@ namespace Albion_Calcu_C3
             cmbType.SelectedIndex = 0;
 
 
-
+            var axis = plotRefine.Plot.Axes.DateTimeTicksBottom();
+            plotRefine.Refresh();
         }
 
 

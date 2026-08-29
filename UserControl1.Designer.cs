@@ -596,6 +596,7 @@
             label19.Size = new Size(348, 67);
             label19.TabIndex = 20;
             label19.Text = "Resource Price";
+            label19.Click += label19_Click;
             // 
             // label20
             // 

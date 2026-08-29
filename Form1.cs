@@ -239,31 +239,7 @@ namespace Albion_Calcu_C3
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-            string location_pull;
-            string item_ID_pull;
-            CheckedListBox check = checkTier;
-            item_ID_pull = "";
-            location_pull = cmbPull_Location.Text;
-            for (int i = 0; i < check.CheckedItems.Count; i++)
-            {
-
-                string[]? split = (check.CheckedItems[i]?.ToString())?.Split('.');
-                item_ID_pull += $"T{split?[0]}_{Get_Type()}";
-
-                if (Convert.ToInt16(split?[1]) > 0)
-                {
-                    item_ID_pull += $"_LEVEL{split?[1]}@{split?[1]}";
-                }
-
-                if (i < check.CheckedItems.Count - 1)
-                {
-                    item_ID_pull += ",";
-                }
-
-
-
-            }
+            
 
 
         }
@@ -329,7 +305,12 @@ namespace Albion_Calcu_C3
             {
                 e.Cancel = true;
             }
-
+            else
+            {
+                e.Cancel = true;
+                this.Visible = false;
+            }
+            
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)

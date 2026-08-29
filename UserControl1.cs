@@ -12,7 +12,7 @@ namespace Albion_Calcu_C3
 
 
         //dictionaries
-        private Dictionary<string, (NumericUpDown Resource, NumericUpDown Product, Label Silver_profit, Label Percent_profit, Label Focus_cost, Label Focus_profit, Label Fp_Fc,Label Date_Res,Label Date_Product,ComboBox Additional_Info)> Prices_obj = new();
+        private Dictionary<string, (NumericUpDown Resource, NumericUpDown Product, Label Silver_profit, Label Percent_profit, Label Focus_cost, Label Focus_profit, Label Fp_Fc, Label Date_Res, Label Date_Product, ComboBox Additional_Info)> Prices_obj = new();
 
         private record class Item_Properties
         {
@@ -69,7 +69,7 @@ namespace Albion_Calcu_C3
         }
         private void Compute_Profit(NumericUpDown Price_Res, NumericUpDown Price_prod_revenue, NumericUpDown Price_Prod, Label Silver_profit, Label Percent_profit, Label Focus_cost, Label Focus_profit, Label Fp_Fc, int Tier, int Enchant)
         {
-            if(Price_Res.Value == 0 && Price_prod_revenue.Value == 0)
+            if (Price_Res.Value == 0 && Price_prod_revenue.Value == 0)
             {
                 Silver_profit.Text = "0";
                 Percent_profit.Text = "0.00";
@@ -104,7 +104,7 @@ namespace Albion_Calcu_C3
             float SetupFee = 0.025f;
             float TaxFee = 0.08f;
 
-            
+
             while ((int)(ref_Amount) != 0)
             {
                 if (Tier != 2)
@@ -116,11 +116,11 @@ namespace Albion_Calcu_C3
                 ref_Amount *= rrr;
 
                 Quantity += (int)(Math.Round(ref_Amount));
-                
+
 
             }
 
-            
+
 
             if (Tier == 2)
             {
@@ -129,14 +129,14 @@ namespace Albion_Calcu_C3
 
             Revenue = ((float)Quantity * (float)Price_prod_revenue.Value) * (1 - (SetupFee + TaxFee));
 
-            Material_cost =ref_cost + raw_cost;
+            Material_cost = ref_cost + raw_cost;
 
-            Profit = Revenue - Material_cost- UsageFee_cost;
+            Profit = Revenue - Material_cost - UsageFee_cost;
             Profit_percent = (Profit / Material_cost) * 100;
-            
+
             string? Tkey_string = Price_Res.Tag?.ToString();
-            
-            
+
+
             if (float.IsNaN(Profit_percent) || float.IsInfinity(Profit_percent))
             {
                 Profit_percent = 0.0f;
@@ -166,7 +166,7 @@ namespace Albion_Calcu_C3
                 //comboBox1.Items.Add($"Quantity: {Quantity}");
                 //comboBox1.Items.Add($"Raw Material Cost: {raw_cost}");
                 //comboBox1.Items.Add($"Refined Material Cost: {ref_cost}");
-                
+
 
                 //MessageBox.Show
                 //($"Price_res:{Price_Res.Name}\n" +
@@ -290,6 +290,7 @@ namespace Albion_Calcu_C3
             Double? output = null;
             string? selected_item = _parentForm.cmbType.SelectedItem?.ToString();
             string? order_type = _parentForm.cmbOrder.Text;
+
             foreach (var data in fetched_data)
             {
                 string_data += data.ToString();
@@ -306,11 +307,11 @@ namespace Albion_Calcu_C3
 
                     NumericUpDown? what_num = null;
 
-                    if (selected_item== "Raw")
+                    if (selected_item == "Raw")
                     {
                         what_num = Prices_obj[Tkey].Resource;
 
-                        
+
 
                     }
 
@@ -320,7 +321,7 @@ namespace Albion_Calcu_C3
 
 
                     }
-                    
+
 
                     if (order_type == "Sell-Order")
                     {
@@ -328,7 +329,7 @@ namespace Albion_Calcu_C3
 
                         output = DateTime.UtcNow.Subtract(data.sell_price_min_date).TotalHours;
 
-                        
+
                     }
 
                     if (order_type == "Buy-Order")
@@ -338,25 +339,25 @@ namespace Albion_Calcu_C3
                         output = DateTime.UtcNow.Subtract(data.buy_price_max_date).TotalHours;
                     }
 
-                    
-                    if(selected_item == "Raw")
+
+                    if (selected_item == "Raw")
                     {
-                        
-                        Prices_obj[Tkey].Date_Res.Text = $"{output:n0}hrs ago [{data.city?[0]}]" ;
+
+                        Prices_obj[Tkey].Date_Res.Text = $"{output:n0}hrs ago [{data.city?[0]}]";
 
                         if ((data.sell_price_min == 0 || data.buy_price_max == 0) && (order_type == "Buy-Order" || order_type == "Sell-Order"))
                         {
                             Prices_obj[Tkey].Date_Res.Text = $"[{data.city?[0]}]";
                         }
 
-                        
+
                     }
 
-                    if(selected_item == "Refined")
+                    if (selected_item == "Refined")
                     {
-                        
+
                         Prices_obj[Tkey].Date_Product.Text = $"{output:n0}hrs ago [{data.city?[0]}]";
-                        
+
                         if (data.buy_price_max == 0 && (order_type == "Buy-Order" || order_type == "Sell-Order"))
                         {
                             Prices_obj[Tkey].Date_Product.Text = $"[{data.city?[0]}]";
@@ -382,7 +383,7 @@ namespace Albion_Calcu_C3
                 {
 
                     MessageBox.Show("Data Prices Pulled Successfuly");
-                    
+
                     Populate_nums(fetched_data);
 
                 }
@@ -441,7 +442,7 @@ namespace Albion_Calcu_C3
             _parentForm.btnPull.Click += btn_pull_clicked;
             _parentForm.get_numAmount().ValueChanged += numparent_ValueChanged;
             _parentForm.get_numUsageFee().ValueChanged += numparent_ValueChanged;
-            
+
             _parentForm.get_Prices().Click += stripPrices_Clicked;
             _parentForm.get_stripResource().Click += stripResource_Clicked;
             _parentForm.get_stripProduct().Click += stripProduct_Clicked;
@@ -456,7 +457,7 @@ namespace Albion_Calcu_C3
             {
                 item.Value.Additional_Info.SelectedIndex = 0;
             }
-            
+
 
 
         }
@@ -502,10 +503,10 @@ namespace Albion_Calcu_C3
             return "";
         }
 
-        private void VC_Resource(string? Tkey,Decimal Tkey_value)
+        private void VC_Resource(string? Tkey, Decimal Tkey_value)
         {
 
-            if(Tkey != null)
+            if (Tkey != null)
             {
                 string Tkey_product = (Tkey_value - 1).ToString("0.0");
 
@@ -542,7 +543,7 @@ namespace Albion_Calcu_C3
         private void VC_Product(string? Tkey, Decimal Tkey_value)
         {
 
-            if(Tkey != null)
+            if (Tkey != null)
             {
 
                 string? Tkey_product = Tkey;
@@ -586,9 +587,9 @@ namespace Albion_Calcu_C3
 
                 VC_Resource(Tkey, Tkey_value);
             }
-            
+
         }
-        
+
         private void parentForm_ValueChanged()
         {
             foreach (var dic in Prices_obj)
@@ -616,22 +617,22 @@ namespace Albion_Calcu_C3
         {
             parentForm_ValueChanged();
         }
-        private void cmbBonus_SelectedIndexChanged(object? sender,EventArgs e)
+        private void cmbBonus_SelectedIndexChanged(object? sender, EventArgs e)
         {
             parentForm_ValueChanged();
         }
         private void stripTime_Resource_Clicked(object? sender, EventArgs e)
         {
-            if(_parentForm.msg_results("Would you like to CLEAR the RESOURCE TIME?","Confirmation",MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (_parentForm.msg_results("Would you like to CLEAR the RESOURCE TIME?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                foreach(var item in Prices_obj)
+                foreach (var item in Prices_obj)
                 {
                     item.Value.Date_Res.Text = "-";
                 }
             }
         }
 
-        private void stripTime_Product_Clicked(object? sender,EventArgs e)
+        private void stripTime_Product_Clicked(object? sender, EventArgs e)
         {
             if (_parentForm.msg_results("Would you like to CLEAR the PRODUCT TIME?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
@@ -642,7 +643,7 @@ namespace Albion_Calcu_C3
             }
         }
 
-        private void stripTime_Clicked(object? sender,EventArgs e)
+        private void stripTime_Clicked(object? sender, EventArgs e)
         {
             if (_parentForm.msg_results("Would you like to CLEAR the PRODUCT TIME and RESOURCE TIME?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
@@ -660,6 +661,7 @@ namespace Albion_Calcu_C3
 
         private void btn_pull_clicked(object? sender, EventArgs e)
         {
+
             string location_pull;
             string item_ID_pull;
             CheckedListBox check = _parentForm.checkTier;
@@ -684,7 +686,7 @@ namespace Albion_Calcu_C3
 
             }
 
-            
+
             Get_API_Data(location_pull, item_ID_pull, check);
 
 
@@ -790,7 +792,7 @@ namespace Albion_Calcu_C3
 
         private void ValueChanged_Product(object sender, EventArgs e)
         {
-            
+
             NumericUpDown numobj = (NumericUpDown)sender;
 
             string? Tkey = numobj.Tag?.ToString();
@@ -798,8 +800,8 @@ namespace Albion_Calcu_C3
 
             //MessageBox.Show(Tkey_value.ToString());
 
-            
-            
+
+
             if (Tkey != null)
             {
                 //for when you edit the pulled data from the api
@@ -808,14 +810,18 @@ namespace Albion_Calcu_C3
                     Prices_obj[Tkey].Date_Product.Text = "-";
                 }
 
-                VC_Product(Tkey,Tkey_value);
+                VC_Product(Tkey, Tkey_value);
 
-                
+
             }
-                
+
 
         }
 
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

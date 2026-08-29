@@ -28,29 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
+            btnshowRefine = new Button();
+            btnGraph = new Button();
             button3 = new Button();
             SuspendLayout();
             // 
-            // button1
+            // btnshowRefine
             // 
-            button1.Location = new Point(12, 12);
-            button1.Name = "button1";
-            button1.Size = new Size(154, 70);
-            button1.TabIndex = 0;
-            button1.Text = "Refine";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnshowRefine.Cursor = Cursors.Hand;
+            btnshowRefine.Location = new Point(12, 12);
+            btnshowRefine.Name = "btnshowRefine";
+            btnshowRefine.Size = new Size(154, 70);
+            btnshowRefine.TabIndex = 0;
+            btnshowRefine.Text = "Refine";
+            btnshowRefine.UseVisualStyleBackColor = true;
+            btnshowRefine.Click += button1_Click;
             // 
-            // button2
+            // btnGraph
             // 
-            button2.Location = new Point(12, 88);
-            button2.Name = "button2";
-            button2.Size = new Size(154, 70);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnGraph.Location = new Point(12, 88);
+            btnGraph.Name = "btnGraph";
+            btnGraph.Size = new Size(154, 70);
+            btnGraph.TabIndex = 1;
+            btnGraph.Text = "Graph";
+            btnGraph.UseVisualStyleBackColor = true;
+            btnGraph.Click += button2_Click;
             // 
             // button3
             // 
@@ -67,17 +69,18 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(296, 267);
             Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnGraph);
+            Controls.Add(btnshowRefine);
             Name = "MainMenu";
             Text = "MainMenu";
+            Load += MainMenu_Load;
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Button button1;
-        private Button button2;
+        private Button btnshowRefine;
+        private Button btnGraph;
         private Button button3;
     }
 }

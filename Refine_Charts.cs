@@ -14,6 +14,7 @@ using System.Windows.Forms.VisualStyles;
 using System.Numerics;
 using ScottPlot.Plottables;
 using ScottPlot.DataSources;
+using System.Diagnostics;
 namespace Albion_Calcu_C3
 {
     public partial class Refine_Charts : UserControl
@@ -45,12 +46,14 @@ namespace Albion_Calcu_C3
         private void Load_default()
         {
             cmbLocation.SelectedIndex = 0;
-           
+            cmbTscale.SelectedIndex = 0;
             cmbResource.SelectedIndex = 0;
             cmbType.SelectedIndex = 0;
 
 
             var axis = plotRefine.Plot.Axes.DateTimeTicksBottom();
+            plotRefine.Plot.XLabel($"Time-Scale: {cmbTscale.Text}");
+            plotRefine.Plot.YLabel("Price in Silver");
             plotRefine.Refresh();
         }
 
@@ -122,7 +125,12 @@ namespace Albion_Calcu_C3
                 plotter.LegendText = $"{item.item_id}";
                 plotter.LineWidth = 2;
                 plotter.MarkerSize = 13;
-                
+
+                plotter.Axes.YAxis = plotRefine.Plot.Axes.Right;
+
+                plotRefine.Plot.XLabel($"Time-Scale: {cmbTscale.Text}");
+                plotRefine.Plot.Grid.YAxis = plotRefine.Plot.Axes.Right;
+                plotRefine.Plot.Axes.Left.RemoveTickGenerator();
 
 
             }
@@ -141,12 +149,12 @@ namespace Albion_Calcu_C3
 
             try
             {
-                //
-                //
+                
                 List<History>? fetched_data;
-                string url = $"/api/v2/stats/history/{checked_ids}.json?date={past.ToString("M-d-yyyy")}&end_date={now.ToString("M-d-yyyy")}&locations={cmbLocation.Text}&qualities=1&time-scale=24 ";
+                string url = $"/api/v2/stats/history/{checked_ids}.json?date={past.ToString("M-d-yyyy")}&end_date={now.ToString("M-d-yyyy")}&locations={cmbLocation.Text}&qualities=1&time-scale={cmbTscale.Text} ";
                 fetched_data = await sharedClient.GetFromJsonAsync<List<History>>(url);
 
+               
                 if (fetched_data != null)
                 {
                     MessageBox.Show("Success");

@@ -30,6 +30,8 @@
         {
             plotRefine = new ScottPlot.WinForms.FormsPlot();
             groupBox1 = new GroupBox();
+            label3 = new Label();
+            cmbTscale = new ComboBox();
             label4 = new Label();
             cmbType = new ComboBox();
             btnRefresh = new Button();
@@ -50,6 +52,8 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(cmbTscale);
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(cmbType);
             groupBox1.Controls.Add(btnRefresh);
@@ -62,11 +66,31 @@
             groupBox1.ForeColor = SystemColors.ActiveCaption;
             groupBox1.Location = new Point(15, 23);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1528, 960);
+            groupBox1.Size = new Size(1766, 960);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Refine Craft";
             groupBox1.Enter += groupBox1_Enter;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(222, 851);
+            label3.Name = "label3";
+            label3.Size = new Size(83, 20);
+            label3.TabIndex = 12;
+            label3.Text = "Time-Scale";
+            // 
+            // cmbTscale
+            // 
+            cmbTscale.Cursor = Cursors.Hand;
+            cmbTscale.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbTscale.FormattingEnabled = true;
+            cmbTscale.Items.AddRange(new object[] { "24", "6", "1" });
+            cmbTscale.Location = new Point(222, 868);
+            cmbTscale.Name = "cmbTscale";
+            cmbTscale.Size = new Size(63, 28);
+            cmbTscale.TabIndex = 11;
             // 
             // label4
             // 
@@ -179,5 +203,7 @@
         private CheckedListBox checkTier;
         private Label label4;
         private ComboBox cmbType;
+        private Label label3;
+        private ComboBox cmbTscale;
     }
 }
